@@ -1,0 +1,291 @@
+{
+  "id": "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7",
+  "name": "Vocabulaire du Restaurant",
+  "description": "Tout le vocabulaire essentiel pour commander au restaurant en Chine. Plats, boissons, condiments et phrases utiles.",
+  "category": "Thematic",
+  "version": "1.0",
+  "author": "LearnTheCharacters Community",
+  "createdDate": "2025-11-17T16:30:00Z",
+  "characters": [
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440001",
+      "simplified": "饭",
+      "traditional": "飯",
+      "pinyin": "fàn",
+      "meaning": ["riz cuit", "repas"],
+      "frequency": 25,
+      "hskLevel": 1,
+      "examples": [
+        "吃饭 (chī fàn) - Manger (prendre un repas)",
+        "米饭 (mǐfàn) - Riz blanc"
+      ],
+      "mnemonics": "Nourriture (饣) + renverser (反) = riz/repas"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440002",
+      "simplified": "菜",
+      "traditional": "菜",
+      "pinyin": "cài",
+      "meaning": ["légume", "plat", "cuisine"],
+      "frequency": 48,
+      "hskLevel": 1,
+      "examples": [
+        "点菜 (diǎn cài) - Commander un plat",
+        "青菜 (qīngcài) - Légumes verts"
+      ],
+      "mnemonics": "Herbe (艹) + bois (木) + griffe = légume"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440003",
+      "simplified": "肉",
+      "traditional": "肉",
+      "pinyin": "ròu",
+      "meaning": ["viande"],
+      "frequency": 65,
+      "hskLevel": 2,
+      "examples": [
+        "牛肉 (niúròu) - Bœuf",
+        "猪肉 (zhūròu) - Porc"
+      ],
+      "mnemonics": "Forme d'un morceau de viande"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440004",
+      "simplified": "鱼",
+      "traditional": "魚",
+      "pinyin": "yú",
+      "meaning": ["poisson"],
+      "frequency": 72,
+      "hskLevel": 1,
+      "examples": [
+        "鱼 (yú) - Poisson",
+        "红烧鱼 (hóngshāo yú) - Poisson braisé"
+      ],
+      "mnemonics": "Simplifié: tête de poisson en haut, queue en bas"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440005",
+      "simplified": "鸡",
+      "traditional": "雞",
+      "pinyin": "jī",
+      "meaning": ["poulet"],
+      "frequency": 85,
+      "hskLevel": 2,
+      "examples": [
+        "鸡肉 (jīròu) - Viande de poulet",
+        "宫保鸡丁 (gōngbǎo jīdīng) - Poulet Kung Pao"
+      ],
+      "mnemonics": "Oiseau (鸟) simplifié = poulet"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440006",
+      "simplified": "水",
+      "traditional": "水",
+      "pinyin": "shuǐ",
+      "meaning": ["eau"],
+      "frequency": 22,
+      "hskLevel": 1,
+      "examples": [
+        "喝水 (hē shuǐ) - Boire de l'eau",
+        "矿泉水 (kuàngquánshuǐ) - Eau minérale"
+      ],
+      "mnemonics": "Forme d'une rivière qui coule"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440007",
+      "simplified": "茶",
+      "traditional": "茶",
+      "pinyin": "chá",
+      "meaning": ["thé"],
+      "frequency": 58,
+      "hskLevel": 1,
+      "examples": [
+        "喝茶 (hē chá) - Boire du thé",
+        "绿茶 (lǜchá) - Thé vert"
+      ],
+      "mnemonics": "Herbe (艹) + personne + bois = thé"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440008",
+      "simplified": "咖啡",
+      "traditional": "咖啡",
+      "pinyin": "kāfēi",
+      "meaning": ["café"],
+      "frequency": 125,
+      "hskLevel": 2,
+      "examples": [
+        "一杯咖啡 (yī bēi kāfēi) - Une tasse de café",
+        "咖啡馆 (kāfēiguǎn) - Café (établissement)"
+      ],
+      "mnemonics": "Transcription phonétique de 'coffee'"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440009",
+      "simplified": "啤酒",
+      "traditional": "啤酒",
+      "pinyin": "píjiǔ",
+      "meaning": ["bière"],
+      "frequency": 145,
+      "hskLevel": 2,
+      "examples": [
+        "来一瓶啤酒 (lái yī píng píjiǔ) - Apportez une bouteille de bière",
+        "青岛啤酒 (Qīngdǎo píjiǔ) - Bière Tsingtao"
+      ],
+      "mnemonics": "啤 (bière) + 酒 (alcool) = bière"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440010",
+      "simplified": "面",
+      "traditional": "麵",
+      "pinyin": "miàn",
+      "meaning": ["nouilles", "farine"],
+      "frequency": 68,
+      "hskLevel": 2,
+      "examples": [
+        "面条 (miàntiáo) - Nouilles",
+        "炒面 (chǎomiàn) - Nouilles sautées"
+      ],
+      "mnemonics": "Simplifié ressemble à un bol de nouilles"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440011",
+      "simplified": "汤",
+      "traditional": "湯",
+      "pinyin": "tāng",
+      "meaning": ["soupe"],
+      "frequency": 92,
+      "hskLevel": 2,
+      "examples": [
+        "西红柿蛋汤 (xīhóngshì dàn tāng) - Soupe aux tomates et œufs",
+        "喝汤 (hē tāng) - Boire de la soupe"
+      ],
+      "mnemonics": "Eau (氵) + le soleil (日) = soupe chaude"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440012",
+      "simplified": "饺子",
+      "traditional": "餃子",
+      "pinyin": "jiǎozi",
+      "meaning": ["raviolis chinois", "jiaozi"],
+      "frequency": 158,
+      "hskLevel": 2,
+      "examples": [
+        "水饺 (shuǐjiǎo) - Raviolis bouillis",
+        "吃饺子 (chī jiǎozi) - Manger des raviolis"
+      ],
+      "mnemonics": "Nourriture (饣) enveloppée"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440013",
+      "simplified": "包子",
+      "traditional": "包子",
+      "pinyin": "bāozi",
+      "meaning": ["brioche farcie vapeur"],
+      "frequency": 172,
+      "hskLevel": 2,
+      "examples": [
+        "小笼包 (xiǎolóngbāo) - Raviolis vapeur",
+        "肉包子 (ròu bāozi) - Brioche à la viande"
+      ],
+      "mnemonics": "包 (envelopper) + 子 = brioche farcie"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440014",
+      "simplified": "糖",
+      "traditional": "糖",
+      "pinyin": "táng",
+      "meaning": ["sucre"],
+      "frequency": 118,
+      "hskLevel": 2,
+      "examples": [
+        "白糖 (báitáng) - Sucre blanc",
+        "糖醋 (tángcù) - Aigre-doux"
+      ],
+      "mnemonics": "Riz (米) + étang (唐) = sucre"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440015",
+      "simplified": "盐",
+      "traditional": "鹽",
+      "pinyin": "yán",
+      "meaning": ["sel"],
+      "frequency": 135,
+      "hskLevel": 2,
+      "examples": [
+        "盐 (yán) - Sel",
+        "少盐 (shǎo yán) - Peu de sel"
+      ],
+      "mnemonics": "Simplifié: terre (土) + ministre (臣) = sel"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440016",
+      "simplified": "辣",
+      "traditional": "辣",
+      "pinyin": "là",
+      "meaning": ["épicé", "piquant"],
+      "frequency": 148,
+      "hskLevel": 2,
+      "examples": [
+        "很辣 (hěn là) - Très épicé",
+        "不要太辣 (bú yào tài là) - Pas trop épicé"
+      ],
+      "mnemonics": "Piment (辛) + branche = épicé"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440017",
+      "simplified": "服务员",
+      "traditional": "服務員",
+      "pinyin": "fúwùyuán",
+      "meaning": ["serveur", "serveuse"],
+      "frequency": 165,
+      "hskLevel": 2,
+      "examples": [
+        "服务员！(Fúwùyuán!) - Serveur/Serveuse!",
+        "叫服务员 (jiào fúwùyuán) - Appeler le serveur"
+      ],
+      "mnemonics": "服务 (service) + 员 (employé) = serveur"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440018",
+      "simplified": "菜单",
+      "traditional": "菜單",
+      "pinyin": "càidān",
+      "meaning": ["menu", "carte"],
+      "frequency": 178,
+      "hskLevel": 2,
+      "examples": [
+        "看菜单 (kàn càidān) - Regarder le menu",
+        "菜单在哪儿？(Càidān zài nǎr?) - Où est le menu?"
+      ],
+      "mnemonics": "菜 (plat) + 单 (liste) = menu"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440019",
+      "simplified": "筷子",
+      "traditional": "筷子",
+      "pinyin": "kuàizi",
+      "meaning": ["baguettes"],
+      "frequency": 188,
+      "hskLevel": 2,
+      "examples": [
+        "用筷子 (yòng kuàizi) - Utiliser des baguettes",
+        "一双筷子 (yī shuāng kuàizi) - Une paire de baguettes"
+      ],
+      "mnemonics": "Bambou (竹) + rapide (快) = baguettes"
+    },
+    {
+      "id": "650e8400-e29b-41d4-a716-446655440020",
+      "simplified": "买单",
+      "traditional": "買單",
+      "pinyin": "mǎidān",
+      "meaning": ["l'addition", "payer"],
+      "frequency": 195,
+      "hskLevel": 2,
+      "examples": [
+        "买单！(Mǎidān!) - L'addition s'il vous plaît!",
+        "我来买单 (Wǒ lái mǎidān) - Je paie"
+      ],
+      "mnemonics": "买 (acheter) + 单 (note) = payer l'addition"
+    }
+  ]
+}
