@@ -1,0 +1,84 @@
+{
+  "name": "Cours 03 - 汉字",
+  "description": "Caractères du cours 3 - Directions et concepts de base",
+  "category": "custom",
+  "characters": [
+    {
+      "id": "c03-001",
+      "simplified": "上",
+      "pinyin": "shàng",
+      "meaning": ["haut", "monter", "sur"],
+      "examples": ["上山 (shàngshān) - monter la montagne"]
+    },
+    {
+      "id": "c03-002",
+      "simplified": "下",
+      "pinyin": "xià",
+      "meaning": ["bas", "descendre", "sous"],
+      "examples": ["下车 (xià chē) - descendre", "山下 (shān xià) - au pied de la montagne"]
+    },
+    {
+      "id": "c03-003",
+      "simplified": "左",
+      "pinyin": "zuǒ",
+      "meaning": ["gauche"],
+      "examples": ["左手 (zuǒshǒu) - main gauche"]
+    },
+    {
+      "id": "c03-004",
+      "simplified": "右",
+      "pinyin": "yòu",
+      "meaning": ["droite"],
+      "examples": ["右手 (yòushǒu) - main droite"]
+    },
+    {
+      "id": "c03-005",
+      "simplified": "不",
+      "pinyin": "bù",
+      "meaning": ["ne pas", "non"],
+      "examples": ["不是 (bùshì) - ne pas être", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"]
+    },
+    {
+      "id": "c03-006",
+      "simplified": "中",
+      "pinyin": "zhōng",
+      "meaning": ["milieu", "centre", "Chine"],
+      "examples": ["中国 (zhōngguó) - Chine", "中间 (zhōngjiān) - au milieu"]
+    },
+    {
+      "id": "c03-007",
+      "simplified": "国",
+      "pinyin": "guó",
+      "meaning": ["pays", "nation"],
+      "examples": ["中国 (zhōngguó) - Chine", "我是中国人 (wǒ shì zhōngguó rén) - Je suis chinois", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"]
+    },
+    {
+      "id": "c03-008",
+      "simplified": "山",
+      "pinyin": "shān",
+      "meaning": ["montagne"],
+      "examples": ["上山 (shàngshān) - monter la montagne", "山下 (shān xià) - au pied de la montagne"]
+    },
+    {
+      "id": "c03-009",
+      "simplified": "月",
+      "pinyin": "yuè",
+      "meaning": ["lune", "mois"],
+      "examples": ["一月 (yīyuè) - janvier", "三月 (sānyuè) - mars", "五月 (wǔyuè) - mai"]
+    },
+    {
+      "id": "c03-010",
+      "simplified": "明",
+      "pinyin": "míng",
+      "meaning": ["brillant", "clair", "lumineux"],
+      "examples": ["明天 (míngtiān) - demain"]
+    },
+    {
+      "id": "c03-011",
+      "simplified": "天",
+      "pinyin": "tiān",
+      "meaning": ["ciel", "jour"],
+      "examples": ["明天 (míngtiān) - demain", "今天 (jīntiān) - aujourd'hui"]
+    }
+  ]
+}
