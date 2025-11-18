@@ -1,0 +1,121 @@
+{
+  "id": "c04a1234-5678-4abc-9def-223344556677",
+  "name": "Cours 04 - 汉字",
+  "description": "Caractères du cours 4 - Personnes et objets quotidiens",
+  "category": "community",
+  "version": "1.0",
+  "author": "Cours de Chinois",
+  "createdDate": "2025-11-18T09:40:00Z",
+  "characters": [
+    {
+      "id": "c0400000-0000-0000-0000-000000000001",
+      "simplified": "刀",
+      "traditional": "刀",
+      "pinyin": "dāo",
+      "meaning": ["couteau"],
+      "frequency": 85,
+      "hskLevel": 2,
+      "examples": ["刀子 (dāozi) - couteau"],
+      "mnemonics": "Forme d'une lame de couteau"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000002",
+      "simplified": "力",
+      "traditional": "力",
+      "pinyin": "lì",
+      "meaning": ["force", "pouvoir"],
+      "frequency": 30,
+      "hskLevel": 1,
+      "examples": ["力气 (lìqi) - force physique", "努力 (nǔlì) - faire des efforts"],
+      "mnemonics": "Bras musclé = force"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000003",
+      "simplified": "田",
+      "traditional": "田",
+      "pinyin": "tián",
+      "meaning": ["champ", "rizière"],
+      "frequency": 95,
+      "hskLevel": 2,
+      "examples": ["田地 (tiándì) - champs"],
+      "mnemonics": "Dessin d'un champ divisé en parcelles"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000004",
+      "simplified": "男",
+      "traditional": "男",
+      "pinyin": "nán",
+      "meaning": ["homme", "masculin"],
+      "frequency": 25,
+      "hskLevel": 1,
+      "examples": ["男人 (nánrén) - homme", "男朋友 (nán péngyou) - petit ami"],
+      "mnemonics": "Force (力) dans le champ (田) = homme"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000005",
+      "simplified": "电",
+      "traditional": "電",
+      "pinyin": "diàn",
+      "meaning": ["électricité", "électrique"],
+      "frequency": 40,
+      "hskLevel": 1,
+      "examples": ["电脑 (diànnǎo) - ordinateur", "电影 (diànyǐng) - film", "电话 (diànhuà) - téléphone", "电视 (diànshì) - télévision"],
+      "mnemonics": "Éclair stylisé = électricité"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000006",
+      "simplified": "女",
+      "traditional": "女",
+      "pinyin": "nǚ",
+      "meaning": ["femme", "féminin"],
+      "frequency": 20,
+      "hskLevel": 1,
+      "examples": ["女人 (nǚrén) - femme", "女朋友 (nǚ péngyou) - petite amie", "女儿 (nǚ'ér) - fille (enfant)"],
+      "mnemonics": "Femme agenouillée avec les mains croisées"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000007",
+      "simplified": "天",
+      "traditional": "天",
+      "pinyin": "tiān",
+      "meaning": ["ciel", "jour"],
+      "frequency": 14,
+      "hskLevel": 1,
+      "examples": ["明天 (míngtiān) - demain", "一天 (yītiān) - un jour"],
+      "mnemonics": "Grand (大) au-dessus = ciel"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000008",
+      "simplified": "太",
+      "traditional": "太",
+      "pinyin": "tài",
+      "meaning": ["trop", "très"],
+      "frequency": 48,
+      "hskLevel": 1,
+      "examples": ["太 + adj + 了 (tài... le) - trop...", "太大了 (tài dà le) - trop grand", "太小了 (tài xiǎo le) - trop petit"],
+      "mnemonics": "Grand (大) + point = trop grand"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000009",
+      "simplified": "了",
+      "traditional": "了",
+      "pinyin": "le",
+      "meaning": ["particule modale", "achevé", "changement"],
+      "frequency": 2,
+      "hskLevel": 1,
+      "examples": ["太大了 (tài dà le) - trop grand", "我去了 (wǒ qù le) - je suis parti"],
+      "mnemonics": "Particule grammaticale très fréquente"
+    },
+    {
+      "id": "c0400000-0000-0000-0000-000000000010",
+      "simplified": "子",
+      "traditional": "子",
+      "pinyin": "zǐ",
+      "meaning": ["enfant", "fils", "suffixe nominal"],
+      "frequency": 16,
+      "hskLevel": 1,
+      "examples": ["儿子 (érzi) - fils", "孩子 (háizi) - enfant"],
+      "mnemonics": "Bébé emmailloté = enfant"
+    }
+  ]
+}
