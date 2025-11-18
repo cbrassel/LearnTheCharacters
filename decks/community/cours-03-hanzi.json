@@ -1,84 +1,132 @@
 {
+  "id": "c03-2025-11-17-hanzi-basics",
   "name": "Cours 03 - 汉字",
   "description": "Caractères du cours 3 - Directions et concepts de base",
-  "category": "custom",
+  "category": "community",
+  "version": "1.0",
+  "author": "Cours de Chinois",
+  "createdDate": "2025-11-17T20:45:00Z",
   "characters": [
     {
-      "id": "c03-001",
+      "id": "c03-char-001",
       "simplified": "上",
+      "traditional": "上",
       "pinyin": "shàng",
       "meaning": ["haut", "monter", "sur"],
-      "examples": ["上山 (shàngshān) - monter la montagne"]
+      "frequency": 8,
+      "hskLevel": 1,
+      "examples": ["上山 (shàngshān) - monter la montagne"],
+      "mnemonics": "Trait horizontal au-dessus = haut"
     },
     {
-      "id": "c03-002",
+      "id": "c03-char-002",
       "simplified": "下",
+      "traditional": "下",
       "pinyin": "xià",
       "meaning": ["bas", "descendre", "sous"],
-      "examples": ["下车 (xià chē) - descendre", "山下 (shān xià) - au pied de la montagne"]
+      "frequency": 10,
+      "hskLevel": 1,
+      "examples": ["下车 (xià chē) - descendre", "山下 (shān xià) - au pied de la montagne"],
+      "mnemonics": "Trait horizontal en dessous = bas"
     },
     {
-      "id": "c03-003",
+      "id": "c03-char-003",
       "simplified": "左",
+      "traditional": "左",
       "pinyin": "zuǒ",
       "meaning": ["gauche"],
-      "examples": ["左手 (zuǒshǒu) - main gauche"]
+      "frequency": 45,
+      "hskLevel": 1,
+      "examples": ["左手 (zuǒshǒu) - main gauche"],
+      "mnemonics": "Main gauche tenant un outil de travail"
     },
     {
-      "id": "c03-004",
+      "id": "c03-char-004",
       "simplified": "右",
+      "traditional": "右",
       "pinyin": "yòu",
       "meaning": ["droite"],
-      "examples": ["右手 (yòushǒu) - main droite"]
+      "frequency": 46,
+      "hskLevel": 1,
+      "examples": ["右手 (yòushǒu) - main droite"],
+      "mnemonics": "Main droite tenant la bouche (口) = main dominante"
     },
     {
-      "id": "c03-005",
+      "id": "c03-char-005",
       "simplified": "不",
+      "traditional": "不",
       "pinyin": "bù",
       "meaning": ["ne pas", "non"],
-      "examples": ["不是 (bùshì) - ne pas être", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"]
+      "frequency": 3,
+      "hskLevel": 1,
+      "examples": ["不是 (bùshì) - ne pas être", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
+      "mnemonics": "Oiseau qui ne peut pas voler = négation"
     },
     {
-      "id": "c03-006",
+      "id": "c03-char-006",
       "simplified": "中",
+      "traditional": "中",
       "pinyin": "zhōng",
       "meaning": ["milieu", "centre", "Chine"],
-      "examples": ["中国 (zhōngguó) - Chine", "中间 (zhōngjiān) - au milieu"]
+      "frequency": 5,
+      "hskLevel": 1,
+      "examples": ["中国 (zhōngguó) - Chine", "中间 (zhōngjiān) - au milieu"],
+      "mnemonics": "Flèche traversant le centre d'une cible = milieu"
     },
     {
-      "id": "c03-007",
+      "id": "c03-char-007",
       "simplified": "国",
+      "traditional": "國",
       "pinyin": "guó",
       "meaning": ["pays", "nation"],
-      "examples": ["中国 (zhōngguó) - Chine", "我是中国人 (wǒ shì zhōngguó rén) - Je suis chinois", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"]
+      "frequency": 12,
+      "hskLevel": 1,
+      "examples": ["中国 (zhōngguó) - Chine", "我是中国人 (wǒ shì zhōngguó rén) - Je suis chinois", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
+      "mnemonics": "Enceinte (囗) protégeant un territoire = pays"
     },
     {
-      "id": "c03-008",
+      "id": "c03-char-008",
       "simplified": "山",
+      "traditional": "山",
       "pinyin": "shān",
       "meaning": ["montagne"],
-      "examples": ["上山 (shàngshān) - monter la montagne", "山下 (shān xià) - au pied de la montagne"]
+      "frequency": 25,
+      "hskLevel": 1,
+      "examples": ["上山 (shàngshān) - monter la montagne", "山下 (shān xià) - au pied de la montagne"],
+      "mnemonics": "Trois pics de montagne"
     },
     {
-      "id": "c03-009",
+      "id": "c03-char-009",
       "simplified": "月",
+      "traditional": "月",
       "pinyin": "yuè",
       "meaning": ["lune", "mois"],
-      "examples": ["一月 (yīyuè) - janvier", "三月 (sānyuè) - mars", "五月 (wǔyuè) - mai"]
+      "frequency": 18,
+      "hskLevel": 1,
+      "examples": ["一月 (yīyuè) - janvier", "三月 (sānyuè) - mars", "五月 (wǔyuè) - mai"],
+      "mnemonics": "Croissant de lune"
     },
     {
-      "id": "c03-010",
+      "id": "c03-char-010",
       "simplified": "明",
+      "traditional": "明",
       "pinyin": "míng",
       "meaning": ["brillant", "clair", "lumineux"],
-      "examples": ["明天 (míngtiān) - demain"]
+      "frequency": 22,
+      "hskLevel": 1,
+      "examples": ["明天 (míngtiān) - demain"],
+      "mnemonics": "Soleil (日) + Lune (月) = brillant, clarté"
     },
     {
-      "id": "c03-011",
+      "id": "c03-char-011",
       "simplified": "天",
+      "traditional": "天",
       "pinyin": "tiān",
       "meaning": ["ciel", "jour"],
-      "examples": ["明天 (míngtiān) - demain", "今天 (jīntiān) - aujourd'hui"]
+      "frequency": 14,
+      "hskLevel": 1,
+      "examples": ["明天 (míngtiān) - demain", "今天 (jīntiān) - aujourd'hui"],
+      "mnemonics": "Grand (大) au-dessus = ciel"
     }
   ]
 }
