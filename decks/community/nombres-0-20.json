@@ -1,0 +1,242 @@
+{
+  "id": "n01a1234-5678-4abc-9def-000000112233",
+  "name": "Nombres 0-20",
+  "description": "Apprendre à compter de 0 à 20 en chinois",
+  "category": "community",
+  "version": "1.0",
+  "author": "Cours de Chinois",
+  "createdDate": "2025-11-19T10:00:00Z",
+  "characters": [
+    {
+      "id": "n0100000-0000-0000-0000-000000000000",
+      "simplified": "零",
+      "traditional": "零",
+      "pinyin": "líng",
+      "meaning": ["zéro"],
+      "frequency": 150,
+      "hskLevel": 1,
+      "examples": ["零下 (língxià) - en dessous de zéro"],
+      "mnemonics": "Gouttes de pluie qui tombent = rien, zéro"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000001",
+      "simplified": "一",
+      "traditional": "一",
+      "pinyin": "yī",
+      "meaning": ["un"],
+      "frequency": 1,
+      "hskLevel": 1,
+      "examples": ["一个 (yīgè) - un", "一天 (yītiān) - un jour"],
+      "mnemonics": "Un trait horizontal = le chiffre un"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000002",
+      "simplified": "二",
+      "traditional": "二",
+      "pinyin": "èr",
+      "meaning": ["deux"],
+      "frequency": 15,
+      "hskLevel": 1,
+      "examples": ["二月 (èryuè) - février", "第二 (dì èr) - deuxième"],
+      "mnemonics": "Deux traits horizontaux = le chiffre deux"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000003",
+      "simplified": "三",
+      "traditional": "三",
+      "pinyin": "sān",
+      "meaning": ["trois"],
+      "frequency": 22,
+      "hskLevel": 1,
+      "examples": ["三月 (sānyuè) - mars", "三个 (sāngè) - trois"],
+      "mnemonics": "Trois traits horizontaux = le chiffre trois"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000004",
+      "simplified": "四",
+      "traditional": "四",
+      "pinyin": "sì",
+      "meaning": ["quatre"],
+      "frequency": 35,
+      "hskLevel": 1,
+      "examples": ["四月 (sìyuè) - avril", "四个 (sìgè) - quatre"],
+      "mnemonics": "Bouche (口) enfermée = quatre"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000005",
+      "simplified": "五",
+      "traditional": "五",
+      "pinyin": "wǔ",
+      "meaning": ["cinq"],
+      "frequency": 28,
+      "hskLevel": 1,
+      "examples": ["五月 (wǔyuè) - mai", "五个 (wǔgè) - cinq"],
+      "mnemonics": "Cinq traits qui se croisent"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000006",
+      "simplified": "六",
+      "traditional": "六",
+      "pinyin": "liù",
+      "meaning": ["six"],
+      "frequency": 42,
+      "hskLevel": 1,
+      "examples": ["六月 (liùyuè) - juin", "六个 (liùgè) - six"],
+      "mnemonics": "Chapeau au-dessus = six"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000007",
+      "simplified": "七",
+      "traditional": "七",
+      "pinyin": "qī",
+      "meaning": ["sept"],
+      "frequency": 50,
+      "hskLevel": 1,
+      "examples": ["七月 (qīyuè) - juillet", "七个 (qīgè) - sept"],
+      "mnemonics": "Trait vertical coupé = sept"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000008",
+      "simplified": "八",
+      "traditional": "八",
+      "pinyin": "bā",
+      "meaning": ["huit"],
+      "frequency": 32,
+      "hskLevel": 1,
+      "examples": ["八月 (bāyuè) - août", "八个 (bāgè) - huit"],
+      "mnemonics": "Deux traits qui se séparent = division, huit"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000009",
+      "simplified": "九",
+      "traditional": "九",
+      "pinyin": "jiǔ",
+      "meaning": ["neuf"],
+      "frequency": 55,
+      "hskLevel": 1,
+      "examples": ["九月 (jiǔyuè) - septembre", "九个 (jiǔgè) - neuf"],
+      "mnemonics": "Coude plié = neuf"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000010",
+      "simplified": "十",
+      "traditional": "十",
+      "pinyin": "shí",
+      "meaning": ["dix"],
+      "frequency": 11,
+      "hskLevel": 1,
+      "examples": ["十月 (shíyuè) - octobre", "十个 (shígè) - dix"],
+      "mnemonics": "Croix = dix doigts, complet"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000011",
+      "simplified": "十一",
+      "traditional": "十一",
+      "pinyin": "shí yī",
+      "meaning": ["onze"],
+      "frequency": 60,
+      "hskLevel": 1,
+      "examples": ["十一月 (shíyīyuè) - novembre"],
+      "mnemonics": "Dix + un = onze"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000012",
+      "simplified": "十二",
+      "traditional": "十二",
+      "pinyin": "shí èr",
+      "meaning": ["douze"],
+      "frequency": 65,
+      "hskLevel": 1,
+      "examples": ["十二月 (shí'èryuè) - décembre", "十二点 (shí'èrdiǎn) - midi"],
+      "mnemonics": "Dix + deux = douze"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000013",
+      "simplified": "十三",
+      "traditional": "十三",
+      "pinyin": "shí sān",
+      "meaning": ["treize"],
+      "frequency": 70,
+      "hskLevel": 1,
+      "examples": ["十三号 (shísānhào) - le treize (date)"],
+      "mnemonics": "Dix + trois = treize"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000014",
+      "simplified": "十四",
+      "traditional": "十四",
+      "pinyin": "shí sì",
+      "meaning": ["quatorze"],
+      "frequency": 75,
+      "hskLevel": 1,
+      "examples": ["十四号 (shísìhào) - le quatorze (date)"],
+      "mnemonics": "Dix + quatre = quatorze"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000015",
+      "simplified": "十五",
+      "traditional": "十五",
+      "pinyin": "shí wǔ",
+      "meaning": ["quinze"],
+      "frequency": 80,
+      "hskLevel": 1,
+      "examples": ["十五号 (shíwǔhào) - le quinze (date)"],
+      "mnemonics": "Dix + cinq = quinze"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000016",
+      "simplified": "十六",
+      "traditional": "十六",
+      "pinyin": "shí liù",
+      "meaning": ["seize"],
+      "frequency": 85,
+      "hskLevel": 1,
+      "examples": ["十六号 (shíliùhào) - le seize (date)"],
+      "mnemonics": "Dix + six = seize"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000017",
+      "simplified": "十七",
+      "traditional": "十七",
+      "pinyin": "shí qī",
+      "meaning": ["dix-sept"],
+      "frequency": 90,
+      "hskLevel": 1,
+      "examples": ["十七号 (shíqīhào) - le dix-sept (date)"],
+      "mnemonics": "Dix + sept = dix-sept"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000018",
+      "simplified": "十八",
+      "traditional": "十八",
+      "pinyin": "shí bā",
+      "meaning": ["dix-huit"],
+      "frequency": 95,
+      "hskLevel": 1,
+      "examples": ["十八号 (shíbāhào) - le dix-huit (date)"],
+      "mnemonics": "Dix + huit = dix-huit"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000019",
+      "simplified": "十九",
+      "traditional": "十九",
+      "pinyin": "shí jiǔ",
+      "meaning": ["dix-neuf"],
+      "frequency": 100,
+      "hskLevel": 1,
+      "examples": ["十九号 (shíjiǔhào) - le dix-neuf (date)"],
+      "mnemonics": "Dix + neuf = dix-neuf"
+    },
+    {
+      "id": "n0100000-0000-0000-0000-000000000020",
+      "simplified": "二十",
+      "traditional": "二十",
+      "pinyin": "èr shí",
+      "meaning": ["vingt"],
+      "frequency": 105,
+      "hskLevel": 1,
+      "examples": ["二十号 (èrshíhào) - le vingt (date)", "二十岁 (èrshí suì) - vingt ans"],
+      "mnemonics": "Deux + dix = vingt (2 × 10)"
+    }
+  ]
+}
