@@ -24,7 +24,7 @@
     },
     "category": {
       "type": "string",
-      "enum": ["HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6", "Thematic", "Custom"],
+      "enum": ["HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6", "Thematic", "Custom", "community"],
       "description": "Category classification"
     },
     "version": {

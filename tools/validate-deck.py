@@ -47,7 +47,7 @@ def validate_deck_structure(deck: Dict[str, Any]) -> List[str]:
             errors.append(f"❌ Description trop longue (maximum 500 caractères)")
 
     # Validation de la catégorie
-    valid_categories = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6', 'Thematic', 'Custom']
+    valid_categories = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6', 'Thematic', 'Custom', 'community']
     if 'category' in deck and deck['category'] not in valid_categories:
         errors.append(f"❌ Catégorie invalide: {deck['category']} (doit être l'une de: {', '.join(valid_categories)})")
 
