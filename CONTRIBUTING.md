@@ -112,18 +112,45 @@ Deck sur le thème des [thème]
 
 ### Format du JSON
 
+⚠️ **IMPORTANT:** Consultez le [Guide Complet de Création de Deck](./DECK_CREATION_GUIDE.md) pour tous les détails!
+
 ```json
 {
-  "id": "uuid-valide",
+  "id": "A1B2C3D4-5678-4ABC-9DEF-123456789ABC",
   "name": "Nom Court et Descriptif",
   "description": "Description détaillée en 1-2 phrases maximum",
-  "category": "HSK1|HSK2|HSK3|Custom|Thematic",
+  "category": "HSK1|HSK2|HSK3|HSK4|HSK5|HSK6|Thematic|Custom",
   "version": "1.0",
   "author": "Votre Nom ou Pseudo",
   "createdDate": "2025-11-17T10:00:00Z",
   "characters": [...]
 }
 ```
+
+#### 🔑 Générer un UUID valide
+
+**Ligne de commande (Mac/Linux):**
+```bash
+uuidgen
+```
+
+**Python:**
+```python
+import uuid
+print(str(uuid.uuid4()).upper())
+```
+
+**En ligne:** https://www.uuidgenerator.net/
+
+⚠️ **Format requis:** `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` où X = 0-9 ou A-F
+
+**Exemples valides:**
+- ✅ `A1B2C3D4-5678-4ABC-9DEF-123456789ABC`
+- ✅ `12345678-90AB-CDEF-1234-567890ABCDEF`
+
+**Exemples invalides:**
+- ❌ `n01a1234-5678-4abc-9def-000000112233` (contient 'n')
+- ❌ `A1B2C3D4-5678-4ABC-9DEF` (trop court)
 
 ### Qualité des traductions
 

@@ -13,12 +13,21 @@ Un **deck** est une collection de caractères chinois organisée autour d'un th�
 - Des exemples d'utilisation
 - Des mnémoniques pour faciliter l'apprentissage
 
+## 📖 Documentation
+
+- **[DECK_CREATION_GUIDE.md](./DECK_CREATION_GUIDE.md)** - Guide complet pour créer un deck (⚠️ **LIRE EN PREMIER!**)
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - Comment contribuer au repository
+- **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)** - URLs et références rapides
+- **[schema.json](./schema.json)** - Schéma JSON de validation
+
 ## 📂 Structure du Repository
 
 ```
 LearnTheCharacters-Decks/
 ├── README.md
 ├── CONTRIBUTING.md
+├── DECK_CREATION_GUIDE.md      # ⚠️ GUIDE PRINCIPAL
+├── QUICK_REFERENCE.md
 ├── LICENSE
 ├── schema.json                 # Schéma JSON pour validation
 ├── decks/
