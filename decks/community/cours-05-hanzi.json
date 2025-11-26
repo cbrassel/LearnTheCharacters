@@ -1,0 +1,121 @@
+{
+  "id": "c05a1234-5678-4abc-9def-334455667788",
+  "name": "Cours 05 - 汉字",
+  "description": "Caractères du cours 5 - Verbes et expressions essentiels",
+  "category": "community",
+  "version": "1.0",
+  "author": "Cours de Chinois",
+  "createdDate": "2025-11-26T10:00:00Z",
+  "characters": [
+    {
+      "id": "c0500000-0000-0000-0000-000000000001",
+      "simplified": "叫",
+      "traditional": "叫",
+      "pinyin": "jiào",
+      "meaning": ["s'appeler", "crier"],
+      "frequency": 35,
+      "hskLevel": 1,
+      "examples": ["我叫... (wǒ jiào...) - je m'appelle...", "你叫什么名字？(nǐ jiào shénme míngzi?) - comment t'appelles-tu ?"],
+      "mnemonics": "Bouche (口) qui crie"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000002",
+      "simplified": "名",
+      "traditional": "名",
+      "pinyin": "míng",
+      "meaning": ["nom", "prénom"],
+      "frequency": 28,
+      "hskLevel": 1,
+      "examples": ["名字 (míngzi) - nom", "有名 (yǒumíng) - célèbre"],
+      "mnemonics": "Soir (夕) + bouche (口) = se nommer dans l'obscurité"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000003",
+      "simplified": "字",
+      "traditional": "字",
+      "pinyin": "zì",
+      "meaning": ["caractère", "mot"],
+      "frequency": 22,
+      "hskLevel": 1,
+      "examples": ["名字 (míngzi) - nom", "汉字 (hànzì) - caractère chinois", "写字 (xiězì) - écrire des caractères"],
+      "mnemonics": "Enfant (子) sous un toit (宀) = caractère"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000004",
+      "simplified": "关",
+      "traditional": "關",
+      "pinyin": "guān",
+      "meaning": ["fermer", "concernant"],
+      "frequency": 45,
+      "hskLevel": 1,
+      "examples": ["关门 (guānmén) - fermer la porte", "关系 (guānxi) - relation"],
+      "mnemonics": "Porte avec une barre pour fermer"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000005",
+      "simplified": "从",
+      "traditional": "從",
+      "pinyin": "cóng",
+      "meaning": ["de", "depuis", "suivre"],
+      "frequency": 18,
+      "hskLevel": 1,
+      "examples": ["从...到... (cóng...dào...) - de...à...", "从这里 (cóng zhèlǐ) - d'ici"],
+      "mnemonics": "Deux personnes qui se suivent"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000006",
+      "simplified": "心",
+      "traditional": "心",
+      "pinyin": "xīn",
+      "meaning": ["cœur", "esprit"],
+      "frequency": 32,
+      "hskLevel": 1,
+      "examples": ["小心 (xiǎoxīn) - faire attention", "开心 (kāixīn) - content", "心情 (xīnqíng) - humeur"],
+      "mnemonics": "Dessin d'un cœur"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000007",
+      "simplified": "您",
+      "traditional": "您",
+      "pinyin": "nín",
+      "meaning": ["vous (forme polie)"],
+      "frequency": 55,
+      "hskLevel": 1,
+      "examples": ["您好 (nín hǎo) - bonjour (poli)", "谢谢您 (xièxie nín) - merci (poli)"],
+      "mnemonics": "Vous (你) + cœur (心) = vous poli"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000008",
+      "simplified": "好",
+      "traditional": "好",
+      "pinyin": "hǎo",
+      "meaning": ["bon", "bien"],
+      "frequency": 12,
+      "hskLevel": 1,
+      "examples": ["你好 (nǐ hǎo) - bonjour", "很好 (hěn hǎo) - très bien", "好吃 (hǎochī) - délicieux"],
+      "mnemonics": "Femme (女) + enfant (子) = bon/bien"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000009",
+      "simplified": "见",
+      "traditional": "見",
+      "pinyin": "jiàn",
+      "meaning": ["voir", "apercevoir"],
+      "frequency": 38,
+      "hskLevel": 1,
+      "examples": ["再见 (zàijiàn) - au revoir", "看见 (kànjiàn) - voir"],
+      "mnemonics": "Œil au-dessus de jambes = voir"
+    },
+    {
+      "id": "c0500000-0000-0000-0000-000000000010",
+      "simplified": "是",
+      "traditional": "是",
+      "pinyin": "shì",
+      "meaning": ["être"],
+      "frequency": 5,
+      "hskLevel": 1,
+      "examples": ["我是... (wǒ shì...) - je suis...", "这是... (zhè shì...) - c'est..."],
+      "mnemonics": "Soleil (日) sous un trait = être/affirmer"
+    }
+  ]
+}
