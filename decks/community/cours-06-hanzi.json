@@ -1,0 +1,121 @@
+{
+  "id": "c06a1234-5678-4abc-9def-445566778899",
+  "name": "Cours 06 - 汉字",
+  "description": "Caractères du cours 6 - Écriture et objets du quotidien",
+  "category": "community",
+  "version": "1.0",
+  "author": "Cours de Chinois",
+  "createdDate": "2025-11-26T10:30:00Z",
+  "characters": [
+    {
+      "id": "c0600000-0000-0000-0000-000000000001",
+      "simplified": "文",
+      "traditional": "文",
+      "pinyin": "wén",
+      "meaning": ["écriture", "texte", "culture"],
+      "frequency": 42,
+      "hskLevel": 1,
+      "examples": ["中文 (zhōngwén) - chinois (langue)", "文化 (wénhuà) - culture", "文字 (wénzì) - écriture"],
+      "mnemonics": "Traits croisés représentant l'écriture"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000002",
+      "simplified": "这",
+      "traditional": "這",
+      "pinyin": "zhè",
+      "meaning": ["ceci", "ce", "cette"],
+      "frequency": 15,
+      "hskLevel": 1,
+      "examples": ["这个 (zhège) - celui-ci", "这里 (zhèlǐ) - ici", "这是... (zhè shì...) - c'est..."],
+      "mnemonics": "Démonstratif pour pointer vers quelque chose proche"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000003",
+      "simplified": "自",
+      "traditional": "自",
+      "pinyin": "zì",
+      "meaning": ["soi-même", "de", "depuis"],
+      "frequency": 26,
+      "hskLevel": 2,
+      "examples": ["自己 (zìjǐ) - soi-même", "自然 (zìrán) - naturel", "来自 (láizì) - venir de"],
+      "mnemonics": "Nez pointé vers soi = soi-même"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000004",
+      "simplified": "首",
+      "traditional": "首",
+      "pinyin": "shǒu",
+      "meaning": ["tête", "chef", "premier", "classificateur pour chanson/poème"],
+      "frequency": 68,
+      "hskLevel": 3,
+      "examples": ["首都 (shǒudū) - capitale", "一首歌 (yī shǒu gē) - une chanson"],
+      "mnemonics": "Tête avec cheveux = chef/premier"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000005",
+      "simplified": "道",
+      "traditional": "道",
+      "pinyin": "dào",
+      "meaning": ["voie", "chemin", "dire"],
+      "frequency": 44,
+      "hskLevel": 2,
+      "examples": ["知道 (zhīdào) - savoir", "道路 (dàolù) - route"],
+      "mnemonics": "Tête (首) qui marche = voie/chemin"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000006",
+      "simplified": "贝",
+      "traditional": "貝",
+      "pinyin": "bèi",
+      "meaning": ["coquillage", "coquille", "monnaie"],
+      "frequency": 90,
+      "hskLevel": 3,
+      "examples": ["贝壳 (bèiké) - coquillage"],
+      "mnemonics": "Forme de coquillage (ancien signe de richesse)"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000007",
+      "simplified": "贵",
+      "traditional": "貴",
+      "pinyin": "guì",
+      "meaning": ["précieux", "cher", "noble"],
+      "frequency": 52,
+      "hskLevel": 2,
+      "examples": ["贵 (tài guì) - trop cher", "贵姓 (guìxìng) - votre nom (poli)"],
+      "mnemonics": "Coquillage (贝) = précieux car ancien symbole de richesse"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000008",
+      "simplified": "手",
+      "traditional": "手",
+      "pinyin": "shǒu",
+      "meaning": ["main"],
+      "frequency": 34,
+      "hskLevel": 1,
+      "examples": ["手机 (shǒujī) - téléphone portable", "右手 (yòushǒu) - main droite", "左手 (zuǒshǒu) - main gauche"],
+      "mnemonics": "Dessin d'une main avec les doigts"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000009",
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "meaning": ["regarder", "voir", "lire"],
+      "frequency": 24,
+      "hskLevel": 1,
+      "examples": ["看书 (kànshū) - lire un livre", "看见 (kànjiàn) - voir", "看电视 (kàn diànshì) - regarder la télé"],
+      "mnemonics": "Main (手) au-dessus d'œil (目) = regarder"
+    },
+    {
+      "id": "c0600000-0000-0000-0000-000000000010",
+      "simplified": "那",
+      "traditional": "那",
+      "pinyin": "nà",
+      "meaning": ["cela", "ce", "cette"],
+      "frequency": 19,
+      "hskLevel": 1,
+      "examples": ["那个 (nàge) - celui-là", "那里 (nàlǐ) - là-bas", "那是... (nà shì...) - c'est..."],
+      "mnemonics": "Démonstratif pour pointer vers quelque chose éloigné"
+    }
+  ]
+}
