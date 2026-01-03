@@ -305,11 +305,8 @@ struct ExportableDeck: Codable {
         let dataService = DataPersistenceService.shared
 
         for character in characters {
-            // Sauvegarder chaque caractère s'il n'existe pas déjà
-            let existing = dataService.getAllCharacters().first { $0.id == character.id }
-            if existing == nil {
-                dataService.saveCharacter(character)
-            }
+            // Toujours sauvegarder/mettre à jour le caractère pour récupérer les nouveaux champs
+            dataService.saveCharacter(character)
         }
 
         return Deck(
