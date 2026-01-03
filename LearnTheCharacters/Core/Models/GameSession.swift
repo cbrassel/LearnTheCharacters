@@ -38,35 +38,39 @@ struct GameSession: Identifiable {
     }
 
     enum Difficulty: String, CaseIterable, Codable {
+        case consultation = "consultation"
+        case listening = "listening"
         case beginner = "beginner"
         case intermediate = "intermediate"
         case advanced = "advanced"
-        case expert = "expert"
 
         var displayName: String {
             switch self {
+            case .consultation: return "Consultation"
+            case .listening: return "Écoute"
             case .beginner: return "Débutant"
             case .intermediate: return "Intermédiaire"
             case .advanced: return "Avancé"
-            case .expert: return "Expert"
             }
         }
 
         var timeLimit: TimeInterval {
             switch self {
+            case .consultation: return 0 // Pas de limite de temps
+            case .listening: return 0 // Pas de limite de temps
             case .beginner: return 30.0
             case .intermediate: return 20.0
             case .advanced: return 10.0
-            case .expert: return 5.0
             }
         }
 
         var icon: String {
             switch self {
+            case .consultation: return "📖"
+            case .listening: return "👂"
             case .beginner: return "🌱"
             case .intermediate: return "🌿"
             case .advanced: return "🌳"
-            case .expert: return "🏔️"
             }
         }
 
@@ -74,14 +78,16 @@ struct GameSession: Identifiable {
         /// Retourne (seuil d'acceptation, seuil "presque")
         var pronunciationThresholds: (acceptance: Double, near: Double) {
             switch self {
+            case .consultation:
+                return (0, 0)          // Pas de validation en mode consultation
+            case .listening:
+                return (0, 0)          // Pas de validation en mode écoute
             case .beginner:
                 return (0.5, 0.4)      // Très tolérant - 50% de similarité suffit
             case .intermediate:
                 return (0.65, 0.5)     // Tolérant - 65% de similarité
             case .advanced:
                 return (0.80, 0.65)    // Strict - 80% de similarité
-            case .expert:
-                return (0.95, 0.85)    // Très strict - 95% de similarité (quasi parfait)
             }
         }
     }

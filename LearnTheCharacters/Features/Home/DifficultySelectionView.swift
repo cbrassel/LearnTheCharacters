@@ -25,12 +25,12 @@ struct DifficultySelectionView: View {
             )
             .ignoresSafeArea()
 
-            VStack(spacing: 25) {
+            VStack(spacing: 20) {
                 // Deck info
-                VStack(spacing: 12) {
+                VStack(spacing: 10) {
                     Text(deck.name)
                         .font(.title.bold())
-                        .padding(.top, 20)
+                        .padding(.top, 10)
 
                     Text(deck.description)
                         .font(.body)
@@ -46,12 +46,12 @@ struct DifficultySelectionView: View {
                 }
 
                 // Difficulty selection
-                VStack(alignment: .leading, spacing: 15) {
+                VStack(alignment: .leading, spacing: 12) {
                     Text("Choisissez votre niveau")
                         .font(.title2.bold())
                         .padding(.horizontal)
 
-                    VStack(spacing: 15) {
+                    VStack(spacing: 12) {
                         ForEach(GameSession.Difficulty.allCases, id: \.self) { difficulty in
                             DifficultyButton(
                                 difficulty: difficulty,
@@ -65,7 +65,7 @@ struct DifficultySelectionView: View {
                 }
 
                 Spacer()
-                    .frame(minHeight: 20, maxHeight: 40)
+                    .frame(minHeight: 10, maxHeight: 20)
 
                 // Start button
                 Button(action: {
@@ -86,7 +86,13 @@ struct DifficultySelectionView: View {
         .navigationTitle("Sélectionner la difficulté")
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(isPresented: $navigateToGame) {
-            CardGameView(deck: deck, difficulty: selectedDifficulty)
+            if selectedDifficulty == .consultation {
+                ConsultationView(deck: deck)
+            } else if selectedDifficulty == .listening {
+                ListeningView(deck: deck)
+            } else {
+                CardGameView(deck: deck, difficulty: selectedDifficulty)
+            }
         }
     }
 }
@@ -95,6 +101,17 @@ struct DifficultyButton: View {
     let difficulty: GameSession.Difficulty
     let isSelected: Bool
     let action: () -> Void
+
+    private func descriptionFor(difficulty: GameSession.Difficulty) -> String {
+        switch difficulty {
+        case .consultation:
+            return "Pas de chronomètre"
+        case .listening:
+            return "Écoute de phrases"
+        default:
+            return "\(Int(difficulty.timeLimit))s par caractère"
+        }
+    }
 
     var body: some View {
         Button(action: action) {
@@ -107,7 +124,7 @@ struct DifficultyButton: View {
                         .font(.headline)
                         .foregroundColor(.primary)
 
-                    Text("\(Int(difficulty.timeLimit))s par caractère")
+                    Text(descriptionFor(difficulty: difficulty))
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }

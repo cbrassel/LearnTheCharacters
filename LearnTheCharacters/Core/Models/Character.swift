@@ -19,6 +19,7 @@ struct Character: Codable, Identifiable, Hashable {
     let hskLevel: Int?          // Niveau HSK (1-6)
     let examples: [String]      // Phrases exemples
     let mnemonics: String?      // Aide mémoire
+    let listeningSentences: [String] // 4-5 variations de phrases pour mode écoute
 
     init(
         id: UUID = UUID(),
@@ -30,7 +31,8 @@ struct Character: Codable, Identifiable, Hashable {
         frequency: Int = 0,
         hskLevel: Int? = nil,
         examples: [String] = [],
-        mnemonics: String? = nil
+        mnemonics: String? = nil,
+        listeningSentences: [String] = []
     ) {
         self.id = id
         self.simplified = simplified
@@ -42,6 +44,7 @@ struct Character: Codable, Identifiable, Hashable {
         self.hskLevel = hskLevel
         self.examples = examples
         self.mnemonics = mnemonics
+        self.listeningSentences = listeningSentences
     }
 
     var audioFileURL: URL? {
