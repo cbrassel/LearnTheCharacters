@@ -90,15 +90,32 @@ struct ListeningView: View {
 
                         // Zone de traduction (toggle)
                         if viewModel.showTranslation {
-                            VStack(spacing: 8) {
-                                Text("Traduction:")
-                                    .font(.caption)
-                                    .foregroundColor(.secondary)
+                            VStack(spacing: 12) {
+                                // Traduction du caractère
+                                VStack(spacing: 4) {
+                                    Text("Caractère \(character.simplified):")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    Text(character.displayMeaning)
+                                        .font(.body)
+                                        .fontWeight(.medium)
+                                        .foregroundColor(.indigo)
+                                        .multilineTextAlignment(.center)
+                                }
 
-                                Text(character.displayMeaning)
-                                    .font(.body)
-                                    .foregroundColor(.indigo)
-                                    .multilineTextAlignment(.center)
+                                Divider()
+
+                                // Traduction de la phrase (à implémenter dans les JSONs)
+                                VStack(spacing: 4) {
+                                    Text("Phrase:")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    Text("Essayez de comprendre le sens général")
+                                        .font(.caption)
+                                        .italic()
+                                        .foregroundColor(.secondary)
+                                        .multilineTextAlignment(.center)
+                                }
                             }
                             .padding()
                             .background(Color.indigo.opacity(0.1))
@@ -313,8 +330,8 @@ class ListeningViewModel: ObservableObject {
         isPlaying = true
         print("🔊 Lecture de la phrase: \(sentence)")
 
-        // Utiliser le service audio pour lire la phrase en chinois
-        audioService.speakText(sentence, language: "zh-CN")
+        // Utiliser le service audio pour lire la phrase en chinois (vitesse ralentie pour l'apprentissage)
+        audioService.speakText(sentence, language: "zh-CN", rate: 0.35)
 
         // Réinitialiser l'état après un délai estimé
         // (2 secondes + 0.5s par caractère comme approximation)
