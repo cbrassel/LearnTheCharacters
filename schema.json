@@ -111,6 +111,43 @@
             "type": ["string", "null"],
             "maxLength": 300,
             "description": "Memory aid or explanation"
+          },
+          "strokeOrder": {
+            "type": ["object", "null"],
+            "description": "Données d'ordre des traits pour l'animation",
+            "properties": {
+              "strokes": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Données de chemin SVG pour chaque trait"
+              },
+              "medians": {
+                "type": ["array", "null"],
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                },
+                "description": "Points médians pour chaque trait (optionnel)"
+              },
+              "source": {
+                "type": "string",
+                "description": "Source des données (ex: 'makemeahanzi')"
+              },
+              "viewBox": {
+                "type": "object",
+                "properties": {
+                  "width": { "type": "number" },
+                  "height": { "type": "number" }
+                },
+                "required": ["width", "height"]
+              }
+            },
+            "required": ["strokes", "source"]
           }
         }
       }
