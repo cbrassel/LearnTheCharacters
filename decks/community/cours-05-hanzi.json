@@ -3,7 +3,7 @@
   "name": "Cours 05 - 汉字",
   "description": "Caractères du cours 5 - Verbes et expressions essentiels",
   "category": "community",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-26T10:00:00Z",
   "characters": [
@@ -20,7 +20,14 @@
         "你叫什么名字？(nǐ jiào shénme míngzi?) - comment t'appelles-tu ?",
         "我妈妈叫我 (wǒ māma jiào wǒ) - ma mère m'appelle"
       ],
-      "mnemonics": "Bouche (口) qui crie. Note: 我叫 + prénom"
+      "mnemonics": "Bouche (口) qui crie. Note: 我叫 + prénom",
+      "listeningSentences": [
+        "我叫马克。",
+        "你叫什么名字？",
+        "他叫李明。",
+        "这个怎么叫？",
+        "我叫出租车了。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000002",
@@ -31,7 +38,14 @@
       "frequency": 28,
       "hskLevel": 1,
       "examples": ["名字 (míngzi) - nom", "有名 (yǒumíng) - célèbre"],
-      "mnemonics": "Soir (夕) + bouche (口) = se nommer dans l'obscurité"
+      "mnemonics": "Soir (夕) + bouche (口) = se nommer dans l'obscurité",
+      "listeningSentences": [
+        "你的名字很好听。",
+        "这个地方很有名。",
+        "名字怎么写？",
+        "他是个名人。",
+        "我忘了你的名字。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000003",
@@ -48,7 +62,14 @@
         "儿子 (érzi) - fils",
         "女儿 (nǚér) - fille"
       ],
-      "mnemonics": "Enfant (子) sous un toit (宀) = caractère"
+      "mnemonics": "Enfant (子) sous un toit (宀) = caractère",
+      "listeningSentences": [
+        "这个字怎么读？",
+        "我会写一百个汉字。",
+        "这个字很难写。",
+        "学汉字很有意思。",
+        "写字要认真。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000004",
@@ -63,7 +84,14 @@
         "开门 (kāimén) - ouvrir la porte",
         "关系 (guānxi) - relation"
       ],
-      "mnemonics": "Porte avec une barre pour fermer"
+      "mnemonics": "Porte avec une barre pour fermer",
+      "listeningSentences": [
+        "请关门。",
+        "关窗户吧。",
+        "我们关系很好。",
+        "关灯睡觉。",
+        "这跟我有关系。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000005",
@@ -80,7 +108,14 @@
         "你从什么地方来？(nǐ cóng shénme dìfang lái?) - de quel endroit viens-tu ?",
         "你是什么地方人？(nǐ shì shénme dìfang rén?) - tu es de quel endroit ?"
       ],
-      "mnemonics": "Deux personnes qui se suivent"
+      "mnemonics": "Deux personnes qui se suivent",
+      "listeningSentences": [
+        "我从法国来。",
+        "从这里到那里很近。",
+        "从明天开始。",
+        "从早到晚都很忙。",
+        "你从哪里来？"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000006",
@@ -96,7 +131,14 @@
         "快乐 (kuàilè) - joyeux, content",
         "心情 (xīnqíng) - humeur"
       ],
-      "mnemonics": "Dessin d'un cœur"
+      "mnemonics": "Dessin d'un cœur",
+      "listeningSentences": [
+        "小心点儿！",
+        "我很开心。",
+        "他很有爱心。",
+        "今天心情很好。",
+        "用心学习。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000007",
@@ -107,7 +149,14 @@
       "frequency": 55,
       "hskLevel": 1,
       "examples": ["您好 (nín hǎo) - bonjour (poli)", "谢谢您 (xièxie nín) - merci (poli)"],
-      "mnemonics": "Vous (你) + cœur (心) = vous poli"
+      "mnemonics": "Vous (你) + cœur (心) = vous poli",
+      "listeningSentences": [
+        "您好！",
+        "谢谢您的帮助。",
+        "您贵姓？",
+        "请问您是哪位？",
+        "祝您健康。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000008",
@@ -123,7 +172,14 @@
         "好吃 (hǎochī) - délicieux",
         "看 (kàn) - regarder, voir"
       ],
-      "mnemonics": "Femme (女) + enfant (子) = bon/bien"
+      "mnemonics": "Femme (女) + enfant (子) = bon/bien",
+      "listeningSentences": [
+        "你好！",
+        "这个很好吃。",
+        "天气很好。",
+        "好主意！",
+        "你好吗？"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000009",
@@ -138,7 +194,14 @@
         "看见 (kànjiàn) - voir",
         "看 (kàn) - regarder"
       ],
-      "mnemonics": "Œil au-dessus de jambes = voir"
+      "mnemonics": "Œil au-dessus de jambes = voir",
+      "listeningSentences": [
+        "再见！",
+        "明天见。",
+        "我看见他了。",
+        "很高兴见到你。",
+        "好久不见。"
+      ]
     },
     {
       "id": "c0500000-0000-0000-0000-000000000010",
@@ -153,7 +216,14 @@
         "这是... (zhè shì...) - c'est...",
         "我是法国人 (wǒ shì fǎguó rén) - je suis français"
       ],
-      "mnemonics": "Soleil (日) + en dessous (下) + personne (人) = être/affirmer"
+      "mnemonics": "Soleil (日) + en dessous (下) + personne (人) = être/affirmer",
+      "listeningSentences": [
+        "我是学生。",
+        "这是我的书。",
+        "他是老师。",
+        "是的，没错。",
+        "你是哪国人？"
+      ]
     }
   ]
 }

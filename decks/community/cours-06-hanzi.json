@@ -3,7 +3,7 @@
   "name": "Cours 06 - 汉字",
   "description": "Caractères du cours 6 - Écriture et objets du quotidien",
   "category": "community",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-26T10:30:00Z",
   "characters": [
@@ -16,7 +16,14 @@
       "frequency": 42,
       "hskLevel": 1,
       "examples": ["中文 (zhōngwén) - chinois (langue)", "文化 (wénhuà) - culture", "文字 (wénzì) - écriture"],
-      "mnemonics": "Traits croisés représentant l'écriture"
+      "mnemonics": "Traits croisés représentant l'écriture",
+      "listeningSentences": [
+        "我学中文。",
+        "中国文化很丰富。",
+        "这篇文章很好。",
+        "我喜欢中文。",
+        "文字很重要。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000002",
@@ -27,7 +34,14 @@
       "frequency": 15,
       "hskLevel": 1,
       "examples": ["这个 (zhège) - celui-ci", "这里 (zhèlǐ) - ici", "这是... (zhè shì...) - c'est..."],
-      "mnemonics": "Démonstratif pour pointer vers quelque chose proche"
+      "mnemonics": "Démonstratif pour pointer vers quelque chose proche",
+      "listeningSentences": [
+        "这是我的书。",
+        "这个很好吃。",
+        "这里很漂亮。",
+        "这是什么？",
+        "我喜欢这个。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000003",
@@ -38,7 +52,14 @@
       "frequency": 26,
       "hskLevel": 2,
       "examples": ["自己 (zìjǐ) - soi-même", "自然 (zìrán) - naturel", "来自 (láizì) - venir de"],
-      "mnemonics": "Nez pointé vers soi = soi-même"
+      "mnemonics": "Nez pointé vers soi = soi-même",
+      "listeningSentences": [
+        "我自己做的。",
+        "他来自北京。",
+        "很自然。",
+        "自己的事情自己做。",
+        "这个很自然。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000004",
@@ -49,7 +70,14 @@
       "frequency": 68,
       "hskLevel": 3,
       "examples": ["首都 (shǒudū) - capitale", "一首歌 (yī shǒu gē) - une chanson"],
-      "mnemonics": "Tête avec cheveux = chef/premier"
+      "mnemonics": "Tête avec cheveux = chef/premier",
+      "listeningSentences": [
+        "北京是中国的首都。",
+        "我会唱一首歌。",
+        "这首歌很好听。",
+        "首先要学习。",
+        "这是首要任务。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000005",
@@ -60,7 +88,14 @@
       "frequency": 44,
       "hskLevel": 2,
       "examples": ["知道 (zhīdào) - savoir", "道路 (dàolù) - route"],
-      "mnemonics": "Tête (首) qui marche = voie/chemin"
+      "mnemonics": "Tête (首) qui marche = voie/chemin",
+      "listeningSentences": [
+        "我知道了。",
+        "你知道吗？",
+        "这条道路很长。",
+        "我不知道。",
+        "知道了，谢谢。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000006",
@@ -71,7 +106,13 @@
       "frequency": 90,
       "hskLevel": 3,
       "examples": ["贝壳 (bèiké) - coquillage"],
-      "mnemonics": "Forme de coquillage (ancien signe de richesse)"
+      "mnemonics": "Forme de coquillage (ancien signe de richesse)",
+      "listeningSentences": [
+        "海边有很多贝壳。",
+        "这个贝壳很漂亮。",
+        "我喜欢收集贝壳。",
+        "贝壳的颜色很好看。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000007",
@@ -82,7 +123,14 @@
       "frequency": 52,
       "hskLevel": 2,
       "examples": ["贵 (tài guì) - trop cher", "贵姓 (guìxìng) - votre nom (poli)"],
-      "mnemonics": "Coquillage (贝) = précieux car ancien symbole de richesse"
+      "mnemonics": "Coquillage (贝) = précieux car ancien symbole de richesse",
+      "listeningSentences": [
+        "太贵了！",
+        "这个很贵。",
+        "您贵姓？",
+        "不贵，很便宜。",
+        "这里的东西很贵。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000008",
@@ -93,7 +141,14 @@
       "frequency": 34,
       "hskLevel": 1,
       "examples": ["手机 (shǒujī) - téléphone portable", "右手 (yòushǒu) - main droite", "左手 (zuǒshǒu) - main gauche"],
-      "mnemonics": "Dessin d'une main avec les doigts"
+      "mnemonics": "Dessin d'une main avec les doigts",
+      "listeningSentences": [
+        "我的手机在哪儿？",
+        "用右手写字。",
+        "洗手吧。",
+        "牵手走。",
+        "我的手很冷。"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000009",
@@ -104,7 +159,14 @@
       "frequency": 24,
       "hskLevel": 1,
       "examples": ["看书 (kànshū) - lire un livre", "看见 (kànjiàn) - voir", "看电视 (kàn diànshì) - regarder la télé"],
-      "mnemonics": "Main (手) au-dessus d'œil (目) = regarder"
+      "mnemonics": "Main (手) au-dessus d'œil (目) = regarder",
+      "listeningSentences": [
+        "我在看书。",
+        "看电视吧。",
+        "我看见他了。",
+        "看一看。",
+        "看这里！"
+      ]
     },
     {
       "id": "c0600000-0000-0000-0000-000000000010",
@@ -115,7 +177,14 @@
       "frequency": 19,
       "hskLevel": 1,
       "examples": ["那个 (nàge) - celui-là", "那里 (nàlǐ) - là-bas", "那是... (nà shì...) - c'est..."],
-      "mnemonics": "Démonstratif pour pointer vers quelque chose éloigné"
+      "mnemonics": "Démonstratif pour pointer vers quelque chose éloigné",
+      "listeningSentences": [
+        "那是什么？",
+        "那个很好。",
+        "那里很远。",
+        "我要那个。",
+        "那边有人吗？"
+      ]
     }
   ]
 }

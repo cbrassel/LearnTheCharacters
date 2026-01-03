@@ -3,7 +3,7 @@
   "name": "Cours 03 - 汉字",
   "description": "Caractères du cours 3 - Directions et concepts de base",
   "category": "community",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-17T20:45:00Z",
   "characters": [
@@ -16,7 +16,14 @@
       "frequency": 8,
       "hskLevel": 1,
       "examples": ["上山 (shàngshān) - monter la montagne"],
-      "mnemonics": "Trait horizontal au-dessus = haut"
+      "mnemonics": "Trait horizontal au-dessus = haut",
+      "listeningSentences": [
+        "我上楼了。",
+        "上课很有意思。",
+        "他上班很早。",
+        "我们上山吧。",
+        "书在桌子上。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000002",
@@ -27,7 +34,14 @@
       "frequency": 10,
       "hskLevel": 1,
       "examples": ["下车 (xià chē) - descendre", "山下 (shān xià) - au pied de la montagne"],
-      "mnemonics": "Trait horizontal en dessous = bas"
+      "mnemonics": "Trait horizontal en dessous = bas",
+      "listeningSentences": [
+        "我下楼买东西。",
+        "下课后见面。",
+        "他下班很晚。",
+        "我们下山吧。",
+        "猫在桌子下。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000003",
@@ -38,7 +52,14 @@
       "frequency": 45,
       "hskLevel": 1,
       "examples": ["左手 (zuǒshǒu) - main gauche"],
-      "mnemonics": "Main gauche tenant un outil de travail"
+      "mnemonics": "Main gauche tenant un outil de travail",
+      "listeningSentences": [
+        "我的左手很疼。",
+        "向左转。",
+        "银行在左边。",
+        "左边是我的房间。",
+        "用左手写字很难。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000004",
@@ -49,7 +70,14 @@
       "frequency": 46,
       "hskLevel": 1,
       "examples": ["右手 (yòushǒu) - main droite"],
-      "mnemonics": "Main droite tenant la bouche (口) = main dominante"
+      "mnemonics": "Main droite tenant la bouche (口) = main dominante",
+      "listeningSentences": [
+        "我用右手吃饭。",
+        "向右转。",
+        "超市在右边。",
+        "右边是图书馆。",
+        "我的右脚受伤了。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000005",
@@ -60,7 +88,14 @@
       "frequency": 3,
       "hskLevel": 1,
       "examples": ["不是 (bùshì) - ne pas être", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
-      "mnemonics": "Oiseau qui ne peut pas voler = négation"
+      "mnemonics": "Oiseau qui ne peut pas voler = négation",
+      "listeningSentences": [
+        "我不喜欢咖啡。",
+        "他不是老师。",
+        "今天不冷。",
+        "我不会说日语。",
+        "这个不贵。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000006",
@@ -71,7 +106,14 @@
       "frequency": 5,
       "hskLevel": 1,
       "examples": ["中国 (zhōngguó) - Chine", "中间 (zhōngjiān) - au milieu"],
-      "mnemonics": "Flèche traversant le centre d'une cible = milieu"
+      "mnemonics": "Flèche traversant le centre d'une cible = milieu",
+      "listeningSentences": [
+        "我在学中文。",
+        "中国很大。",
+        "书在桌子中间。",
+        "我喜欢中国菜。",
+        "中午吃什么？"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000007",
@@ -82,7 +124,14 @@
       "frequency": 12,
       "hskLevel": 1,
       "examples": ["中国 (zhōngguó) - Chine", "我是中国人 (wǒ shì zhōngguó rén) - Je suis chinois", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
-      "mnemonics": "Enceinte (囗) protégeant un territoire = pays"
+      "mnemonics": "Enceinte (囗) protégeant un territoire = pays",
+      "listeningSentences": [
+        "我来自中国。",
+        "你去过哪个国家？",
+        "美国很远。",
+        "这个国家很美丽。",
+        "法国的美食很好吃。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000008",
@@ -93,7 +142,14 @@
       "frequency": 25,
       "hskLevel": 1,
       "examples": ["上山 (shàngshān) - monter la montagne", "山下 (shān xià) - au pied de la montagne"],
-      "mnemonics": "Trois pics de montagne"
+      "mnemonics": "Trois pics de montagne",
+      "listeningSentences": [
+        "这座山很高。",
+        "我爬山爬累了。",
+        "山上有雪。",
+        "周末去爬山吧。",
+        "山下有个村子。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000009",
@@ -104,7 +160,14 @@
       "frequency": 18,
       "hskLevel": 1,
       "examples": ["一月 (yīyuè) - janvier", "三月 (sānyuè) - mars", "五月 (wǔyuè) - mai"],
-      "mnemonics": "Croissant de lune"
+      "mnemonics": "Croissant de lune",
+      "listeningSentences": [
+        "今天几月几号？",
+        "三月去旅游。",
+        "一个月有三十天。",
+        "今晚的月亮很美。",
+        "我学了六个月中文。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000010",
@@ -115,7 +178,14 @@
       "frequency": 22,
       "hskLevel": 1,
       "examples": ["明天 (míngtiān) - demain"],
-      "mnemonics": "Soleil (日) + Lune (月) = brillant, clarté"
+      "mnemonics": "Soleil (日) + Lune (月) = brillant, clarté",
+      "listeningSentences": [
+        "明天见。",
+        "明天去哪儿？",
+        "房间很明亮。",
+        "明天天气好。",
+        "我明白了。"
+      ]
     },
     {
       "id": "c0300000-0000-0000-0000-000000000011",
@@ -126,7 +196,14 @@
       "frequency": 14,
       "hskLevel": 1,
       "examples": ["明天 (míngtiān) - demain", "今天 (jīntiān) - aujourd'hui"],
-      "mnemonics": "Grand (大) au-dessus = ciel"
+      "mnemonics": "Grand (大) au-dessus = ciel",
+      "listeningSentences": [
+        "今天很热。",
+        "天气怎么样？",
+        "蓝天白云。",
+        "每天学习很重要。",
+        "三天后回来。"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "Nombres 0-20",
   "description": "Apprendre à compter de 0 à 20 en chinois",
   "category": "community",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-19T10:00:00Z",
   "characters": [
@@ -21,7 +21,13 @@
       "examples": [
         "零下 (língxià) - en dessous de zéro"
       ],
-      "mnemonics": "Gouttes de pluie qui tombent = rien, zéro"
+      "mnemonics": "Gouttes de pluie qui tombent = rien, zéro",
+      "listeningSentences": [
+        "今天零度。",
+        "我有零钱。",
+        "零下五度很冷。",
+        "这个数字是零。"
+      ]
     },
     {
       "id": "E1E23E90-186B-4E95-824A-D46F1BCCA9AE",
@@ -38,7 +44,14 @@
         "一个 (yīgè) - un",
         "一天 (yītiān) - un jour"
       ],
-      "mnemonics": "Un trait horizontal = le chiffre un"
+      "mnemonics": "Un trait horizontal = le chiffre un",
+      "listeningSentences": [
+        "我有一个苹果。",
+        "一天有二十四小时。",
+        "这是一本书。",
+        "一加一等于二。",
+        "我喝一杯茶。"
+      ]
     },
     {
       "id": "D258C3B5-20E8-444B-A0A3-3F8EF1839AB1",
@@ -55,7 +68,14 @@
         "二月 (èryuè) - février",
         "第二 (dì èr) - deuxième"
       ],
-      "mnemonics": "Deux traits horizontaux = le chiffre deux"
+      "mnemonics": "Deux traits horizontaux = le chiffre deux",
+      "listeningSentences": [
+        "二月很冷。",
+        "我有二个姐姐。",
+        "这是第二次。",
+        "二加三等于五。",
+        "我买二斤苹果。"
+      ]
     },
     {
       "id": "7735D121-3D6C-4429-8651-DA7DFD6148A2",
@@ -72,7 +92,14 @@
         "三月 (sānyuè) - mars",
         "三个 (sāngè) - trois"
       ],
-      "mnemonics": "Trois traits horizontaux = le chiffre trois"
+      "mnemonics": "Trois traits horizontaux = le chiffre trois",
+      "listeningSentences": [
+        "三月很暖和。",
+        "我们有三个孩子。",
+        "这本书三十块。",
+        "三点钟见面。",
+        "我学了三年中文。"
+      ]
     },
     {
       "id": "C1A0B42A-7F75-42A1-9FFA-F9B2BB7ED703",
@@ -89,7 +116,14 @@
         "四月 (sìyuè) - avril",
         "四个 (sìgè) - quatre"
       ],
-      "mnemonics": "Bouche (口) enfermée = quatre"
+      "mnemonics": "Bouche (口) enfermée = quatre",
+      "listeningSentences": [
+        "四月开花了。",
+        "我们四个人。",
+        "四点钟下班。",
+        "这个房间有四张床。",
+        "四加六等于十。"
+      ]
     },
     {
       "id": "03E41B8F-507E-4C6F-A6A8-BE8323FC55F4",
@@ -106,7 +140,14 @@
         "五月 (wǔyuè) - mai",
         "五个 (wǔgè) - cinq"
       ],
-      "mnemonics": "Cinq traits qui se croisent"
+      "mnemonics": "Cinq traits qui se croisent",
+      "listeningSentences": [
+        "五月很美丽。",
+        "我有五本书。",
+        "五点钟吃晚饭。",
+        "这个包五百块。",
+        "五天后见面。"
+      ]
     },
     {
       "id": "DAAFFC15-B90C-478A-A538-A9EAAA5F9C99",
@@ -123,7 +164,14 @@
         "六月 (liùyuè) - juin",
         "六个 (liùgè) - six"
       ],
-      "mnemonics": "Chapeau au-dessus = six"
+      "mnemonics": "Chapeau au-dessus = six",
+      "listeningSentences": [
+        "六月很热。",
+        "我六点起床。",
+        "这里有六个人。",
+        "六块钱一斤。",
+        "星期六去购物。"
+      ]
     },
     {
       "id": "D258619F-1490-479B-8006-ECD5497DC0D4",
@@ -140,7 +188,14 @@
         "七月 (qīyuè) - juillet",
         "七个 (qīgè) - sept"
       ],
-      "mnemonics": "Trait vertical coupé = sept"
+      "mnemonics": "Trait vertical coupé = sept",
+      "listeningSentences": [
+        "七月去度假。",
+        "七点钟上班。",
+        "我有七个朋友。",
+        "这件衣服七十块。",
+        "七天一周。"
+      ]
     },
     {
       "id": "8C1DB7FB-FEA5-49F2-80BE-C70D5F6A7B28",
@@ -157,7 +212,14 @@
         "八月 (bāyuè) - août",
         "八个 (bāgè) - huit"
       ],
-      "mnemonics": "Deux traits qui se séparent = division, huit"
+      "mnemonics": "Deux traits qui se séparent = division, huit",
+      "listeningSentences": [
+        "八月很热。",
+        "八点钟开会。",
+        "我吃八个饺子。",
+        "八是个吉利数字。",
+        "八块钱一杯咖啡。"
+      ]
     },
     {
       "id": "C2C21655-B239-429A-8C5E-C571EA5C8FE6",
@@ -174,7 +236,14 @@
         "九月 (jiǔyuè) - septembre",
         "九个 (jiǔgè) - neuf"
       ],
-      "mnemonics": "Coude plié = neuf"
+      "mnemonics": "Coude plié = neuf",
+      "listeningSentences": [
+        "九月开学了。",
+        "九点睡觉。",
+        "我有九个苹果。",
+        "九十九块钱。",
+        "九天后回来。"
+      ]
     },
     {
       "id": "CA13E409-715C-40C2-B0B8-C563FE0646F2",
@@ -191,7 +260,14 @@
         "十月 (shíyuè) - octobre",
         "十个 (shígè) - dix"
       ],
-      "mnemonics": "Croix = dix doigts, complet"
+      "mnemonics": "Croix = dix doigts, complet",
+      "listeningSentences": [
+        "十月很凉爽。",
+        "十点钟见面。",
+        "我买了十个橙子。",
+        "十块钱一个。",
+        "十天的假期。"
+      ]
     },
     {
       "id": "73AE9200-DB02-48E1-A3CB-CEDA9295EAEA",
@@ -207,7 +283,13 @@
       "examples": [
         "十一月 (shíyīyuè) - novembre"
       ],
-      "mnemonics": "Dix + un = onze"
+      "mnemonics": "Dix + un = onze",
+      "listeningSentences": [
+        "十一月很冷。",
+        "十一点吃午饭。",
+        "我有十一本书。",
+        "十一号见面。"
+      ]
     },
     {
       "id": "D9E7ECE7-307F-4E8D-BF88-A89F55636647",
@@ -224,7 +306,14 @@
         "十二月 (shí'èryuè) - décembre",
         "十二点 (shí'èrdiǎn) - midi"
       ],
-      "mnemonics": "Dix + deux = douze"
+      "mnemonics": "Dix + deux = douze",
+      "listeningSentences": [
+        "十二月下雪了。",
+        "十二点吃午饭。",
+        "一年有十二个月。",
+        "十二个鸡蛋一盒。",
+        "十二岁上中学。"
+      ]
     },
     {
       "id": "E876D540-B0C4-4568-9ECD-AC876AC8DADE",
@@ -240,7 +329,13 @@
       "examples": [
         "十三号 (shísānhào) - le treize (date)"
       ],
-      "mnemonics": "Dix + trois = treize"
+      "mnemonics": "Dix + trois = treize",
+      "listeningSentences": [
+        "今天十三号。",
+        "我十三岁。",
+        "十三块钱。",
+        "十三个学生。"
+      ]
     },
     {
       "id": "56853C07-B10C-4E21-90E9-FC4792DFDA71",
@@ -256,7 +351,13 @@
       "examples": [
         "十四号 (shísìhào) - le quatorze (date)"
       ],
-      "mnemonics": "Dix + quatre = quatorze"
+      "mnemonics": "Dix + quatre = quatorze",
+      "listeningSentences": [
+        "明天十四号。",
+        "我买了十四个苹果。",
+        "十四天的旅行。",
+        "十四块一斤。"
+      ]
     },
     {
       "id": "22A3676D-8ECF-4BC6-AC70-B02A2C072A3B",
@@ -272,7 +373,14 @@
       "examples": [
         "十五号 (shíwǔhào) - le quinze (date)"
       ],
-      "mnemonics": "Dix + cinq = quinze"
+      "mnemonics": "Dix + cinq = quinze",
+      "listeningSentences": [
+        "今天十五号。",
+        "十五分钟后见。",
+        "我有十五个朋友。",
+        "十五块一杯奶茶。",
+        "十五天后回来。"
+      ]
     },
     {
       "id": "377D24A7-680C-459B-A12B-083AD53A2687",
@@ -288,7 +396,13 @@
       "examples": [
         "十六号 (shíliùhào) - le seize (date)"
       ],
-      "mnemonics": "Dix + six = seize"
+      "mnemonics": "Dix + six = seize",
+      "listeningSentences": [
+        "后天十六号。",
+        "我十六岁了。",
+        "十六个人一起去。",
+        "十六块钱一个。"
+      ]
     },
     {
       "id": "AA463B5F-8DB3-4592-A16C-966C72777275",
@@ -304,7 +418,13 @@
       "examples": [
         "十七号 (shíqīhào) - le dix-sept (date)"
       ],
-      "mnemonics": "Dix + sept = dix-sept"
+      "mnemonics": "Dix + sept = dix-sept",
+      "listeningSentences": [
+        "下周十七号。",
+        "我十七岁上大学。",
+        "十七个学生。",
+        "十七点钟见面。"
+      ]
     },
     {
       "id": "A34CE520-050D-40E7-82FE-FAFE7D4E0287",
@@ -320,7 +440,14 @@
       "examples": [
         "十八号 (shíbāhào) - le dix-huit (date)"
       ],
-      "mnemonics": "Dix + huit = dix-huit"
+      "mnemonics": "Dix + huit = dix-huit",
+      "listeningSentences": [
+        "今天十八号。",
+        "我十八岁了。",
+        "十八个苹果。",
+        "十八块一斤。",
+        "十八天的假期。"
+      ]
     },
     {
       "id": "3E532A12-886B-4EDC-A8CA-968C3D6465D3",
@@ -336,7 +463,13 @@
       "examples": [
         "十九号 (shíjiǔhào) - le dix-neuf (date)"
       ],
-      "mnemonics": "Dix + neuf = dix-neuf"
+      "mnemonics": "Dix + neuf = dix-neuf",
+      "listeningSentences": [
+        "明天十九号。",
+        "我十九岁。",
+        "十九个学生。",
+        "十九块钱一个。"
+      ]
     },
     {
       "id": "9C908C5C-B0E7-4202-92A1-26C795F5BE42",
@@ -353,7 +486,14 @@
         "二十号 (èrshíhào) - le vingt (date)",
         "二十岁 (èrshí suì) - vingt ans"
       ],
-      "mnemonics": "Deux + dix = vingt (2 × 10)"
+      "mnemonics": "Deux + dix = vingt (2 × 10)",
+      "listeningSentences": [
+        "今天二十号。",
+        "我二十岁了。",
+        "二十个人。",
+        "二十块钱一斤。",
+        "二十分钟后到。"
+      ]
     }
   ]
 }
