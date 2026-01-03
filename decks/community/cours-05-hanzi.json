@@ -3,7 +3,7 @@
   "name": "Cours 05 - 汉字",
   "description": "Caractères du cours 5 - Verbes et expressions essentiels",
   "category": "community",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-26T10:00:00Z",
   "characters": [
@@ -15,8 +15,12 @@
       "meaning": ["s'appeler", "crier"],
       "frequency": 35,
       "hskLevel": 1,
-      "examples": ["我叫... (wǒ jiào...) - je m'appelle...", "你叫什么名字？(nǐ jiào shénme míngzi?) - comment t'appelles-tu ?"],
-      "mnemonics": "Bouche (口) qui crie"
+      "examples": [
+        "我叫... (wǒ jiào...) - je m'appelle...",
+        "你叫什么名字？(nǐ jiào shénme míngzi?) - comment t'appelles-tu ?",
+        "我妈妈叫我 (wǒ māma jiào wǒ) - ma mère m'appelle"
+      ],
+      "mnemonics": "Bouche (口) qui crie. Note: 我叫 + prénom"
     },
     {
       "id": "c0500000-0000-0000-0000-000000000002",
@@ -37,7 +41,13 @@
       "meaning": ["caractère", "mot"],
       "frequency": 22,
       "hskLevel": 1,
-      "examples": ["名字 (míngzi) - nom", "汉字 (hànzì) - caractère chinois", "写字 (xiězì) - écrire des caractères"],
+      "examples": [
+        "名字 (míngzi) - nom",
+        "汉字 (hànzì) - caractère chinois",
+        "写字 (xiězì) - écrire des caractères",
+        "儿子 (érzi) - fils",
+        "女儿 (nǚér) - fille"
+      ],
       "mnemonics": "Enfant (子) sous un toit (宀) = caractère"
     },
     {
@@ -48,7 +58,11 @@
       "meaning": ["fermer", "concernant"],
       "frequency": 45,
       "hskLevel": 1,
-      "examples": ["关门 (guānmén) - fermer la porte", "关系 (guānxi) - relation"],
+      "examples": [
+        "关门 (guānmén) - fermer la porte",
+        "开门 (kāimén) - ouvrir la porte",
+        "关系 (guānxi) - relation"
+      ],
       "mnemonics": "Porte avec une barre pour fermer"
     },
     {
@@ -59,7 +73,13 @@
       "meaning": ["de", "depuis", "suivre"],
       "frequency": 18,
       "hskLevel": 1,
-      "examples": ["从...到... (cóng...dào...) - de...à...", "从这里 (cóng zhèlǐ) - d'ici"],
+      "examples": [
+        "从...到... (cóng...dào...) - de...à...",
+        "从这里 (cóng zhèlǐ) - d'ici",
+        "你从哪里来？(nǐ cóng nǎlǐ lái?) - d'où viens-tu ?",
+        "你从什么地方来？(nǐ cóng shénme dìfang lái?) - de quel endroit viens-tu ?",
+        "你是什么地方人？(nǐ shì shénme dìfang rén?) - tu es de quel endroit ?"
+      ],
       "mnemonics": "Deux personnes qui se suivent"
     },
     {
@@ -70,7 +90,12 @@
       "meaning": ["cœur", "esprit"],
       "frequency": 32,
       "hskLevel": 1,
-      "examples": ["小心 (xiǎoxīn) - faire attention", "开心 (kāixīn) - content", "心情 (xīnqíng) - humeur"],
+      "examples": [
+        "小心 (xiǎoxīn) - faire attention",
+        "开心 (kāixīn) - content, heureux",
+        "快乐 (kuàilè) - joyeux, content",
+        "心情 (xīnqíng) - humeur"
+      ],
       "mnemonics": "Dessin d'un cœur"
     },
     {
@@ -92,7 +117,12 @@
       "meaning": ["bon", "bien"],
       "frequency": 12,
       "hskLevel": 1,
-      "examples": ["你好 (nǐ hǎo) - bonjour", "很好 (hěn hǎo) - très bien", "好吃 (hǎochī) - délicieux"],
+      "examples": [
+        "你好 (nǐ hǎo) - bonjour",
+        "很好 (hěn hǎo) - très bien",
+        "好吃 (hǎochī) - délicieux",
+        "看 (kàn) - regarder, voir"
+      ],
       "mnemonics": "Femme (女) + enfant (子) = bon/bien"
     },
     {
@@ -103,7 +133,11 @@
       "meaning": ["voir", "apercevoir"],
       "frequency": 38,
       "hskLevel": 1,
-      "examples": ["再见 (zàijiàn) - au revoir", "看见 (kànjiàn) - voir"],
+      "examples": [
+        "再见 (zàijiàn) - au revoir",
+        "看见 (kànjiàn) - voir",
+        "看 (kàn) - regarder"
+      ],
       "mnemonics": "Œil au-dessus de jambes = voir"
     },
     {
@@ -114,8 +148,12 @@
       "meaning": ["être"],
       "frequency": 5,
       "hskLevel": 1,
-      "examples": ["我是... (wǒ shì...) - je suis...", "这是... (zhè shì...) - c'est..."],
-      "mnemonics": "Soleil (日) sous un trait = être/affirmer"
+      "examples": [
+        "我是... (wǒ shì...) - je suis...",
+        "这是... (zhè shì...) - c'est...",
+        "我是法国人 (wǒ shì fǎguó rén) - je suis français"
+      ],
+      "mnemonics": "Soleil (日) + en dessous (下) + personne (人) = être/affirmer"
     }
   ]
 }
