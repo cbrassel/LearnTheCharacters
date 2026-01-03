@@ -3,7 +3,7 @@
   "name": "Cours 04 - 汉字",
   "description": "Caractères du cours 4 - Personnes et objets quotidiens",
   "category": "community",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-18T09:40:00Z",
   "characters": [
@@ -18,11 +18,26 @@
       "examples": ["刀子 (dāozi) - couteau"],
       "mnemonics": "Forme d'une lame de couteau",
       "listeningSentences": [
-        "这把刀很锋利。",
-        "我买了一把新刀。",
-        "用刀切菜。",
-        "刀在哪儿？",
-        "小心这把刀。"
+        {
+          "chinese": "这把刀很锋利。",
+          "translation": "Ce couteau est très tranchant."
+        },
+        {
+          "chinese": "我买了一把新刀。",
+          "translation": "J'ai acheté un nouveau couteau."
+        },
+        {
+          "chinese": "用刀切菜。",
+          "translation": "Coupe les légumes avec le couteau."
+        },
+        {
+          "chinese": "刀在哪儿？",
+          "translation": "Où est le couteau ?"
+        },
+        {
+          "chinese": "小心这把刀。",
+          "translation": "Fais attention à ce couteau."
+        }
       ]
     },
     {
@@ -36,11 +51,26 @@
       "examples": ["力气 (lìqi) - force physique", "努力 (nǔlì) - faire des efforts"],
       "mnemonics": "Bras musclé = force",
       "listeningSentences": [
-        "我没有力气了。",
-        "他很有力量。",
-        "要努力学习。",
-        "这需要很大的力气。",
-        "加油，加把力！"
+        {
+          "chinese": "我没有力气了。",
+          "translation": "Je n'ai plus de force."
+        },
+        {
+          "chinese": "他很有力量。",
+          "translation": "Il est très fort."
+        },
+        {
+          "chinese": "要努力学习。",
+          "translation": "Il faut étudier avec application."
+        },
+        {
+          "chinese": "这需要很大的力气。",
+          "translation": "Ça demande beaucoup de force."
+        },
+        {
+          "chinese": "加油，加把力！",
+          "translation": "Courage, mets-y de l'énergie !"
+        }
       ]
     },
     {
@@ -54,11 +84,26 @@
       "examples": ["田地 (tiándì) - champs"],
       "mnemonics": "Dessin d'un champ divisé en parcelles",
       "listeningSentences": [
-        "他在田里工作。",
-        "这片田很大。",
-        "农民种田很辛苦。",
-        "田里有很多稻子。",
-        "我家有三块田。"
+        {
+          "chinese": "他在田里工作。",
+          "translation": "Il travaille dans les champs."
+        },
+        {
+          "chinese": "这片田很大。",
+          "translation": "Ce champ est très grand."
+        },
+        {
+          "chinese": "农民种田很辛苦。",
+          "translation": "Cultiver les champs est très difficile pour les paysans."
+        },
+        {
+          "chinese": "田里有很多稻子。",
+          "translation": "Il y a beaucoup de riz dans le champ."
+        },
+        {
+          "chinese": "我家有三块田。",
+          "translation": "Ma famille a trois champs."
+        }
       ]
     },
     {
@@ -72,11 +117,26 @@
       "examples": ["男人 (nánrén) - homme", "男朋友 (nán péngyou) - petit ami"],
       "mnemonics": "Force (力) dans le champ (田) = homme",
       "listeningSentences": [
-        "他是个男孩。",
-        "这是男厕所。",
-        "我的男朋友很好。",
-        "男人也会做饭。",
-        "班上有十个男生。"
+        {
+          "chinese": "他是个男孩。",
+          "translation": "C'est un garçon."
+        },
+        {
+          "chinese": "这是男厕所。",
+          "translation": "Ce sont les toilettes pour hommes."
+        },
+        {
+          "chinese": "我的男朋友很好。",
+          "translation": "Mon petit ami est très gentil."
+        },
+        {
+          "chinese": "男人也会做饭。",
+          "translation": "Les hommes savent aussi cuisiner."
+        },
+        {
+          "chinese": "班上有十个男生。",
+          "translation": "Il y a dix garçons dans la classe."
+        }
       ]
     },
     {
@@ -90,11 +150,26 @@
       "examples": ["电脑 (diànnǎo) - ordinateur", "电影 (diànyǐng) - film", "电话 (diànhuà) - téléphone", "电视 (diànshì) - télévision"],
       "mnemonics": "Éclair stylisé = électricité",
       "listeningSentences": [
-        "我的电脑坏了。",
-        "今晚看电影吧。",
-        "给我打电话。",
-        "电视在哪儿？",
-        "停电了。"
+        {
+          "chinese": "我的电脑坏了。",
+          "translation": "Mon ordinateur est cassé."
+        },
+        {
+          "chinese": "今晚看电影吧。",
+          "translation": "Regardons un film ce soir."
+        },
+        {
+          "chinese": "给我打电话。",
+          "translation": "Appelle-moi."
+        },
+        {
+          "chinese": "电视在哪儿？",
+          "translation": "Où est la télévision ?"
+        },
+        {
+          "chinese": "停电了。",
+          "translation": "Il y a une coupure de courant."
+        }
       ]
     },
     {
@@ -108,11 +183,26 @@
       "examples": ["女人 (nǚrén) - femme", "女朋友 (nǚ péngyou) - petite amie", "女儿 (nǚ'ér) - fille (enfant)"],
       "mnemonics": "Femme agenouillée avec les mains croisées",
       "listeningSentences": [
-        "她是个女孩。",
-        "这是女厕所。",
-        "我有一个女儿。",
-        "女人也很坚强。",
-        "她是我女朋友。"
+        {
+          "chinese": "她是个女孩。",
+          "translation": "C'est une fille."
+        },
+        {
+          "chinese": "这是女厕所。",
+          "translation": "Ce sont les toilettes pour femmes."
+        },
+        {
+          "chinese": "我有一个女儿。",
+          "translation": "J'ai une fille."
+        },
+        {
+          "chinese": "女人也很坚强。",
+          "translation": "Les femmes sont aussi très fortes."
+        },
+        {
+          "chinese": "她是我女朋友。",
+          "translation": "C'est ma petite amie."
+        }
       ]
     },
     {
@@ -126,11 +216,26 @@
       "examples": ["明天 (míngtiān) - demain", "一天 (yītiān) - un jour"],
       "mnemonics": "Grand (大) au-dessus = ciel",
       "listeningSentences": [
-        "今天星期几？",
-        "天空很蓝。",
-        "每天都很忙。",
-        "三天后见。",
-        "天气真好。"
+        {
+          "chinese": "今天星期几？",
+          "translation": "Quel jour sommes-nous aujourd'hui ?"
+        },
+        {
+          "chinese": "天空很蓝。",
+          "translation": "Le ciel est très bleu."
+        },
+        {
+          "chinese": "每天都很忙。",
+          "translation": "Chaque jour je suis très occupé."
+        },
+        {
+          "chinese": "三天后见。",
+          "translation": "À dans trois jours."
+        },
+        {
+          "chinese": "天气真好。",
+          "translation": "Le temps est vraiment beau."
+        }
       ]
     },
     {
@@ -144,11 +249,26 @@
       "examples": ["太 + adj + 了 (tài... le) - trop...", "太大了 (tài dà le) - trop grand", "太小了 (tài xiǎo le) - trop petit"],
       "mnemonics": "Grand (大) + point = trop grand",
       "listeningSentences": [
-        "太贵了！",
-        "这个太大了。",
-        "今天太热了。",
-        "太好了！",
-        "太累了，我要休息。"
+        {
+          "chinese": "太贵了！",
+          "translation": "C'est trop cher !"
+        },
+        {
+          "chinese": "这个太大了。",
+          "translation": "C'est trop grand."
+        },
+        {
+          "chinese": "今天太热了。",
+          "translation": "Il fait trop chaud aujourd'hui."
+        },
+        {
+          "chinese": "太好了！",
+          "translation": "C'est super !"
+        },
+        {
+          "chinese": "太累了，我要休息。",
+          "translation": "Je suis trop fatigué, je vais me reposer."
+        }
       ]
     },
     {
@@ -162,11 +282,26 @@
       "examples": ["太大了 (tài dà le) - trop grand", "我去了 (wǒ qù le) - je suis parti"],
       "mnemonics": "Particule grammaticale très fréquente",
       "listeningSentences": [
-        "我吃饱了。",
-        "他走了。",
-        "买了三个苹果。",
-        "下雨了。",
-        "我明白了。"
+        {
+          "chinese": "我吃饱了。",
+          "translation": "J'ai assez mangé."
+        },
+        {
+          "chinese": "他走了。",
+          "translation": "Il est parti."
+        },
+        {
+          "chinese": "买了三个苹果。",
+          "translation": "J'ai acheté trois pommes."
+        },
+        {
+          "chinese": "下雨了。",
+          "translation": "Il pleut."
+        },
+        {
+          "chinese": "我明白了。",
+          "translation": "J'ai compris."
+        }
       ]
     },
     {
@@ -180,11 +315,26 @@
       "examples": ["儿子 (érzi) - fils", "孩子 (háizi) - enfant"],
       "mnemonics": "Bébé emmailloté = enfant",
       "listeningSentences": [
-        "我有两个孩子。",
-        "这是我儿子。",
-        "桌子在哪儿？",
-        "给我一双筷子。",
-        "孩子们在玩。"
+        {
+          "chinese": "我有两个孩子。",
+          "translation": "J'ai deux enfants."
+        },
+        {
+          "chinese": "这是我儿子。",
+          "translation": "C'est mon fils."
+        },
+        {
+          "chinese": "桌子在哪儿？",
+          "translation": "Où est la table ?"
+        },
+        {
+          "chinese": "给我一双筷子。",
+          "translation": "Donne-moi une paire de baguettes."
+        },
+        {
+          "chinese": "孩子们在玩。",
+          "translation": "Les enfants jouent."
+        }
       ]
     }
   ]

@@ -3,7 +3,7 @@
   "name": "Cours 03 - 汉字",
   "description": "Caractères du cours 3 - Directions et concepts de base",
   "category": "community",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-17T20:45:00Z",
   "characters": [
@@ -18,11 +18,26 @@
       "examples": ["上山 (shàngshān) - monter la montagne"],
       "mnemonics": "Trait horizontal au-dessus = haut",
       "listeningSentences": [
-        "我上楼了。",
-        "上课很有意思。",
-        "他上班很早。",
-        "我们上山吧。",
-        "书在桌子上。"
+        {
+          "chinese": "我上楼了。",
+          "translation": "Je monte à l'étage."
+        },
+        {
+          "chinese": "上课很有意思。",
+          "translation": "Le cours est très intéressant."
+        },
+        {
+          "chinese": "他上班很早。",
+          "translation": "Il va au travail très tôt."
+        },
+        {
+          "chinese": "我们上山吧。",
+          "translation": "Montons la montagne."
+        },
+        {
+          "chinese": "书在桌子上。",
+          "translation": "Le livre est sur la table."
+        }
       ]
     },
     {
@@ -36,11 +51,26 @@
       "examples": ["下车 (xià chē) - descendre", "山下 (shān xià) - au pied de la montagne"],
       "mnemonics": "Trait horizontal en dessous = bas",
       "listeningSentences": [
-        "我下楼买东西。",
-        "下课后见面。",
-        "他下班很晚。",
-        "我们下山吧。",
-        "猫在桌子下。"
+        {
+          "chinese": "我下楼买东西。",
+          "translation": "Je descends acheter des choses."
+        },
+        {
+          "chinese": "下课后见面。",
+          "translation": "On se voit après le cours."
+        },
+        {
+          "chinese": "他下班很晚。",
+          "translation": "Il finit le travail très tard."
+        },
+        {
+          "chinese": "我们下山吧。",
+          "translation": "Descendons la montagne."
+        },
+        {
+          "chinese": "猫在桌子下。",
+          "translation": "Le chat est sous la table."
+        }
       ]
     },
     {
@@ -54,11 +84,26 @@
       "examples": ["左手 (zuǒshǒu) - main gauche"],
       "mnemonics": "Main gauche tenant un outil de travail",
       "listeningSentences": [
-        "我的左手很疼。",
-        "向左转。",
-        "银行在左边。",
-        "左边是我的房间。",
-        "用左手写字很难。"
+        {
+          "chinese": "我的左手很疼。",
+          "translation": "Ma main gauche me fait mal."
+        },
+        {
+          "chinese": "向左转。",
+          "translation": "Tourne à gauche."
+        },
+        {
+          "chinese": "银行在左边。",
+          "translation": "La banque est à gauche."
+        },
+        {
+          "chinese": "左边是我的房间。",
+          "translation": "À gauche c'est ma chambre."
+        },
+        {
+          "chinese": "用左手写字很难。",
+          "translation": "C'est difficile d'écrire avec la main gauche."
+        }
       ]
     },
     {
@@ -72,11 +117,26 @@
       "examples": ["右手 (yòushǒu) - main droite"],
       "mnemonics": "Main droite tenant la bouche (口) = main dominante",
       "listeningSentences": [
-        "我用右手吃饭。",
-        "向右转。",
-        "超市在右边。",
-        "右边是图书馆。",
-        "我的右脚受伤了。"
+        {
+          "chinese": "我用右手吃饭。",
+          "translation": "Je mange avec ma main droite."
+        },
+        {
+          "chinese": "向右转。",
+          "translation": "Tourne à droite."
+        },
+        {
+          "chinese": "超市在右边。",
+          "translation": "Le supermarché est à droite."
+        },
+        {
+          "chinese": "右边是图书馆。",
+          "translation": "À droite c'est la bibliothèque."
+        },
+        {
+          "chinese": "我的右脚受伤了。",
+          "translation": "Mon pied droit est blessé."
+        }
       ]
     },
     {
@@ -90,11 +150,26 @@
       "examples": ["不是 (bùshì) - ne pas être", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
       "mnemonics": "Oiseau qui ne peut pas voler = négation",
       "listeningSentences": [
-        "我不喜欢咖啡。",
-        "他不是老师。",
-        "今天不冷。",
-        "我不会说日语。",
-        "这个不贵。"
+        {
+          "chinese": "我不喜欢咖啡。",
+          "translation": "Je n'aime pas le café."
+        },
+        {
+          "chinese": "他不是老师。",
+          "translation": "Il n'est pas professeur."
+        },
+        {
+          "chinese": "今天不冷。",
+          "translation": "Il ne fait pas froid aujourd'hui."
+        },
+        {
+          "chinese": "我不会说日语。",
+          "translation": "Je ne sais pas parler japonais."
+        },
+        {
+          "chinese": "这个不贵。",
+          "translation": "Ce n'est pas cher."
+        }
       ]
     },
     {
@@ -108,11 +183,26 @@
       "examples": ["中国 (zhōngguó) - Chine", "中间 (zhōngjiān) - au milieu"],
       "mnemonics": "Flèche traversant le centre d'une cible = milieu",
       "listeningSentences": [
-        "我在学中文。",
-        "中国很大。",
-        "书在桌子中间。",
-        "我喜欢中国菜。",
-        "中午吃什么？"
+        {
+          "chinese": "我在学中文。",
+          "translation": "J'étudie le chinois."
+        },
+        {
+          "chinese": "中国很大。",
+          "translation": "La Chine est très grande."
+        },
+        {
+          "chinese": "书在桌子中间。",
+          "translation": "Le livre est au milieu de la table."
+        },
+        {
+          "chinese": "我喜欢中国菜。",
+          "translation": "J'aime la cuisine chinoise."
+        },
+        {
+          "chinese": "中午吃什么？",
+          "translation": "Qu'est-ce qu'on mange à midi ?"
+        }
       ]
     },
     {
@@ -126,11 +216,26 @@
       "examples": ["中国 (zhōngguó) - Chine", "我是中国人 (wǒ shì zhōngguó rén) - Je suis chinois", "我不是日本人 (wǒ bù shì rìběnrén) - Je ne suis pas japonais"],
       "mnemonics": "Enceinte (囗) protégeant un territoire = pays",
       "listeningSentences": [
-        "我来自中国。",
-        "你去过哪个国家？",
-        "美国很远。",
-        "这个国家很美丽。",
-        "法国的美食很好吃。"
+        {
+          "chinese": "我来自中国。",
+          "translation": "Je viens de Chine."
+        },
+        {
+          "chinese": "你去过哪个国家？",
+          "translation": "Dans quel pays es-tu allé ?"
+        },
+        {
+          "chinese": "美国很远。",
+          "translation": "Les États-Unis sont très loin."
+        },
+        {
+          "chinese": "这个国家很美丽。",
+          "translation": "Ce pays est très beau."
+        },
+        {
+          "chinese": "法国的美食很好吃。",
+          "translation": "La cuisine française est délicieuse."
+        }
       ]
     },
     {
@@ -144,11 +249,26 @@
       "examples": ["上山 (shàngshān) - monter la montagne", "山下 (shān xià) - au pied de la montagne"],
       "mnemonics": "Trois pics de montagne",
       "listeningSentences": [
-        "这座山很高。",
-        "我爬山爬累了。",
-        "山上有雪。",
-        "周末去爬山吧。",
-        "山下有个村子。"
+        {
+          "chinese": "这座山很高。",
+          "translation": "Cette montagne est très haute."
+        },
+        {
+          "chinese": "我爬山爬累了。",
+          "translation": "Je suis fatigué de grimper la montagne."
+        },
+        {
+          "chinese": "山上有雪。",
+          "translation": "Il y a de la neige sur la montagne."
+        },
+        {
+          "chinese": "周末去爬山吧。",
+          "translation": "Allons faire de la randonnée ce week-end."
+        },
+        {
+          "chinese": "山下有个村子。",
+          "translation": "Il y a un village au pied de la montagne."
+        }
       ]
     },
     {
@@ -162,11 +282,26 @@
       "examples": ["一月 (yīyuè) - janvier", "三月 (sānyuè) - mars", "五月 (wǔyuè) - mai"],
       "mnemonics": "Croissant de lune",
       "listeningSentences": [
-        "今天几月几号？",
-        "三月去旅游。",
-        "一个月有三十天。",
-        "今晚的月亮很美。",
-        "我学了六个月中文。"
+        {
+          "chinese": "今天几月几号？",
+          "translation": "Quel jour sommes-nous ?"
+        },
+        {
+          "chinese": "三月去旅游。",
+          "translation": "Je pars en voyage en mars."
+        },
+        {
+          "chinese": "一个月有三十天。",
+          "translation": "Un mois a trente jours."
+        },
+        {
+          "chinese": "今晚的月亮很美。",
+          "translation": "La lune est très belle ce soir."
+        },
+        {
+          "chinese": "我学了六个月中文。",
+          "translation": "J'ai étudié le chinois pendant six mois."
+        }
       ]
     },
     {
@@ -180,11 +315,26 @@
       "examples": ["明天 (míngtiān) - demain"],
       "mnemonics": "Soleil (日) + Lune (月) = brillant, clarté",
       "listeningSentences": [
-        "明天见。",
-        "明天去哪儿？",
-        "房间很明亮。",
-        "明天天气好。",
-        "我明白了。"
+        {
+          "chinese": "明天见。",
+          "translation": "À demain."
+        },
+        {
+          "chinese": "明天去哪儿？",
+          "translation": "Où vas-tu demain ?"
+        },
+        {
+          "chinese": "房间很明亮。",
+          "translation": "La chambre est très lumineuse."
+        },
+        {
+          "chinese": "明天天气好。",
+          "translation": "Le temps sera beau demain."
+        },
+        {
+          "chinese": "我明白了。",
+          "translation": "J'ai compris."
+        }
       ]
     },
     {
@@ -198,11 +348,26 @@
       "examples": ["明天 (míngtiān) - demain", "今天 (jīntiān) - aujourd'hui"],
       "mnemonics": "Grand (大) au-dessus = ciel",
       "listeningSentences": [
-        "今天很热。",
-        "天气怎么样？",
-        "蓝天白云。",
-        "每天学习很重要。",
-        "三天后回来。"
+        {
+          "chinese": "今天很热。",
+          "translation": "Il fait très chaud aujourd'hui."
+        },
+        {
+          "chinese": "天气怎么样？",
+          "translation": "Comment est le temps ?"
+        },
+        {
+          "chinese": "蓝天白云。",
+          "translation": "Ciel bleu et nuages blancs."
+        },
+        {
+          "chinese": "每天学习很重要。",
+          "translation": "Étudier chaque jour est très important."
+        },
+        {
+          "chinese": "三天后回来。",
+          "translation": "Je reviens dans trois jours."
+        }
       ]
     }
   ]

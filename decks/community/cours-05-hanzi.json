@@ -3,7 +3,7 @@
   "name": "Cours 05 - 汉字",
   "description": "Caractères du cours 5 - Verbes et expressions essentiels",
   "category": "community",
-  "version": "1.2",
+  "version": "1.3",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-26T10:00:00Z",
   "characters": [
@@ -22,11 +22,26 @@
       ],
       "mnemonics": "Bouche (口) qui crie. Note: 我叫 + prénom",
       "listeningSentences": [
-        "我叫马克。",
-        "你叫什么名字？",
-        "他叫李明。",
-        "这个怎么叫？",
-        "我叫出租车了。"
+        {
+          "chinese": "我叫马克。",
+          "translation": "Je m'appelle Marc."
+        },
+        {
+          "chinese": "你叫什么名字？",
+          "translation": "Comment tu t'appelles ?"
+        },
+        {
+          "chinese": "他叫李明。",
+          "translation": "Il s'appelle Li Ming."
+        },
+        {
+          "chinese": "这个怎么叫？",
+          "translation": "Comment ça s'appelle ?"
+        },
+        {
+          "chinese": "我叫出租车了。",
+          "translation": "J'ai appelé un taxi."
+        }
       ]
     },
     {
@@ -40,11 +55,26 @@
       "examples": ["名字 (míngzi) - nom", "有名 (yǒumíng) - célèbre"],
       "mnemonics": "Soir (夕) + bouche (口) = se nommer dans l'obscurité",
       "listeningSentences": [
-        "你的名字很好听。",
-        "这个地方很有名。",
-        "名字怎么写？",
-        "他是个名人。",
-        "我忘了你的名字。"
+        {
+          "chinese": "你的名字很好听。",
+          "translation": "Ton nom est très joli."
+        },
+        {
+          "chinese": "这个地方很有名。",
+          "translation": "Cet endroit est très célèbre."
+        },
+        {
+          "chinese": "名字怎么写？",
+          "translation": "Comment écrire le nom ?"
+        },
+        {
+          "chinese": "他是个名人。",
+          "translation": "C'est une célébrité."
+        },
+        {
+          "chinese": "我忘了你的名字。",
+          "translation": "J'ai oublié ton nom."
+        }
       ]
     },
     {
@@ -64,11 +94,26 @@
       ],
       "mnemonics": "Enfant (子) sous un toit (宀) = caractère",
       "listeningSentences": [
-        "这个字怎么读？",
-        "我会写一百个汉字。",
-        "这个字很难写。",
-        "学汉字很有意思。",
-        "写字要认真。"
+        {
+          "chinese": "这个字怎么读？",
+          "translation": "Comment lire ce caractère ?"
+        },
+        {
+          "chinese": "我会写一百个汉字。",
+          "translation": "Je sais écrire cent caractères chinois."
+        },
+        {
+          "chinese": "这个字很难写。",
+          "translation": "Ce caractère est difficile à écrire."
+        },
+        {
+          "chinese": "学汉字很有意思。",
+          "translation": "Apprendre les caractères chinois est très intéressant."
+        },
+        {
+          "chinese": "写字要认真。",
+          "translation": "Il faut être sérieux pour écrire."
+        }
       ]
     },
     {
@@ -86,11 +131,26 @@
       ],
       "mnemonics": "Porte avec une barre pour fermer",
       "listeningSentences": [
-        "请关门。",
-        "关窗户吧。",
-        "我们关系很好。",
-        "关灯睡觉。",
-        "这跟我有关系。"
+        {
+          "chinese": "请关门。",
+          "translation": "Ferme la porte s'il te plaît."
+        },
+        {
+          "chinese": "关窗户吧。",
+          "translation": "Ferme la fenêtre."
+        },
+        {
+          "chinese": "我们关系很好。",
+          "translation": "Nous avons une bonne relation."
+        },
+        {
+          "chinese": "关灯睡觉。",
+          "translation": "Éteins la lumière pour dormir."
+        },
+        {
+          "chinese": "这跟我有关系。",
+          "translation": "Ça me concerne."
+        }
       ]
     },
     {
@@ -110,11 +170,26 @@
       ],
       "mnemonics": "Deux personnes qui se suivent",
       "listeningSentences": [
-        "我从法国来。",
-        "从这里到那里很近。",
-        "从明天开始。",
-        "从早到晚都很忙。",
-        "你从哪里来？"
+        {
+          "chinese": "我从法国来。",
+          "translation": "Je viens de France."
+        },
+        {
+          "chinese": "从这里到那里很近。",
+          "translation": "D'ici à là-bas c'est très proche."
+        },
+        {
+          "chinese": "从明天开始。",
+          "translation": "À partir de demain."
+        },
+        {
+          "chinese": "从早到晚都很忙。",
+          "translation": "Du matin au soir je suis très occupé."
+        },
+        {
+          "chinese": "你从哪里来？",
+          "translation": "D'où viens-tu ?"
+        }
       ]
     },
     {
@@ -133,11 +208,26 @@
       ],
       "mnemonics": "Dessin d'un cœur",
       "listeningSentences": [
-        "小心点儿！",
-        "我很开心。",
-        "他很有爱心。",
-        "今天心情很好。",
-        "用心学习。"
+        {
+          "chinese": "小心点儿！",
+          "translation": "Fais attention !"
+        },
+        {
+          "chinese": "我很开心。",
+          "translation": "Je suis très content."
+        },
+        {
+          "chinese": "他很有爱心。",
+          "translation": "Il a beaucoup de compassion."
+        },
+        {
+          "chinese": "今天心情很好。",
+          "translation": "Je suis de bonne humeur aujourd'hui."
+        },
+        {
+          "chinese": "用心学习。",
+          "translation": "Étudie avec application."
+        }
       ]
     },
     {
@@ -151,11 +241,26 @@
       "examples": ["您好 (nín hǎo) - bonjour (poli)", "谢谢您 (xièxie nín) - merci (poli)"],
       "mnemonics": "Vous (你) + cœur (心) = vous poli",
       "listeningSentences": [
-        "您好！",
-        "谢谢您的帮助。",
-        "您贵姓？",
-        "请问您是哪位？",
-        "祝您健康。"
+        {
+          "chinese": "您好！",
+          "translation": "Bonjour ! (poli)"
+        },
+        {
+          "chinese": "谢谢您的帮助。",
+          "translation": "Merci pour votre aide."
+        },
+        {
+          "chinese": "您贵姓？",
+          "translation": "Quel est votre nom de famille ? (poli)"
+        },
+        {
+          "chinese": "请问您是哪位？",
+          "translation": "Qui êtes-vous s'il vous plaît ?"
+        },
+        {
+          "chinese": "祝您健康。",
+          "translation": "Je vous souhaite la santé."
+        }
       ]
     },
     {
@@ -174,11 +279,26 @@
       ],
       "mnemonics": "Femme (女) + enfant (子) = bon/bien",
       "listeningSentences": [
-        "你好！",
-        "这个很好吃。",
-        "天气很好。",
-        "好主意！",
-        "你好吗？"
+        {
+          "chinese": "你好！",
+          "translation": "Bonjour !"
+        },
+        {
+          "chinese": "这个很好吃。",
+          "translation": "C'est très bon."
+        },
+        {
+          "chinese": "天气很好。",
+          "translation": "Le temps est très beau."
+        },
+        {
+          "chinese": "好主意！",
+          "translation": "Bonne idée !"
+        },
+        {
+          "chinese": "你好吗？",
+          "translation": "Comment vas-tu ?"
+        }
       ]
     },
     {
@@ -196,11 +316,26 @@
       ],
       "mnemonics": "Œil au-dessus de jambes = voir",
       "listeningSentences": [
-        "再见！",
-        "明天见。",
-        "我看见他了。",
-        "很高兴见到你。",
-        "好久不见。"
+        {
+          "chinese": "再见！",
+          "translation": "Au revoir !"
+        },
+        {
+          "chinese": "明天见。",
+          "translation": "À demain."
+        },
+        {
+          "chinese": "我看见他了。",
+          "translation": "Je l'ai vu."
+        },
+        {
+          "chinese": "很高兴见到你。",
+          "translation": "Ravi de te rencontrer."
+        },
+        {
+          "chinese": "好久不见。",
+          "translation": "Ça fait longtemps."
+        }
       ]
     },
     {
@@ -218,11 +353,26 @@
       ],
       "mnemonics": "Soleil (日) + en dessous (下) + personne (人) = être/affirmer",
       "listeningSentences": [
-        "我是学生。",
-        "这是我的书。",
-        "他是老师。",
-        "是的，没错。",
-        "你是哪国人？"
+        {
+          "chinese": "我是学生。",
+          "translation": "Je suis étudiant."
+        },
+        {
+          "chinese": "这是我的书。",
+          "translation": "C'est mon livre."
+        },
+        {
+          "chinese": "他是老师。",
+          "translation": "Il est professeur."
+        },
+        {
+          "chinese": "是的，没错。",
+          "translation": "Oui, c'est exact."
+        },
+        {
+          "chinese": "你是哪国人？",
+          "translation": "De quel pays es-tu ?"
+        }
       ]
     }
   ]

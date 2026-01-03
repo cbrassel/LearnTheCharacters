@@ -3,7 +3,7 @@
   "name": "Cours 06 - 汉字",
   "description": "Caractères du cours 6 - Écriture et objets du quotidien",
   "category": "community",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-26T10:30:00Z",
   "characters": [
@@ -18,11 +18,26 @@
       "examples": ["中文 (zhōngwén) - chinois (langue)", "文化 (wénhuà) - culture", "文字 (wénzì) - écriture"],
       "mnemonics": "Traits croisés représentant l'écriture",
       "listeningSentences": [
-        "我学中文。",
-        "中国文化很丰富。",
-        "这篇文章很好。",
-        "我喜欢中文。",
-        "文字很重要。"
+        {
+          "chinese": "我学中文。",
+          "translation": "J'apprends le chinois."
+        },
+        {
+          "chinese": "中国文化很丰富。",
+          "translation": "La culture chinoise est très riche."
+        },
+        {
+          "chinese": "这篇文章很好。",
+          "translation": "Cet article est très bien."
+        },
+        {
+          "chinese": "我喜欢中文。",
+          "translation": "J'aime le chinois."
+        },
+        {
+          "chinese": "文字很重要。",
+          "translation": "L'écriture est très importante."
+        }
       ]
     },
     {
@@ -36,11 +51,26 @@
       "examples": ["这个 (zhège) - celui-ci", "这里 (zhèlǐ) - ici", "这是... (zhè shì...) - c'est..."],
       "mnemonics": "Démonstratif pour pointer vers quelque chose proche",
       "listeningSentences": [
-        "这是我的书。",
-        "这个很好吃。",
-        "这里很漂亮。",
-        "这是什么？",
-        "我喜欢这个。"
+        {
+          "chinese": "这是我的书。",
+          "translation": "C'est mon livre."
+        },
+        {
+          "chinese": "这个很好吃。",
+          "translation": "C'est très bon."
+        },
+        {
+          "chinese": "这里很漂亮。",
+          "translation": "C'est très joli ici."
+        },
+        {
+          "chinese": "这是什么？",
+          "translation": "Qu'est-ce que c'est ?"
+        },
+        {
+          "chinese": "我喜欢这个。",
+          "translation": "J'aime celui-ci."
+        }
       ]
     },
     {
@@ -54,11 +84,26 @@
       "examples": ["自己 (zìjǐ) - soi-même", "自然 (zìrán) - naturel", "来自 (láizì) - venir de"],
       "mnemonics": "Nez pointé vers soi = soi-même",
       "listeningSentences": [
-        "我自己做的。",
-        "他来自北京。",
-        "很自然。",
-        "自己的事情自己做。",
-        "这个很自然。"
+        {
+          "chinese": "我自己做的。",
+          "translation": "Je l'ai fait moi-même."
+        },
+        {
+          "chinese": "他来自北京。",
+          "translation": "Il vient de Pékin."
+        },
+        {
+          "chinese": "很自然。",
+          "translation": "C'est très naturel."
+        },
+        {
+          "chinese": "自己的事情自己做。",
+          "translation": "Fais tes propres affaires toi-même."
+        },
+        {
+          "chinese": "这个很自然。",
+          "translation": "C'est très naturel."
+        }
       ]
     },
     {
@@ -72,11 +117,26 @@
       "examples": ["首都 (shǒudū) - capitale", "一首歌 (yī shǒu gē) - une chanson"],
       "mnemonics": "Tête avec cheveux = chef/premier",
       "listeningSentences": [
-        "北京是中国的首都。",
-        "我会唱一首歌。",
-        "这首歌很好听。",
-        "首先要学习。",
-        "这是首要任务。"
+        {
+          "chinese": "北京是中国的首都。",
+          "translation": "Pékin est la capitale de la Chine."
+        },
+        {
+          "chinese": "我会唱一首歌。",
+          "translation": "Je sais chanter une chanson."
+        },
+        {
+          "chinese": "这首歌很好听。",
+          "translation": "Cette chanson est très belle."
+        },
+        {
+          "chinese": "首先要学习。",
+          "translation": "Il faut d'abord étudier."
+        },
+        {
+          "chinese": "这是首要任务。",
+          "translation": "C'est la tâche principale."
+        }
       ]
     },
     {
@@ -90,11 +150,26 @@
       "examples": ["知道 (zhīdào) - savoir", "道路 (dàolù) - route"],
       "mnemonics": "Tête (首) qui marche = voie/chemin",
       "listeningSentences": [
-        "我知道了。",
-        "你知道吗？",
-        "这条道路很长。",
-        "我不知道。",
-        "知道了，谢谢。"
+        {
+          "chinese": "我知道了。",
+          "translation": "Je sais maintenant."
+        },
+        {
+          "chinese": "你知道吗？",
+          "translation": "Tu sais ?"
+        },
+        {
+          "chinese": "这条道路很长。",
+          "translation": "Cette route est très longue."
+        },
+        {
+          "chinese": "我不知道。",
+          "translation": "Je ne sais pas."
+        },
+        {
+          "chinese": "知道了，谢谢。",
+          "translation": "Compris, merci."
+        }
       ]
     },
     {
@@ -108,10 +183,22 @@
       "examples": ["贝壳 (bèiké) - coquillage"],
       "mnemonics": "Forme de coquillage (ancien signe de richesse)",
       "listeningSentences": [
-        "海边有很多贝壳。",
-        "这个贝壳很漂亮。",
-        "我喜欢收集贝壳。",
-        "贝壳的颜色很好看。"
+        {
+          "chinese": "海边有很多贝壳。",
+          "translation": "Il y a beaucoup de coquillages au bord de la mer."
+        },
+        {
+          "chinese": "这个贝壳很漂亮。",
+          "translation": "Ce coquillage est très joli."
+        },
+        {
+          "chinese": "我喜欢收集贝壳。",
+          "translation": "J'aime collectionner les coquillages."
+        },
+        {
+          "chinese": "贝壳的颜色很好看。",
+          "translation": "La couleur du coquillage est très belle."
+        }
       ]
     },
     {
@@ -125,11 +212,26 @@
       "examples": ["贵 (tài guì) - trop cher", "贵姓 (guìxìng) - votre nom (poli)"],
       "mnemonics": "Coquillage (贝) = précieux car ancien symbole de richesse",
       "listeningSentences": [
-        "太贵了！",
-        "这个很贵。",
-        "您贵姓？",
-        "不贵，很便宜。",
-        "这里的东西很贵。"
+        {
+          "chinese": "太贵了！",
+          "translation": "C'est trop cher !"
+        },
+        {
+          "chinese": "这个很贵。",
+          "translation": "C'est très cher."
+        },
+        {
+          "chinese": "您贵姓？",
+          "translation": "Quel est votre nom de famille ? (poli)"
+        },
+        {
+          "chinese": "不贵，很便宜。",
+          "translation": "Ce n'est pas cher, c'est bon marché."
+        },
+        {
+          "chinese": "这里的东西很贵。",
+          "translation": "Les choses sont très chères ici."
+        }
       ]
     },
     {
@@ -143,11 +245,26 @@
       "examples": ["手机 (shǒujī) - téléphone portable", "右手 (yòushǒu) - main droite", "左手 (zuǒshǒu) - main gauche"],
       "mnemonics": "Dessin d'une main avec les doigts",
       "listeningSentences": [
-        "我的手机在哪儿？",
-        "用右手写字。",
-        "洗手吧。",
-        "牵手走。",
-        "我的手很冷。"
+        {
+          "chinese": "我的手机在哪儿？",
+          "translation": "Où est mon téléphone ?"
+        },
+        {
+          "chinese": "用右手写字。",
+          "translation": "Écris avec la main droite."
+        },
+        {
+          "chinese": "洗手吧。",
+          "translation": "Lave-toi les mains."
+        },
+        {
+          "chinese": "牵手走。",
+          "translation": "Marchons en se tenant la main."
+        },
+        {
+          "chinese": "我的手很冷。",
+          "translation": "Mes mains sont très froides."
+        }
       ]
     },
     {
@@ -161,11 +278,26 @@
       "examples": ["看书 (kànshū) - lire un livre", "看见 (kànjiàn) - voir", "看电视 (kàn diànshì) - regarder la télé"],
       "mnemonics": "Main (手) au-dessus d'œil (目) = regarder",
       "listeningSentences": [
-        "我在看书。",
-        "看电视吧。",
-        "我看见他了。",
-        "看一看。",
-        "看这里！"
+        {
+          "chinese": "我在看书。",
+          "translation": "Je lis un livre."
+        },
+        {
+          "chinese": "看电视吧。",
+          "translation": "Regardons la télé."
+        },
+        {
+          "chinese": "我看见他了。",
+          "translation": "Je l'ai vu."
+        },
+        {
+          "chinese": "看一看。",
+          "translation": "Regarde un peu."
+        },
+        {
+          "chinese": "看这里！",
+          "translation": "Regarde ici !"
+        }
       ]
     },
     {
@@ -179,11 +311,26 @@
       "examples": ["那个 (nàge) - celui-là", "那里 (nàlǐ) - là-bas", "那是... (nà shì...) - c'est..."],
       "mnemonics": "Démonstratif pour pointer vers quelque chose éloigné",
       "listeningSentences": [
-        "那是什么？",
-        "那个很好。",
-        "那里很远。",
-        "我要那个。",
-        "那边有人吗？"
+        {
+          "chinese": "那是什么？",
+          "translation": "Qu'est-ce que c'est ?"
+        },
+        {
+          "chinese": "那个很好。",
+          "translation": "Celui-là est très bien."
+        },
+        {
+          "chinese": "那里很远。",
+          "translation": "C'est très loin là-bas."
+        },
+        {
+          "chinese": "我要那个。",
+          "translation": "Je veux celui-là."
+        },
+        {
+          "chinese": "那边有人吗？",
+          "translation": "Il y a quelqu'un là-bas ?"
+        }
       ]
     }
   ]

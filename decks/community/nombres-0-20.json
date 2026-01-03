@@ -3,7 +3,7 @@
   "name": "Nombres 0-20",
   "description": "Apprendre à compter de 0 à 20 en chinois",
   "category": "community",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Cours de Chinois",
   "createdDate": "2025-11-19T10:00:00Z",
   "characters": [
@@ -23,10 +23,22 @@
       ],
       "mnemonics": "Gouttes de pluie qui tombent = rien, zéro",
       "listeningSentences": [
-        "今天零度。",
-        "我有零钱。",
-        "零下五度很冷。",
-        "这个数字是零。"
+        {
+          "chinese": "今天零度。",
+          "translation": "Il fait zéro degré aujourd'hui."
+        },
+        {
+          "chinese": "我有零钱。",
+          "translation": "J'ai de la petite monnaie."
+        },
+        {
+          "chinese": "零下五度很冷。",
+          "translation": "Il fait très froid à moins cinq degrés."
+        },
+        {
+          "chinese": "这个数字是零。",
+          "translation": "Ce chiffre est zéro."
+        }
       ]
     },
     {
@@ -46,11 +58,26 @@
       ],
       "mnemonics": "Un trait horizontal = le chiffre un",
       "listeningSentences": [
-        "我有一个苹果。",
-        "一天有二十四小时。",
-        "这是一本书。",
-        "一加一等于二。",
-        "我喝一杯茶。"
+        {
+          "chinese": "我有一个苹果。",
+          "translation": "J'ai une pomme."
+        },
+        {
+          "chinese": "一天有二十四小时。",
+          "translation": "Un jour a vingt-quatre heures."
+        },
+        {
+          "chinese": "这是一本书。",
+          "translation": "C'est un livre."
+        },
+        {
+          "chinese": "一加一等于二。",
+          "translation": "Un plus un égale deux."
+        },
+        {
+          "chinese": "我喝一杯茶。",
+          "translation": "Je bois une tasse de thé."
+        }
       ]
     },
     {
@@ -70,11 +97,26 @@
       ],
       "mnemonics": "Deux traits horizontaux = le chiffre deux",
       "listeningSentences": [
-        "二月很冷。",
-        "我有二个姐姐。",
-        "这是第二次。",
-        "二加三等于五。",
-        "我买二斤苹果。"
+        {
+          "chinese": "二月很冷。",
+          "translation": "Février est très froid."
+        },
+        {
+          "chinese": "我有二个姐姐。",
+          "translation": "J'ai deux grandes sœurs."
+        },
+        {
+          "chinese": "这是第二次。",
+          "translation": "C'est la deuxième fois."
+        },
+        {
+          "chinese": "二加三等于五。",
+          "translation": "Deux plus trois égale cinq."
+        },
+        {
+          "chinese": "我买二斤苹果。",
+          "translation": "J'achète un kilo de pommes."
+        }
       ]
     },
     {
@@ -94,11 +136,26 @@
       ],
       "mnemonics": "Trois traits horizontaux = le chiffre trois",
       "listeningSentences": [
-        "三月很暖和。",
-        "我们有三个孩子。",
-        "这本书三十块。",
-        "三点钟见面。",
-        "我学了三年中文。"
+        {
+          "chinese": "三月很暖和。",
+          "translation": "Mars est bien doux."
+        },
+        {
+          "chinese": "我们有三个孩子。",
+          "translation": "Nous avons trois enfants."
+        },
+        {
+          "chinese": "这本书三十块。",
+          "translation": "Ce livre coûte trente yuans."
+        },
+        {
+          "chinese": "三点钟见面。",
+          "translation": "On se voit à trois heures."
+        },
+        {
+          "chinese": "我学了三年中文。",
+          "translation": "J'ai étudié le chinois pendant trois ans."
+        }
       ]
     },
     {
@@ -118,11 +175,26 @@
       ],
       "mnemonics": "Bouche (口) enfermée = quatre",
       "listeningSentences": [
-        "四月开花了。",
-        "我们四个人。",
-        "四点钟下班。",
-        "这个房间有四张床。",
-        "四加六等于十。"
+        {
+          "chinese": "四月开花了。",
+          "translation": "Les fleurs s'ouvrent en avril."
+        },
+        {
+          "chinese": "我们四个人。",
+          "translation": "Nous sommes quatre personnes."
+        },
+        {
+          "chinese": "四点钟下班。",
+          "translation": "Je finis le travail à quatre heures."
+        },
+        {
+          "chinese": "这个房间有四张床。",
+          "translation": "Cette chambre a quatre lits."
+        },
+        {
+          "chinese": "四加六等于十。",
+          "translation": "Quatre plus six égale dix."
+        }
       ]
     },
     {
@@ -142,11 +214,26 @@
       ],
       "mnemonics": "Cinq traits qui se croisent",
       "listeningSentences": [
-        "五月很美丽。",
-        "我有五本书。",
-        "五点钟吃晚饭。",
-        "这个包五百块。",
-        "五天后见面。"
+        {
+          "chinese": "五月很美丽。",
+          "translation": "Mai est très beau."
+        },
+        {
+          "chinese": "我有五本书。",
+          "translation": "J'ai cinq livres."
+        },
+        {
+          "chinese": "五点钟吃晚饭。",
+          "translation": "On dîne à cinq heures."
+        },
+        {
+          "chinese": "这个包五百块。",
+          "translation": "Ce sac coûte cinq cents yuans."
+        },
+        {
+          "chinese": "五天后见面。",
+          "translation": "On se voit dans cinq jours."
+        }
       ]
     },
     {
@@ -166,11 +253,26 @@
       ],
       "mnemonics": "Chapeau au-dessus = six",
       "listeningSentences": [
-        "六月很热。",
-        "我六点起床。",
-        "这里有六个人。",
-        "六块钱一斤。",
-        "星期六去购物。"
+        {
+          "chinese": "六月很热。",
+          "translation": "Juin est très chaud."
+        },
+        {
+          "chinese": "我六点起床。",
+          "translation": "Je me lève à six heures."
+        },
+        {
+          "chinese": "这里有六个人。",
+          "translation": "Il y a six personnes ici."
+        },
+        {
+          "chinese": "六块钱一斤。",
+          "translation": "Six yuans le demi-kilo."
+        },
+        {
+          "chinese": "星期六去购物。",
+          "translation": "Je vais faire du shopping samedi."
+        }
       ]
     },
     {
@@ -190,11 +292,26 @@
       ],
       "mnemonics": "Trait vertical coupé = sept",
       "listeningSentences": [
-        "七月去度假。",
-        "七点钟上班。",
-        "我有七个朋友。",
-        "这件衣服七十块。",
-        "七天一周。"
+        {
+          "chinese": "七月去度假。",
+          "translation": "Je pars en vacances en juillet."
+        },
+        {
+          "chinese": "七点钟上班。",
+          "translation": "Je commence le travail à sept heures."
+        },
+        {
+          "chinese": "我有七个朋友。",
+          "translation": "J'ai sept amis."
+        },
+        {
+          "chinese": "这件衣服七十块。",
+          "translation": "Ce vêtement coûte soixante-dix yuans."
+        },
+        {
+          "chinese": "七天一周。",
+          "translation": "Sept jours font une semaine."
+        }
       ]
     },
     {
@@ -214,11 +331,26 @@
       ],
       "mnemonics": "Deux traits qui se séparent = division, huit",
       "listeningSentences": [
-        "八月很热。",
-        "八点钟开会。",
-        "我吃八个饺子。",
-        "八是个吉利数字。",
-        "八块钱一杯咖啡。"
+        {
+          "chinese": "八月很热。",
+          "translation": "Août est très chaud."
+        },
+        {
+          "chinese": "八点钟开会。",
+          "translation": "La réunion commence à huit heures."
+        },
+        {
+          "chinese": "我吃八个饺子。",
+          "translation": "Je mange huit raviolis."
+        },
+        {
+          "chinese": "八是个吉利数字。",
+          "translation": "Huit est un chiffre porte-bonheur."
+        },
+        {
+          "chinese": "八块钱一杯咖啡。",
+          "translation": "Huit yuans pour un café."
+        }
       ]
     },
     {
@@ -238,11 +370,26 @@
       ],
       "mnemonics": "Coude plié = neuf",
       "listeningSentences": [
-        "九月开学了。",
-        "九点睡觉。",
-        "我有九个苹果。",
-        "九十九块钱。",
-        "九天后回来。"
+        {
+          "chinese": "九月开学了。",
+          "translation": "L'école commence en septembre."
+        },
+        {
+          "chinese": "九点睡觉。",
+          "translation": "Je me couche à neuf heures."
+        },
+        {
+          "chinese": "我有九个苹果。",
+          "translation": "J'ai neuf pommes."
+        },
+        {
+          "chinese": "九十九块钱。",
+          "translation": "Quatre-vingt-dix-neuf yuans."
+        },
+        {
+          "chinese": "九天后回来。",
+          "translation": "Je reviens dans neuf jours."
+        }
       ]
     },
     {
@@ -262,11 +409,26 @@
       ],
       "mnemonics": "Croix = dix doigts, complet",
       "listeningSentences": [
-        "十月很凉爽。",
-        "十点钟见面。",
-        "我买了十个橙子。",
-        "十块钱一个。",
-        "十天的假期。"
+        {
+          "chinese": "十月很凉爽。",
+          "translation": "Octobre est très frais."
+        },
+        {
+          "chinese": "十点钟见面。",
+          "translation": "On se voit à dix heures."
+        },
+        {
+          "chinese": "我买了十个橙子。",
+          "translation": "J'ai acheté dix oranges."
+        },
+        {
+          "chinese": "十块钱一个。",
+          "translation": "Dix yuans pièce."
+        },
+        {
+          "chinese": "十天的假期。",
+          "translation": "Dix jours de vacances."
+        }
       ]
     },
     {
@@ -285,10 +447,22 @@
       ],
       "mnemonics": "Dix + un = onze",
       "listeningSentences": [
-        "十一月很冷。",
-        "十一点吃午饭。",
-        "我有十一本书。",
-        "十一号见面。"
+        {
+          "chinese": "十一月很冷。",
+          "translation": "Novembre est très froid."
+        },
+        {
+          "chinese": "十一点吃午饭。",
+          "translation": "Je déjeune à onze heures."
+        },
+        {
+          "chinese": "我有十一本书。",
+          "translation": "J'ai onze livres."
+        },
+        {
+          "chinese": "十一号见面。",
+          "translation": "On se voit le onze."
+        }
       ]
     },
     {
@@ -308,11 +482,26 @@
       ],
       "mnemonics": "Dix + deux = douze",
       "listeningSentences": [
-        "十二月下雪了。",
-        "十二点吃午饭。",
-        "一年有十二个月。",
-        "十二个鸡蛋一盒。",
-        "十二岁上中学。"
+        {
+          "chinese": "十二月下雪了。",
+          "translation": "Il neige en décembre."
+        },
+        {
+          "chinese": "十二点吃午饭。",
+          "translation": "Je déjeune à midi."
+        },
+        {
+          "chinese": "一年有十二个月。",
+          "translation": "Une année a douze mois."
+        },
+        {
+          "chinese": "十二个鸡蛋一盒。",
+          "translation": "Une douzaine d'œufs dans une boîte."
+        },
+        {
+          "chinese": "十二岁上中学。",
+          "translation": "On entre au collège à douze ans."
+        }
       ]
     },
     {
@@ -331,10 +520,22 @@
       ],
       "mnemonics": "Dix + trois = treize",
       "listeningSentences": [
-        "今天十三号。",
-        "我十三岁。",
-        "十三块钱。",
-        "十三个学生。"
+        {
+          "chinese": "今天十三号。",
+          "translation": "Aujourd'hui c'est le treize."
+        },
+        {
+          "chinese": "我十三岁。",
+          "translation": "J'ai treize ans."
+        },
+        {
+          "chinese": "十三块钱。",
+          "translation": "Treize yuans."
+        },
+        {
+          "chinese": "十三个学生。",
+          "translation": "Treize élèves."
+        }
       ]
     },
     {
@@ -353,10 +554,22 @@
       ],
       "mnemonics": "Dix + quatre = quatorze",
       "listeningSentences": [
-        "明天十四号。",
-        "我买了十四个苹果。",
-        "十四天的旅行。",
-        "十四块一斤。"
+        {
+          "chinese": "明天十四号。",
+          "translation": "Demain c'est le quatorze."
+        },
+        {
+          "chinese": "我买了十四个苹果。",
+          "translation": "J'ai acheté quatorze pommes."
+        },
+        {
+          "chinese": "十四天的旅行。",
+          "translation": "Un voyage de quatorze jours."
+        },
+        {
+          "chinese": "十四块一斤。",
+          "translation": "Quatorze yuans le demi-kilo."
+        }
       ]
     },
     {
@@ -375,11 +588,26 @@
       ],
       "mnemonics": "Dix + cinq = quinze",
       "listeningSentences": [
-        "今天十五号。",
-        "十五分钟后见。",
-        "我有十五个朋友。",
-        "十五块一杯奶茶。",
-        "十五天后回来。"
+        {
+          "chinese": "今天十五号。",
+          "translation": "Aujourd'hui c'est le quinze."
+        },
+        {
+          "chinese": "十五分钟后见。",
+          "translation": "On se voit dans quinze minutes."
+        },
+        {
+          "chinese": "我有十五个朋友。",
+          "translation": "J'ai quinze amis."
+        },
+        {
+          "chinese": "十五块一杯奶茶。",
+          "translation": "Quinze yuans pour un thé au lait."
+        },
+        {
+          "chinese": "十五天后回来。",
+          "translation": "Je reviens dans quinze jours."
+        }
       ]
     },
     {
@@ -398,10 +626,22 @@
       ],
       "mnemonics": "Dix + six = seize",
       "listeningSentences": [
-        "后天十六号。",
-        "我十六岁了。",
-        "十六个人一起去。",
-        "十六块钱一个。"
+        {
+          "chinese": "后天十六号。",
+          "translation": "Après-demain c'est le seize."
+        },
+        {
+          "chinese": "我十六岁了。",
+          "translation": "J'ai seize ans."
+        },
+        {
+          "chinese": "十六个人一起去。",
+          "translation": "Seize personnes y vont ensemble."
+        },
+        {
+          "chinese": "十六块钱一个。",
+          "translation": "Seize yuans pièce."
+        }
       ]
     },
     {
@@ -420,10 +660,22 @@
       ],
       "mnemonics": "Dix + sept = dix-sept",
       "listeningSentences": [
-        "下周十七号。",
-        "我十七岁上大学。",
-        "十七个学生。",
-        "十七点钟见面。"
+        {
+          "chinese": "下周十七号。",
+          "translation": "La semaine prochaine c'est le dix-sept."
+        },
+        {
+          "chinese": "我十七岁上大学。",
+          "translation": "Je suis entré à l'université à dix-sept ans."
+        },
+        {
+          "chinese": "十七个学生。",
+          "translation": "Dix-sept élèves."
+        },
+        {
+          "chinese": "十七点钟见面。",
+          "translation": "On se voit à dix-sept heures."
+        }
       ]
     },
     {
@@ -442,11 +694,26 @@
       ],
       "mnemonics": "Dix + huit = dix-huit",
       "listeningSentences": [
-        "今天十八号。",
-        "我十八岁了。",
-        "十八个苹果。",
-        "十八块一斤。",
-        "十八天的假期。"
+        {
+          "chinese": "今天十八号。",
+          "translation": "Aujourd'hui c'est le dix-huit."
+        },
+        {
+          "chinese": "我十八岁了。",
+          "translation": "J'ai dix-huit ans."
+        },
+        {
+          "chinese": "十八个苹果。",
+          "translation": "Dix-huit pommes."
+        },
+        {
+          "chinese": "十八块一斤。",
+          "translation": "Dix-huit yuans le demi-kilo."
+        },
+        {
+          "chinese": "十八天的假期。",
+          "translation": "Dix-huit jours de vacances."
+        }
       ]
     },
     {
@@ -465,10 +732,22 @@
       ],
       "mnemonics": "Dix + neuf = dix-neuf",
       "listeningSentences": [
-        "明天十九号。",
-        "我十九岁。",
-        "十九个学生。",
-        "十九块钱一个。"
+        {
+          "chinese": "明天十九号。",
+          "translation": "Demain c'est le dix-neuf."
+        },
+        {
+          "chinese": "我十九岁。",
+          "translation": "J'ai dix-neuf ans."
+        },
+        {
+          "chinese": "十九个学生。",
+          "translation": "Dix-neuf élèves."
+        },
+        {
+          "chinese": "十九块钱一个。",
+          "translation": "Dix-neuf yuans pièce."
+        }
       ]
     },
     {
@@ -488,11 +767,26 @@
       ],
       "mnemonics": "Deux + dix = vingt (2 × 10)",
       "listeningSentences": [
-        "今天二十号。",
-        "我二十岁了。",
-        "二十个人。",
-        "二十块钱一斤。",
-        "二十分钟后到。"
+        {
+          "chinese": "今天二十号。",
+          "translation": "Aujourd'hui c'est le vingt."
+        },
+        {
+          "chinese": "我二十岁了。",
+          "translation": "J'ai vingt ans."
+        },
+        {
+          "chinese": "二十个人。",
+          "translation": "Vingt personnes."
+        },
+        {
+          "chinese": "二十块钱一斤。",
+          "translation": "Vingt yuans le demi-kilo."
+        },
+        {
+          "chinese": "二十分钟后到。",
+          "translation": "J'arrive dans vingt minutes."
+        }
       ]
     }
   ]
