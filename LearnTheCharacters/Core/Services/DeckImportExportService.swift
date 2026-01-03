@@ -332,6 +332,7 @@ struct ExportableCharacter: Codable {
     let hskLevel: Int?
     let examples: [String]
     let mnemonics: String?
+    let listeningSentences: [String]
 
     init(from character: Character) {
         self.id = character.id
@@ -343,6 +344,7 @@ struct ExportableCharacter: Codable {
         self.hskLevel = character.hskLevel
         self.examples = character.examples
         self.mnemonics = character.mnemonics
+        self.listeningSentences = character.listeningSentences
     }
 
     func toCharacter() -> Character {
@@ -355,7 +357,8 @@ struct ExportableCharacter: Codable {
             frequency: self.frequency,
             hskLevel: self.hskLevel,
             examples: self.examples,
-            mnemonics: self.mnemonics
+            mnemonics: self.mnemonics,
+            listeningSentences: self.listeningSentences
         )
     }
 }
