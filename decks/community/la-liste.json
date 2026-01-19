@@ -279,7 +279,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "249AD841-F620-491E-B60D-9287771783D3",
@@ -600,7 +601,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "2F56F5A6-C8D2-4597-B55E-649AFB70B26B",
@@ -899,7 +901,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "8EDB8BEA-41F5-4CC8-AE49-B356EC487E0F",
@@ -1250,7 +1253,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "201F61E0-1F4B-45D3-8013-8DB57BD7E1ED",
@@ -1567,7 +1571,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "BB195712-9F59-4FD6-8531-EEE4F2E2D377",
@@ -1582,7 +1587,8 @@
       "examples": [
         "买面包 (mǎi miànbāo) - acheter du pain",
         "吃面包 (chī miànbāo) - manger du pain"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "6C24F059-0E35-4A66-A526-9E6BC755A272",
@@ -1596,7 +1602,8 @@
       "hskLevel": 3,
       "examples": [
         "去面包店 (qù miànbāo diàn) - aller à la boulangerie"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "2D85C4B6-D42C-4736-AB47-AB9DA41FD043",
@@ -1612,7 +1619,8 @@
       "hskLevel": 1,
       "examples": [
         "你叫什么名字？(nǐ jiào shénme míngzi) - Comment t'appelles-tu ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "0B8A5A97-C2BA-46B1-B3E5-768CFDFB81F9",
@@ -1627,7 +1635,8 @@
       "hskLevel": 1,
       "examples": [
         "这是什么？(zhè shì shénme) - C'est quoi ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "6C163EA3-BBBC-4294-8FF6-0360B1EE3EF8",
@@ -1641,7 +1650,8 @@
       "hskLevel": 1,
       "examples": [
         "今天很热 (jīntiān hěn rè) - il fait chaud aujourd'hui"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "FDEDA6E9-27B4-421E-AAA0-5AF1573726BF",
@@ -1655,7 +1665,8 @@
       "hskLevel": 1,
       "examples": [
         "明天见 (míngtiān jiàn) - à demain"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "6678418A-2C69-43EC-AB99-4057DCB0B91F",
@@ -1669,7 +1680,8 @@
       "hskLevel": 1,
       "examples": [
         "昨天我去北京了 (zuótiān wǒ qù Běijīng le) - hier je suis allé à Pékin"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "A0B1819B-BEAF-4176-91B0-1FCD7F618B84",
@@ -1684,7 +1696,8 @@
       "hskLevel": 2,
       "examples": [
         "我在公司工作 (wǒ zài gōngsī gōngzuò) - je travaille dans une entreprise"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "7B52A640-5B74-4FCB-AD35-A1863860418A",
@@ -1699,7 +1712,8 @@
       "hskLevel": 1,
       "examples": [
         "我工作很忙 (wǒ gōngzuò hěn máng) - je suis très occupé au travail"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "C9CE756C-3D6F-40A0-B903-78C33AF6146B",
@@ -1714,7 +1728,8 @@
       "hskLevel": 2,
       "examples": [
         "欢迎光临 (huānyíng guānglín) - bienvenue !"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "BAB1A5D6-B317-4811-B35C-24F1FD26015B",
@@ -1934,7 +1949,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "4DAC32C0-CEBA-4DCD-B698-6019996B09D8",
@@ -1949,7 +1965,8 @@
       "hskLevel": 2,
       "examples": [
         "你有问题吗？(nǐ yǒu wèntí ma) - Tu as des questions ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "BBAF2619-A38E-48C0-B8AA-2CA40B82B608",
@@ -2092,7 +2109,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "47A6A0F6-0FBD-4CE7-939B-60665CF2F5AE",
@@ -2107,7 +2125,8 @@
       "hskLevel": 2,
       "examples": [
         "不是的，我是法国人 (bù shì de, wǒ shì fǎguó rén) - mais non, je suis français"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "FC680389-4016-492F-826A-AF9318F70487",
@@ -2121,7 +2140,8 @@
       "hskLevel": 1,
       "examples": [
         "再见！(zàijiàn) - Au revoir !"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "0873665D-D18D-4B69-9CE2-330D29A3FCFB",
@@ -2135,7 +2155,8 @@
       "hskLevel": 2,
       "examples": [
         "下周见！(xià zhōu jiàn) - À la semaine prochaine !"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "C03EB5F8-EDE5-439B-A008-8D4AC96FE92B",
@@ -2150,7 +2171,8 @@
       "hskLevel": 1,
       "examples": [
         "谢谢！不客气！(xièxie! bú kèqi!) - Merci ! De rien !"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D731DFD9-D881-44BD-B76F-EBA1F8995981",
@@ -2164,7 +2186,8 @@
       "hskLevel": 2,
       "examples": [
         "我想喝水 (wǒ xiǎng hē shuǐ) - je veux boire de l'eau"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "AD963024-65AF-4E36-80D3-707E53477FFC",
@@ -2506,7 +2529,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "BA0AC218-D296-441C-9FD3-A8A61A873293",
@@ -2521,7 +2545,8 @@
       "hskLevel": 1,
       "examples": [
         "你叫什么名字？(nǐ jiào shénme míngzi) - Comment t'appelles-tu ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "62035122-D76B-47BD-91B2-952EF32E20E0",
@@ -2767,7 +2792,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "8A9A9629-20D8-462C-B401-D6A90F0BE648",
@@ -3066,7 +3092,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "3265A5B0-63CF-401F-A238-37C457C1E186",
@@ -3081,7 +3108,8 @@
       "hskLevel": 1,
       "examples": [
         "我的朋友 (wǒ de péngyou) - mon ami"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "F0E894A1-074F-4099-9850-4084F631A3C3",
@@ -3096,7 +3124,8 @@
       "hskLevel": 2,
       "examples": [
         "她是我的女朋友 (tā shì wǒ de nǚ péngyou) - elle est ma copine"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "41582D9A-61E7-4B32-BD8D-67922A925171",
@@ -3110,7 +3139,8 @@
       "hskLevel": 3,
       "examples": [
         "今天的日期 (jīntiān de rìqī) - la date d'aujourd'hui"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "376DD766-45AB-404A-9C87-D56A0FCECE87",
@@ -3265,7 +3295,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "86E78837-FBA7-48D5-8B23-21F5D9D904E4",
@@ -3434,7 +3465,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "7F09F9FD-4B46-4B7B-AEF8-7648A4258515",
@@ -3593,7 +3625,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "5A5D9B7F-E674-4EB6-B4C8-AC64B68A0B7C",
@@ -3608,7 +3641,8 @@
       "hskLevel": 2,
       "examples": [
         "有时候我去跑步 (yǒu shíhou wǒ qù pǎobù) - parfois je vais courir"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "AA179342-4589-43E9-B1DC-BCEF25090A84",
@@ -3877,7 +3911,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "1234E657-85FA-43A4-A532-C554C2255AAB",
@@ -4089,7 +4124,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "87C31910-CE54-4378-A276-C4AEC32441F6",
@@ -4105,7 +4141,8 @@
       "hskLevel": 2,
       "examples": [
         "这件衣服很难看 (zhè jiàn yīfu hěn nánkàn) - ce vêtement est laid"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D63D7D9E-56FD-49F6-B2A8-15559626C045",
@@ -4120,7 +4157,8 @@
       "hskLevel": 3,
       "examples": [
         "他的妻子 (tā de qīzi) - son épouse"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "7FA80FA9-96B6-4DAD-B768-071FB0F274A8",
@@ -4135,7 +4173,8 @@
       "hskLevel": 3,
       "examples": [
         "她的丈夫 (tā de zhàngfu) - son mari"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "EE8CF709-1290-4760-853F-393894F6A4F0",
@@ -4150,7 +4189,8 @@
       "hskLevel": 3,
       "examples": [
         "女士们 (nǚshìmen) - mesdames"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "CB42BABA-1549-4DED-AFE9-F05B0E29B95D",
@@ -4165,7 +4205,8 @@
       "hskLevel": 1,
       "examples": [
         "王先生 (Wáng xiānsheng) - Monsieur Wang"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "F19DDE12-0160-4D63-8AB0-0FB49020A1FD",
@@ -4179,7 +4220,8 @@
       "hskLevel": 2,
       "examples": [
         "那个男人 (nàge nánrén) - cet homme"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "13C8D1A0-E264-44FE-98D7-8DDD0320F120",
@@ -4193,7 +4235,8 @@
       "hskLevel": 2,
       "examples": [
         "那个女人 (nàge nǚrén) - cette femme"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "6865524B-0C1E-406E-828B-D0E2AFD699BF",
@@ -4208,7 +4251,8 @@
       "hskLevel": 3,
       "examples": [
         "大人和孩子 (dàrén hé háizi) - adultes et enfants"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "BEB87B37-1B0D-4F39-99FB-9A73E2FB193B",
@@ -4222,7 +4266,8 @@
       "hskLevel": 2,
       "examples": [
         "我有两个孩子 (wǒ yǒu liǎng ge háizi) - j'ai deux enfants"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "2202FD9C-4993-4310-808E-8A2A9D464D80",
@@ -4236,7 +4281,8 @@
       "hskLevel": 3,
       "examples": [
         "中国人口很多 (Zhōngguó rénkǒu hěn duō) - la Chine a une grande population"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "281BCB7B-2F83-45CF-860D-9976332778F7",
@@ -4251,7 +4297,8 @@
       "hskLevel": 2,
       "examples": [
         "在门口等我 (zài ménkǒu děng wǒ) - attends-moi devant la porte"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "25B39EE8-FE82-4A40-AA89-B2F2C34FCD15",
@@ -4266,7 +4313,8 @@
       "hskLevel": 3,
       "examples": [
         "学习的目的 (xuéxí de mùdì) - le but de l'apprentissage"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D9028C41-66C8-49C9-807B-5DBEB40622CE",
@@ -4281,7 +4329,8 @@
       "hskLevel": 2,
       "examples": [
         "我想去，但是没时间 (wǒ xiǎng qù, dànshì méi shíjiān) - je veux y aller, mais je n'ai pas le temps"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "ED397AC6-4327-493C-B6F1-F4DDE0EEC8F6",
@@ -4473,7 +4522,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "A2ED4B89-8B81-4C18-9D53-B48FE5438365",
@@ -4662,7 +4712,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "53665964-9B2E-4650-A54E-D77892D99FBF",
@@ -4888,7 +4939,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "AC708441-C868-43BF-BDD6-CDEF4C6DC8AF",
@@ -5044,7 +5096,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "E25F1322-1084-414E-BB74-46BF13FA9045",
@@ -5058,7 +5111,8 @@
       "hskLevel": 2,
       "examples": [
         "用筷子吃饭 (yòng kuàizi chīfàn) - manger avec des baguettes"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "4D7C19FE-A8C3-4E42-847A-77D634949771",
@@ -5264,7 +5318,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "F6F1644C-8E96-460E-B14D-61174AB8396E",
@@ -5279,7 +5334,8 @@
       "hskLevel": 2,
       "examples": [
         "第一次 (dì yī cì) - la première fois"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D346B03E-D401-4B2D-A8A9-1AD86708395D",
@@ -5425,7 +5481,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "B6F413D3-A4C8-4A69-8620-F4BB88B61355",
@@ -5440,7 +5497,8 @@
       "hskLevel": 3,
       "examples": [
         "骑摩托车 (qí mótuōchē) - conduire une moto"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "1251DE5C-9A75-46F4-81BC-50951CFDA69B",
@@ -5454,7 +5512,8 @@
       "hskLevel": 2,
       "examples": [
         "你从哪里来？(nǐ cóng nǎlǐ lái) - D'où viens-tu ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "4BBDAA19-48F3-4F7F-A20A-C8FABD0CD3B5",
@@ -5469,7 +5528,8 @@
       "hskLevel": 2,
       "examples": [
         "你是哪里人？(nǐ shì nǎlǐ rén) - Tu es d'où ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "182AF062-8519-416C-B262-9E12237D9CEE",
@@ -5654,7 +5714,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "B8B1F859-6FB2-4899-81B0-B32F1863B09E",
@@ -5895,7 +5956,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "9D0C3F1C-608D-4D67-8C98-BCF400ABDEFF",
@@ -6056,7 +6118,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "3525A3E3-21BB-49E1-81B9-C8EFA3C4C1C1",
@@ -6272,7 +6335,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "BBA091B0-F525-4BA1-9D08-72DA5B8904C5",
@@ -6373,7 +6437,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "5A263BDB-EC46-4800-BF0F-8E84D2F19134",
@@ -6482,7 +6547,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "DE49EB93-1B0B-46F3-B50A-49EB192B1085",
@@ -6497,7 +6563,8 @@
       "hskLevel": 2,
       "examples": [
         "在前面 (zài qiánmiàn) - devant"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "B4F266AB-B11D-4216-8DA0-5495558B915C",
@@ -6512,7 +6579,8 @@
       "hskLevel": 2,
       "examples": [
         "在后面 (zài hòumiàn) - derrière"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "8B8BCF90-1F23-4698-AF45-087632A3BD87",
@@ -6527,7 +6595,8 @@
       "hskLevel": 1,
       "examples": [
         "没时间 (méi shíjiān) - pas le temps"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "AF60CBE7-8455-4ECB-9A82-0DB904699623",
@@ -6542,7 +6611,8 @@
       "hskLevel": 3,
       "examples": [
         "过去的事 (guòqù de shì) - les choses du passé"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D3621E51-A14B-4A34-A32F-A42CC4307222",
@@ -6557,7 +6627,8 @@
       "hskLevel": 3,
       "examples": [
         "未来的计划 (wèilái de jìhuà) - les projets futurs"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "32BA3408-02DB-4B27-8749-CB694EB5F6F5",
@@ -6571,7 +6642,8 @@
       "hskLevel": 1,
       "examples": [
         "两个小时 (liǎng ge xiǎoshí) - deux heures"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "1F0C78F2-34DB-476B-96C3-F352A7F81C6C",
@@ -6868,7 +6940,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "8AD526C7-3414-4AAE-8D84-E76E3C2165A4",
@@ -6882,7 +6955,8 @@
       "hskLevel": 1,
       "examples": [
         "去学校 (qù xuéxiào) - aller à l'école"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "3B3660B4-B9A0-4040-8206-FFCF1A68C466",
@@ -6896,7 +6970,8 @@
       "hskLevel": 2,
       "examples": [
         "去超市 (qù chāoshì) - aller au supermarché"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "CD845154-EB9E-4D2F-BD48-BDD8D04AB790",
@@ -6910,7 +6985,8 @@
       "hskLevel": 2,
       "examples": [
         "在图书馆学习 (zài túshūguǎn xuéxí) - étudier à la bibliothèque"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "705B0ADE-B2FF-4C2D-AE09-E94046BCDF47",
@@ -6924,7 +7000,8 @@
       "hskLevel": 2,
       "examples": [
         "去餐厅吃饭 (qù cāntīng chīfàn) - aller manger au restaurant"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "1D4E2DED-B911-46C8-9EA6-36B58B9D8933",
@@ -6939,7 +7016,8 @@
       "hskLevel": 1,
       "examples": [
         "这家商店 (zhè jiā shāngdiàn) - ce magasin"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "D8197535-7671-4C51-AE7B-A8775CC95DE4",
@@ -7122,7 +7200,8 @@
           "width": 1024,
           "height": 1024
         }
-      }
+      },
+      "listeningSentences": []
     },
     {
       "id": "FAE23893-2FC0-458D-A46F-2901B11E47CA",
@@ -7137,7 +7216,8 @@
       "hskLevel": 1,
       "examples": [
         "买东西 (mǎi dōngxi) - acheter des choses"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "4CECD1DB-5FFC-414D-BCFC-9DA8E117F5B7",
@@ -7151,7 +7231,8 @@
       "hskLevel": 3,
       "examples": [
         "在办公室工作 (zài bàngōngshì gōngzuò) - travailler au bureau"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "C9A19F11-78E7-4FD2-A809-427C9D49F045",
@@ -7165,7 +7246,8 @@
       "hskLevel": 2,
       "examples": [
         "坐地铁 (zuò dìtiě) - prendre le métro"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "F8788E1D-27EC-4CE4-8A53-CA7CAD6D8E7C",
@@ -7179,7 +7261,8 @@
       "hskLevel": 2,
       "examples": [
         "一起吃饭 (yìqǐ chīfàn) - manger ensemble"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "49FAC36C-62FC-4E8E-95E0-49B9EB609582",
@@ -7193,7 +7276,8 @@
       "hskLevel": 1,
       "examples": [
         "我的同学 (wǒ de tóngxué) - mon camarade de classe"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "017E905B-A040-4E63-98FF-778DF246B9CF",
@@ -7207,7 +7291,8 @@
       "hskLevel": 2,
       "examples": [
         "我的同事 (wǒ de tóngshì) - mon collègue"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "5A62A978-69FF-4FA2-847E-3DD937EE4E26",
@@ -7221,7 +7306,8 @@
       "hskLevel": 2,
       "examples": [
         "前天下雨了 (qiántiān xià yǔ le) - il a plu avant-hier"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "C5C9F57F-3889-49F0-A08A-4F72CE113468",
@@ -7235,7 +7321,8 @@
       "hskLevel": 2,
       "examples": [
         "后天见 (hòutiān jiàn) - à après-demain"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "ACE3EED7-5CCB-4366-8963-668CC321F6BC",
@@ -7250,7 +7337,8 @@
       "hskLevel": 3,
       "examples": [
         "几点出发？(jǐ diǎn chūfā) - À quelle heure part-on ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "3CDD4CAE-6086-4DD6-A6E6-B654255653DD",
@@ -7264,7 +7352,8 @@
       "hskLevel": 3,
       "examples": [
         "到达目的地 (dàodá mùdìdì) - arriver à destination"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "F4315507-2BA9-4711-9FBC-DE5D2CC80295",
@@ -7278,7 +7367,8 @@
       "hskLevel": 2,
       "examples": [
         "为什么不去？(wèishénme bù qù) - Pourquoi n'y vas-tu pas ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "0877C3A7-B78E-466B-A91E-CAA94CCC35D4",
@@ -7292,7 +7382,8 @@
       "hskLevel": 2,
       "examples": [
         "因为我很累 (yīnwèi wǒ hěn lèi) - parce que je suis fatigué"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "41D65469-1130-4C00-B5B4-15F837A98A8E",
@@ -7306,7 +7397,8 @@
       "hskLevel": 1,
       "examples": [
         "怎么去？(zěnme qù) - Comment y aller ?"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "B86AA94F-10D9-430F-BA42-9C056B2E9E74",
@@ -7321,7 +7413,8 @@
       "hskLevel": 3,
       "examples": [
         "我的宝贝 (wǒ de bǎobèi) - mon trésor"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "44163439-071C-4AED-B60E-EE7844F41EB9",
@@ -7335,7 +7428,8 @@
       "hskLevel": 1,
       "examples": [
         "在那里 (zài nàlǐ) - là-bas"
-      ]
+      ],
+      "listeningSentences": []
     },
     {
       "id": "839DC88A-FC9F-4AB3-94AE-0E87849D6FAE",
@@ -7350,7 +7444,8 @@
       "hskLevel": 1,
       "examples": [
         "你在哪儿？(nǐ zài nǎr) - Tu es où ?"
-      ]
+      ],
+      "listeningSentences": []
     }
   ]
 }
