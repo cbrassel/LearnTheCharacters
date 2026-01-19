@@ -1,5 +1,5 @@
 {
-  "id": "la-liste-0000-0000-0000-000000000001",
+  "id": "C0768AB4-F537-4E20-8BA7-9DC9E247D3B4",
   "name": "La Liste",
   "description": "Vocabulaire courant: verbes, expressions quotidiennes, directions, lieux et phrases utiles",
   "category": "community",
@@ -8,7 +8,7 @@
   "createdDate": "2026-01-19T10:00:00Z",
   "characters": [
     {
-      "id": "la-liste-0000-0000-0000-000000000001",
+      "id": "5B917396-DAB0-4E93-8827-FB519AE29BC2",
       "simplified": "看",
       "traditional": "看",
       "pinyin": "kàn",
@@ -282,7 +282,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000002",
+      "id": "249AD841-F620-491E-B60D-9287771783D3",
       "simplified": "爱",
       "traditional": "愛",
       "pinyin": "ài",
@@ -603,7 +603,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000003",
+      "id": "2F56F5A6-C8D2-4597-B55E-649AFB70B26B",
       "simplified": "累",
       "traditional": "累",
       "pinyin": "lèi",
@@ -902,7 +902,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000004",
+      "id": "8EDB8BEA-41F5-4CC8-AE49-B356EC487E0F",
       "simplified": "渴",
       "traditional": "渴",
       "pinyin": "kě",
@@ -1253,7 +1253,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000005",
+      "id": "201F61E0-1F4B-45D3-8013-8DB57BD7E1ED",
       "simplified": "饿",
       "traditional": "餓",
       "pinyin": "è",
@@ -1570,7 +1570,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000006",
+      "id": "BB195712-9F59-4FD6-8531-EEE4F2E2D377",
       "simplified": "面包",
       "traditional": "麵包",
       "pinyin": "miànbāo",
@@ -1585,7 +1585,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000007",
+      "id": "6C24F059-0E35-4A66-A526-9E6BC755A272",
       "simplified": "面包店",
       "traditional": "麵包店",
       "pinyin": "miànbāo diàn",
@@ -1599,7 +1599,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000008",
+      "id": "2D85C4B6-D42C-4736-AB47-AB9DA41FD043",
       "simplified": "什么",
       "traditional": "什麼",
       "pinyin": "shénme",
@@ -1615,7 +1615,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000009",
+      "id": "0B8A5A97-C2BA-46B1-B3E5-768CFDFB81F9",
       "simplified": "这是什么",
       "traditional": "這是什麼",
       "pinyin": "zhè shì shénme",
@@ -1630,7 +1630,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000010",
+      "id": "6C163EA3-BBBC-4294-8FF6-0360B1EE3EF8",
       "simplified": "今天",
       "traditional": "今天",
       "pinyin": "jīntiān",
@@ -1644,7 +1644,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000011",
+      "id": "FDEDA6E9-27B4-421E-AAA0-5AF1573726BF",
       "simplified": "明天",
       "traditional": "明天",
       "pinyin": "míngtiān",
@@ -1658,7 +1658,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000012",
+      "id": "6678418A-2C69-43EC-AB99-4057DCB0B91F",
       "simplified": "昨天",
       "traditional": "昨天",
       "pinyin": "zuótiān",
@@ -1672,7 +1672,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000013",
+      "id": "A0B1819B-BEAF-4176-91B0-1FCD7F618B84",
       "simplified": "公司",
       "traditional": "公司",
       "pinyin": "gōngsī",
@@ -1687,7 +1687,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000014",
+      "id": "7B52A640-5B74-4FCB-AD35-A1863860418A",
       "simplified": "工作",
       "traditional": "工作",
       "pinyin": "gōngzuò",
@@ -1702,7 +1702,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000015",
+      "id": "C9CE756C-3D6F-40A0-B903-78C33AF6146B",
       "simplified": "欢迎",
       "traditional": "歡迎",
       "pinyin": "huānyíng",
@@ -1717,7 +1717,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000016",
+      "id": "BAB1A5D6-B317-4811-B35C-24F1FD26015B",
       "simplified": "吃",
       "traditional": "吃",
       "pinyin": "chī",
@@ -1937,7 +1937,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000017",
+      "id": "4DAC32C0-CEBA-4DCD-B698-6019996B09D8",
       "simplified": "你有问题吗",
       "traditional": "你有問題嗎",
       "pinyin": "nǐ yǒu wèntí ma",
@@ -1952,7 +1952,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000018",
+      "id": "BBAF2619-A38E-48C0-B8AA-2CA40B82B608",
       "simplified": "不",
       "traditional": "不",
       "pinyin": "bù",
@@ -2095,7 +2095,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000019",
+      "id": "47A6A0F6-0FBD-4CE7-939B-60665CF2F5AE",
       "simplified": "不是的",
       "traditional": "不是的",
       "pinyin": "bù shì de",
@@ -2110,7 +2110,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000020",
+      "id": "FC680389-4016-492F-826A-AF9318F70487",
       "simplified": "再见",
       "traditional": "再見",
       "pinyin": "zàijiàn",
@@ -2124,7 +2124,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000021",
+      "id": "0873665D-D18D-4B69-9CE2-330D29A3FCFB",
       "simplified": "下周见",
       "traditional": "下週見",
       "pinyin": "xià zhōu jiàn",
@@ -2138,7 +2138,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000022",
+      "id": "C03EB5F8-EDE5-439B-A008-8D4AC96FE92B",
       "simplified": "不客气",
       "traditional": "不客氣",
       "pinyin": "bú kèqi",
@@ -2153,7 +2153,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000023",
+      "id": "D731DFD9-D881-44BD-B76F-EBA1F8995981",
       "simplified": "想喝",
       "traditional": "想喝",
       "pinyin": "xiǎng hē",
@@ -2167,7 +2167,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000024",
+      "id": "AD963024-65AF-4E36-80D3-707E53477FFC",
       "simplified": "想",
       "traditional": "想",
       "pinyin": "xiǎng",
@@ -2509,7 +2509,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000025",
+      "id": "BA0AC218-D296-441C-9FD3-A8A61A873293",
       "simplified": "名字",
       "traditional": "名字",
       "pinyin": "míngzi",
@@ -2524,7 +2524,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000026",
+      "id": "62035122-D76B-47BD-91B2-952EF32E20E0",
       "simplified": "姓",
       "traditional": "姓",
       "pinyin": "xìng",
@@ -2770,7 +2770,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000027",
+      "id": "8A9A9629-20D8-462C-B401-D6A90F0BE648",
       "simplified": "您",
       "traditional": "您",
       "pinyin": "nín",
@@ -3069,7 +3069,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000028",
+      "id": "3265A5B0-63CF-401F-A238-37C457C1E186",
       "simplified": "朋友",
       "traditional": "朋友",
       "pinyin": "péngyou",
@@ -3084,7 +3084,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000029",
+      "id": "F0E894A1-074F-4099-9850-4084F631A3C3",
       "simplified": "女朋友",
       "traditional": "女朋友",
       "pinyin": "nǚ péngyou",
@@ -3099,7 +3099,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000030",
+      "id": "41582D9A-61E7-4B32-BD8D-67922A925171",
       "simplified": "日期",
       "traditional": "日期",
       "pinyin": "rìqī",
@@ -3113,7 +3113,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000031",
+      "id": "376DD766-45AB-404A-9C87-D56A0FCECE87",
       "simplified": "月",
       "traditional": "月",
       "pinyin": "yuè",
@@ -3268,7 +3268,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000032",
+      "id": "86E78837-FBA7-48D5-8B23-21F5D9D904E4",
       "simplified": "年",
       "traditional": "年",
       "pinyin": "nián",
@@ -3437,7 +3437,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000033",
+      "id": "7F09F9FD-4B46-4B7B-AEF8-7648A4258515",
       "simplified": "天",
       "traditional": "天",
       "pinyin": "tiān",
@@ -3596,7 +3596,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000034",
+      "id": "5A5D9B7F-E674-4EB6-B4C8-AC64B68A0B7C",
       "simplified": "有时候",
       "traditional": "有時候",
       "pinyin": "yǒu shíhou",
@@ -3611,7 +3611,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000035",
+      "id": "AA179342-4589-43E9-B1DC-BCEF25090A84",
       "simplified": "是",
       "traditional": "是",
       "pinyin": "shì",
@@ -3880,7 +3880,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000036",
+      "id": "1234E657-85FA-43A4-A532-C554C2255AAB",
       "simplified": "有",
       "traditional": "有",
       "pinyin": "yǒu",
@@ -4092,7 +4092,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000037",
+      "id": "87C31910-CE54-4378-A276-C4AEC32441F6",
       "simplified": "难看",
       "traditional": "難看",
       "pinyin": "nánkàn",
@@ -4108,7 +4108,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000038",
+      "id": "D63D7D9E-56FD-49F6-B2A8-15559626C045",
       "simplified": "妻子",
       "traditional": "妻子",
       "pinyin": "qīzi",
@@ -4123,7 +4123,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000039",
+      "id": "7FA80FA9-96B6-4DAD-B768-071FB0F274A8",
       "simplified": "丈夫",
       "traditional": "丈夫",
       "pinyin": "zhàngfu",
@@ -4138,7 +4138,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000040",
+      "id": "EE8CF709-1290-4760-853F-393894F6A4F0",
       "simplified": "女士",
       "traditional": "女士",
       "pinyin": "nǚshì",
@@ -4153,7 +4153,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000041",
+      "id": "CB42BABA-1549-4DED-AFE9-F05B0E29B95D",
       "simplified": "先生",
       "traditional": "先生",
       "pinyin": "xiānsheng",
@@ -4168,7 +4168,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000042",
+      "id": "F19DDE12-0160-4D63-8AB0-0FB49020A1FD",
       "simplified": "男人",
       "traditional": "男人",
       "pinyin": "nánrén",
@@ -4182,7 +4182,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000043",
+      "id": "13C8D1A0-E264-44FE-98D7-8DDD0320F120",
       "simplified": "女人",
       "traditional": "女人",
       "pinyin": "nǚrén",
@@ -4196,7 +4196,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000044",
+      "id": "6865524B-0C1E-406E-828B-D0E2AFD699BF",
       "simplified": "大人",
       "traditional": "大人",
       "pinyin": "dàrén",
@@ -4211,7 +4211,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000045",
+      "id": "BEB87B37-1B0D-4F39-99FB-9A73E2FB193B",
       "simplified": "孩子",
       "traditional": "孩子",
       "pinyin": "háizi",
@@ -4225,7 +4225,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000046",
+      "id": "2202FD9C-4993-4310-808E-8A2A9D464D80",
       "simplified": "人口",
       "traditional": "人口",
       "pinyin": "rénkǒu",
@@ -4239,7 +4239,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000047",
+      "id": "281BCB7B-2F83-45CF-860D-9976332778F7",
       "simplified": "门口",
       "traditional": "門口",
       "pinyin": "ménkǒu",
@@ -4254,7 +4254,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000048",
+      "id": "25B39EE8-FE82-4A40-AA89-B2F2C34FCD15",
       "simplified": "目的",
       "traditional": "目的",
       "pinyin": "mùdì",
@@ -4269,7 +4269,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000049",
+      "id": "D9028C41-66C8-49C9-807B-5DBEB40622CE",
       "simplified": "但是",
       "traditional": "但是",
       "pinyin": "dànshì",
@@ -4284,7 +4284,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000050",
+      "id": "ED397AC6-4327-493C-B6F1-F4DDE0EEC8F6",
       "simplified": "会",
       "traditional": "會",
       "pinyin": "huì",
@@ -4476,7 +4476,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000051",
+      "id": "A2ED4B89-8B81-4C18-9D53-B48FE5438365",
       "simplified": "在",
       "traditional": "在",
       "pinyin": "zài",
@@ -4665,7 +4665,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000052",
+      "id": "53665964-9B2E-4650-A54E-D77892D99FBF",
       "simplified": "学",
       "traditional": "學",
       "pinyin": "xué",
@@ -4891,7 +4891,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000053",
+      "id": "AC708441-C868-43BF-BDD6-CDEF4C6DC8AF",
       "simplified": "去",
       "traditional": "去",
       "pinyin": "qù",
@@ -5047,7 +5047,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000054",
+      "id": "E25F1322-1084-414E-BB74-46BF13FA9045",
       "simplified": "筷子",
       "traditional": "筷子",
       "pinyin": "kuàizi",
@@ -5061,7 +5061,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000055",
+      "id": "4D7C19FE-A8C3-4E42-847A-77D634949771",
       "simplified": "忘",
       "traditional": "忘",
       "pinyin": "wàng",
@@ -5267,7 +5267,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000056",
+      "id": "F6F1644C-8E96-460E-B14D-61174AB8396E",
       "simplified": "第一",
       "traditional": "第一",
       "pinyin": "dì yī",
@@ -5282,7 +5282,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000057",
+      "id": "D346B03E-D401-4B2D-A8A9-1AD86708395D",
       "simplified": "车",
       "traditional": "車",
       "pinyin": "chē",
@@ -5428,7 +5428,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000058",
+      "id": "B6F413D3-A4C8-4A69-8620-F4BB88B61355",
       "simplified": "摩托车",
       "traditional": "摩托車",
       "pinyin": "mótuōchē",
@@ -5443,7 +5443,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000059",
+      "id": "1251DE5C-9A75-46F4-81BC-50951CFDA69B",
       "simplified": "你从哪里来",
       "traditional": "你從哪裡來",
       "pinyin": "nǐ cóng nǎlǐ lái",
@@ -5457,7 +5457,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000060",
+      "id": "4BBDAA19-48F3-4F7F-A20A-C8FABD0CD3B5",
       "simplified": "你是哪里人",
       "traditional": "你是哪裡人",
       "pinyin": "nǐ shì nǎlǐ rén",
@@ -5472,7 +5472,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000061",
+      "id": "182AF062-8519-416C-B262-9E12237D9CEE",
       "simplified": "北",
       "traditional": "北",
       "pinyin": "běi",
@@ -5657,7 +5657,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000062",
+      "id": "B8B1F859-6FB2-4899-81B0-B32F1863B09E",
       "simplified": "南",
       "traditional": "南",
       "pinyin": "nán",
@@ -5898,7 +5898,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000063",
+      "id": "9D0C3F1C-608D-4D67-8C98-BCF400ABDEFF",
       "simplified": "东",
       "traditional": "東",
       "pinyin": "dōng",
@@ -6059,7 +6059,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000064",
+      "id": "3525A3E3-21BB-49E1-81B9-C8EFA3C4C1C1",
       "simplified": "西",
       "traditional": "西",
       "pinyin": "xī",
@@ -6275,7 +6275,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000065",
+      "id": "BBA091B0-F525-4BA1-9D08-72DA5B8904C5",
       "simplified": "上",
       "traditional": "上",
       "pinyin": "shàng",
@@ -6376,7 +6376,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000066",
+      "id": "5A263BDB-EC46-4800-BF0F-8E84D2F19134",
       "simplified": "下",
       "traditional": "下",
       "pinyin": "xià",
@@ -6485,7 +6485,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000067",
+      "id": "DE49EB93-1B0B-46F3-B50A-49EB192B1085",
       "simplified": "前面",
       "traditional": "前面",
       "pinyin": "qiánmiàn",
@@ -6500,7 +6500,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000068",
+      "id": "B4F266AB-B11D-4216-8DA0-5495558B915C",
       "simplified": "后面",
       "traditional": "後面",
       "pinyin": "hòumiàn",
@@ -6515,7 +6515,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000069",
+      "id": "8B8BCF90-1F23-4698-AF45-087632A3BD87",
       "simplified": "时间",
       "traditional": "時間",
       "pinyin": "shíjiān",
@@ -6530,7 +6530,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000070",
+      "id": "AF60CBE7-8455-4ECB-9A82-0DB904699623",
       "simplified": "过去",
       "traditional": "過去",
       "pinyin": "guòqù",
@@ -6545,7 +6545,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000071",
+      "id": "D3621E51-A14B-4A34-A32F-A42CC4307222",
       "simplified": "未来",
       "traditional": "未來",
       "pinyin": "wèilái",
@@ -6560,7 +6560,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000072",
+      "id": "32BA3408-02DB-4B27-8749-CB694EB5F6F5",
       "simplified": "小时",
       "traditional": "小時",
       "pinyin": "xiǎoshí",
@@ -6574,7 +6574,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000073",
+      "id": "1F0C78F2-34DB-476B-96C3-F352A7F81C6C",
       "simplified": "家",
       "traditional": "家",
       "pinyin": "jiā",
@@ -6871,7 +6871,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000074",
+      "id": "8AD526C7-3414-4AAE-8D84-E76E3C2165A4",
       "simplified": "学校",
       "traditional": "學校",
       "pinyin": "xuéxiào",
@@ -6885,7 +6885,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000075",
+      "id": "3B3660B4-B9A0-4040-8206-FFCF1A68C466",
       "simplified": "超市",
       "traditional": "超市",
       "pinyin": "chāoshì",
@@ -6899,7 +6899,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000076",
+      "id": "CD845154-EB9E-4D2F-BD48-BDD8D04AB790",
       "simplified": "图书馆",
       "traditional": "圖書館",
       "pinyin": "túshūguǎn",
@@ -6913,7 +6913,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000077",
+      "id": "705B0ADE-B2FF-4C2D-AE09-E94046BCDF47",
       "simplified": "餐厅",
       "traditional": "餐廳",
       "pinyin": "cāntīng",
@@ -6927,7 +6927,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000078",
+      "id": "1D4E2DED-B911-46C8-9EA6-36B58B9D8933",
       "simplified": "商店",
       "traditional": "商店",
       "pinyin": "shāngdiàn",
@@ -6942,7 +6942,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000079",
+      "id": "D8197535-7671-4C51-AE7B-A8775CC95DE4",
       "simplified": "买",
       "traditional": "買",
       "pinyin": "mǎi",
@@ -7125,7 +7125,7 @@
       }
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000080",
+      "id": "FAE23893-2FC0-458D-A46F-2901B11E47CA",
       "simplified": "东西",
       "traditional": "東西",
       "pinyin": "dōngxi",
@@ -7140,7 +7140,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000081",
+      "id": "4CECD1DB-5FFC-414D-BCFC-9DA8E117F5B7",
       "simplified": "办公室",
       "traditional": "辦公室",
       "pinyin": "bàngōngshì",
@@ -7154,7 +7154,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000082",
+      "id": "C9A19F11-78E7-4FD2-A809-427C9D49F045",
       "simplified": "地铁",
       "traditional": "地鐵",
       "pinyin": "dìtiě",
@@ -7168,7 +7168,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000083",
+      "id": "F8788E1D-27EC-4CE4-8A53-CA7CAD6D8E7C",
       "simplified": "一起",
       "traditional": "一起",
       "pinyin": "yìqǐ",
@@ -7182,7 +7182,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000084",
+      "id": "49FAC36C-62FC-4E8E-95E0-49B9EB609582",
       "simplified": "同学",
       "traditional": "同學",
       "pinyin": "tóngxué",
@@ -7196,7 +7196,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000085",
+      "id": "017E905B-A040-4E63-98FF-778DF246B9CF",
       "simplified": "同事",
       "traditional": "同事",
       "pinyin": "tóngshì",
@@ -7210,7 +7210,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000086",
+      "id": "5A62A978-69FF-4FA2-847E-3DD937EE4E26",
       "simplified": "前天",
       "traditional": "前天",
       "pinyin": "qiántiān",
@@ -7224,7 +7224,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000087",
+      "id": "C5C9F57F-3889-49F0-A08A-4F72CE113468",
       "simplified": "后天",
       "traditional": "後天",
       "pinyin": "hòutiān",
@@ -7238,7 +7238,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000088",
+      "id": "ACE3EED7-5CCB-4366-8963-668CC321F6BC",
       "simplified": "出发",
       "traditional": "出發",
       "pinyin": "chūfā",
@@ -7253,7 +7253,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000089",
+      "id": "3CDD4CAE-6086-4DD6-A6E6-B654255653DD",
       "simplified": "目的地",
       "traditional": "目的地",
       "pinyin": "mùdìdì",
@@ -7267,7 +7267,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000090",
+      "id": "F4315507-2BA9-4711-9FBC-DE5D2CC80295",
       "simplified": "为什么",
       "traditional": "為什麼",
       "pinyin": "wèishénme",
@@ -7281,7 +7281,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000091",
+      "id": "0877C3A7-B78E-466B-A91E-CAA94CCC35D4",
       "simplified": "因为",
       "traditional": "因為",
       "pinyin": "yīnwèi",
@@ -7295,7 +7295,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000092",
+      "id": "41D65469-1130-4C00-B5B4-15F837A98A8E",
       "simplified": "怎么",
       "traditional": "怎麼",
       "pinyin": "zěnme",
@@ -7309,7 +7309,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000093",
+      "id": "B86AA94F-10D9-430F-BA42-9C056B2E9E74",
       "simplified": "宝贝",
       "traditional": "寶貝",
       "pinyin": "bǎobèi",
@@ -7324,7 +7324,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000094",
+      "id": "44163439-071C-4AED-B60E-EE7844F41EB9",
       "simplified": "那里",
       "traditional": "那裡",
       "pinyin": "nàlǐ",
@@ -7338,7 +7338,7 @@
       ]
     },
     {
-      "id": "la-liste-0000-0000-0000-000000000095",
+      "id": "839DC88A-FC9F-4AB3-94AE-0E87849D6FAE",
       "simplified": "你在哪儿",
       "traditional": "你在哪兒",
       "pinyin": "nǐ zài nǎr",
