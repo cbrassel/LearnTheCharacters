@@ -1,0 +1,291 @@
+{
+  "id": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+  "name": "Verbes de Base HSK1",
+  "description": "Les 20 verbes les plus essentiels pour débuter en chinois mandarin. Ces verbes sont utilisés quotidiennement dans les conversations.",
+  "category": "HSK1",
+  "version": "1.0",
+  "author": "LearnTheCharacters Community",
+  "createdDate": "2025-11-17T16:00:00Z",
+  "characters": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "simplified": "是",
+      "traditional": "是",
+      "pinyin": "shì",
+      "meaning": ["être", "oui", "c'est"],
+      "frequency": 1,
+      "hskLevel": 1,
+      "examples": [
+        "我是学生 (Wǒ shì xuéshēng) - Je suis étudiant",
+        "这是书 (Zhè shì shū) - C'est un livre"
+      ],
+      "mnemonics": "Le soleil (日) au-dessus représente l'essence de 'être'"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "simplified": "有",
+      "traditional": "有",
+      "pinyin": "yǒu",
+      "meaning": ["avoir", "posséder", "il y a"],
+      "frequency": 2,
+      "hskLevel": 1,
+      "examples": [
+        "我有书 (Wǒ yǒu shū) - J'ai un livre",
+        "有问题吗？(Yǒu wèntí ma?) - Y a-t-il un problème?"
+      ],
+      "mnemonics": "Main (又) tenant la lune (月) = avoir"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "simplified": "去",
+      "traditional": "去",
+      "pinyin": "qù",
+      "meaning": ["aller", "se rendre à"],
+      "frequency": 15,
+      "hskLevel": 1,
+      "examples": [
+        "我去学校 (Wǒ qù xuéxiào) - Je vais à l'école",
+        "去哪儿？(Qù nǎr?) - Où vas-tu?"
+      ],
+      "mnemonics": "Personne qui part (mouvement vers l'extérieur)"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "simplified": "来",
+      "traditional": "來",
+      "pinyin": "lái",
+      "meaning": ["venir", "arriver"],
+      "frequency": 12,
+      "hskLevel": 1,
+      "examples": [
+        "你来吗？(Nǐ lái ma?) - Tu viens?",
+        "我来了 (Wǒ lái le) - Je suis arrivé"
+      ],
+      "mnemonics": "Céréale (麦) qui pousse = venir/arriver"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "meaning": ["regarder", "voir", "lire"],
+      "frequency": 20,
+      "hskLevel": 1,
+      "examples": [
+        "看书 (kàn shū) - Lire un livre",
+        "看电视 (kàn diànshì) - Regarder la télévision"
+      ],
+      "mnemonics": "Main (手) au-dessus de l'œil (目) = regarder"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "simplified": "听",
+      "traditional": "聽",
+      "pinyin": "tīng",
+      "meaning": ["écouter", "entendre"],
+      "frequency": 45,
+      "hskLevel": 1,
+      "examples": [
+        "听音乐 (tīng yīnyuè) - Écouter de la musique",
+        "我听不懂 (Wǒ tīng bù dǒng) - Je ne comprends pas (en écoutant)"
+      ],
+      "mnemonics": "Bouche (口) + oreille simplifiée = écouter"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "simplified": "说",
+      "traditional": "說",
+      "pinyin": "shuō",
+      "meaning": ["dire", "parler", "raconter"],
+      "frequency": 18,
+      "hskLevel": 1,
+      "examples": [
+        "说中文 (shuō Zhōngwén) - Parler chinois",
+        "你说什么？(Nǐ shuō shénme?) - Qu'est-ce que tu dis?"
+      ],
+      "mnemonics": "Parole (讠) + frère (兄) = dire/parler"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "simplified": "吃",
+      "traditional": "吃",
+      "pinyin": "chī",
+      "meaning": ["manger"],
+      "frequency": 35,
+      "hskLevel": 1,
+      "examples": [
+        "吃饭 (chī fàn) - Manger (un repas)",
+        "吃早饭 (chī zǎofàn) - Prendre le petit-déjeuner"
+      ],
+      "mnemonics": "Bouche (口) + mendier = manger"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "simplified": "喝",
+      "traditional": "喝",
+      "pinyin": "hē",
+      "meaning": ["boire"],
+      "frequency": 65,
+      "hskLevel": 1,
+      "examples": [
+        "喝水 (hē shuǐ) - Boire de l'eau",
+        "喝茶 (hē chá) - Boire du thé"
+      ],
+      "mnemonics": "Bouche (口) + appeler (曷) = boire"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "simplified": "做",
+      "traditional": "做",
+      "pinyin": "zuò",
+      "meaning": ["faire", "fabriquer"],
+      "frequency": 28,
+      "hskLevel": 1,
+      "examples": [
+        "做作业 (zuò zuòyè) - Faire les devoirs",
+        "做菜 (zuò cài) - Cuisiner (faire des plats)"
+      ],
+      "mnemonics": "Personne (亻) + ancien = faire/fabriquer"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "simplified": "买",
+      "traditional": "買",
+      "pinyin": "mǎi",
+      "meaning": ["acheter"],
+      "frequency": 55,
+      "hskLevel": 1,
+      "examples": [
+        "买东西 (mǎi dōngxi) - Acheter des choses",
+        "我想买 (Wǒ xiǎng mǎi) - Je veux acheter"
+      ],
+      "mnemonics": "Simplifié: tête (买) = acheter avec sa tête"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "simplified": "卖",
+      "traditional": "賣",
+      "pinyin": "mài",
+      "meaning": ["vendre"],
+      "frequency": 78,
+      "hskLevel": 1,
+      "examples": [
+        "卖东西 (mài dōngxi) - Vendre des choses",
+        "这个卖多少钱？(Zhège mài duōshao qián?) - Combien coûte ceci?"
+      ],
+      "mnemonics": "Tête (买) + dix (十) = vendre (opposé d'acheter)"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "simplified": "学",
+      "traditional": "學",
+      "pinyin": "xué",
+      "meaning": ["étudier", "apprendre"],
+      "frequency": 42,
+      "hskLevel": 1,
+      "examples": [
+        "学中文 (xué Zhōngwén) - Apprendre le chinois",
+        "我在学校 (Wǒ zài xuéxiào) - Je suis à l'école"
+      ],
+      "mnemonics": "Simplifié: enfant sous un toit = étudier"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "simplified": "工作",
+      "traditional": "工作",
+      "pinyin": "gōngzuò",
+      "meaning": ["travailler", "travail"],
+      "frequency": 50,
+      "hskLevel": 1,
+      "examples": [
+        "我在工作 (Wǒ zài gōngzuò) - Je travaille",
+        "找工作 (zhǎo gōngzuò) - Chercher du travail"
+      ],
+      "mnemonics": "工 (ouvrier) + 作 (faire) = travailler"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "simplified": "住",
+      "traditional": "住",
+      "pinyin": "zhù",
+      "meaning": ["habiter", "vivre", "loger"],
+      "frequency": 72,
+      "hskLevel": 1,
+      "examples": [
+        "我住在北京 (Wǒ zhù zài Běijīng) - J'habite à Pékin",
+        "你住哪儿？(Nǐ zhù nǎr?) - Où habites-tu?"
+      ],
+      "mnemonics": "Personne (亻) + maître (主) = habiter"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "simplified": "坐",
+      "traditional": "坐",
+      "pinyin": "zuò",
+      "meaning": ["s'asseoir", "prendre (transport)"],
+      "frequency": 68,
+      "hskLevel": 1,
+      "examples": [
+        "请坐 (Qǐng zuò) - Asseyez-vous s'il vous plaît",
+        "坐车 (zuò chē) - Prendre le bus/la voiture"
+      ],
+      "mnemonics": "Deux personnes (人人) sur la terre (土) = s'asseoir"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "simplified": "站",
+      "traditional": "站",
+      "pinyin": "zhàn",
+      "meaning": ["se tenir debout", "station"],
+      "frequency": 85,
+      "hskLevel": 1,
+      "examples": [
+        "站起来 (zhàn qǐlái) - Se lever (debout)",
+        "火车站 (huǒchēzhàn) - Gare ferroviaire"
+      ],
+      "mnemonics": "Debout (立) + occuper (占) = se tenir debout"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "simplified": "走",
+      "traditional": "走",
+      "pinyin": "zǒu",
+      "meaning": ["marcher", "partir", "aller à pied"],
+      "frequency": 58,
+      "hskLevel": 1,
+      "examples": [
+        "走路 (zǒu lù) - Marcher",
+        "我走了 (Wǒ zǒu le) - Je pars"
+      ],
+      "mnemonics": "Terre (土) sous des pas = marcher"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "simplified": "跑",
+      "traditional": "跑",
+      "pinyin": "pǎo",
+      "meaning": ["courir", "s'enfuir"],
+      "frequency": 95,
+      "hskLevel": 1,
+      "examples": [
+        "跑步 (pǎo bù) - Faire du jogging",
+        "快跑！(Kuài pǎo!) - Cours vite!"
+      ],
+      "mnemonics": "Pied (足) + envelopper (包) = courir"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "simplified": "睡觉",
+      "traditional": "睡覺",
+      "pinyin": "shuìjiào",
+      "meaning": ["dormir"],
+      "frequency": 88,
+      "hskLevel": 1,
+      "examples": [
+        "我要睡觉 (Wǒ yào shuìjiào) - Je veux dormir",
+        "睡觉了 (shuìjiào le) - Aller dormir"
+      ],
+      "mnemonics": "睡 (dormir) + 觉 (sentir) = dormir profondément"
+    }
+  ]
+}

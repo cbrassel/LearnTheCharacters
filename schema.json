@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LearnTheCharacters Deck Schema",
+  "description": "Schema for character deck JSON files",
+  "type": "object",
+  "required": ["id", "name", "description", "category", "version", "createdDate", "characters"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the deck"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 100,
+      "description": "Display name of the deck"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500,
+      "description": "Detailed description of the deck content"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6", "Thematic", "Custom", "community"],
+      "description": "Category classification"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Version number (e.g., '1.0')"
+    },
+    "author": {
+      "type": ["string", "null"],
+      "maxLength": 100,
+      "description": "Creator of the deck"
+    },
+    "createdDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 date when the deck was created"
+    },
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 500,
+      "description": "Array of character objects",
+      "items": {
+        "type": "object",
+        "required": ["id", "simplified", "pinyin", "meaning", "frequency"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Unique identifier for the character"
+          },
+          "simplified": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10,
+            "description": "Simplified Chinese character(s)"
+          },
+          "traditional": {
+            "type": ["string", "null"],
+            "minLength": 1,
+            "maxLength": 10,
+            "description": "Traditional Chinese character(s)"
+          },
+          "pinyin": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 50,
+            "description": "Romanized pronunciation with tones"
+          },
+          "meaning": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 10,
+            "description": "French translations",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "frequency": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10000,
+            "description": "Usage frequency rank (1 = most common)"
+          },
+          "hskLevel": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 6,
+            "description": "HSK level (1-6)"
+          },
+          "examples": {
+            "type": "array",
+            "maxItems": 5,
+            "description": "Usage examples with translations",
+            "items": {
+              "type": "string",
+              "minLength": 5,
+              "maxLength": 200
+            }
+          },
+          "mnemonics": {
+            "type": ["string", "null"],
+            "maxLength": 300,
+            "description": "Memory aid or explanation"
+          },
+          "strokeOrder": {
+            "type": ["object", "null"],
+            "description": "Données d'ordre des traits pour l'animation",
+            "properties": {
+              "strokes": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Données de chemin SVG pour chaque trait"
+              },
+              "medians": {
+                "type": ["array", "null"],
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                },
+                "description": "Points médians pour chaque trait (optionnel)"
+              },
+              "source": {
+                "type": "string",
+                "description": "Source des données (ex: 'makemeahanzi')"
+              },
+              "viewBox": {
+                "type": "object",
+                "properties": {
+                  "width": { "type": "number" },
+                  "height": { "type": "number" }
+                },
+                "required": ["width", "height"]
+              }
+            },
+            "required": ["strokes", "source"]
+          }
+        }
+      }
+    }
+  }
+}
