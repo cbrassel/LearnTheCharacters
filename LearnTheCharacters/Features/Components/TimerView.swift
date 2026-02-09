@@ -16,7 +16,7 @@ struct TimerView: View {
             Circle()
                 .stroke(
                     Color.gray.opacity(0.2),
-                    lineWidth: 8
+                    lineWidth: 5
                 )
 
             // Cercle de progression
@@ -25,7 +25,7 @@ struct TimerView: View {
                 .stroke(
                     progressColor,
                     style: StrokeStyle(
-                        lineWidth: 8,
+                        lineWidth: 5,
                         lineCap: .round
                     )
                 )
@@ -34,10 +34,10 @@ struct TimerView: View {
 
             // Texte du temps
             Text(timerManager.displayTime)
-                .font(.system(size: 24, weight: .bold, design: .rounded))
+                .font(.system(size: 16, weight: .bold, design: .rounded))
                 .foregroundColor(progressColor)
                 .contentTransition(.numericText()) // Animation fluide pour les chiffres
-                .scaleEffect(timerManager.isWarning ? 1.2 : 1.0)
+                .scaleEffect(timerManager.isWarning ? 1.1 : 1.0)
                 .animation(
                     timerManager.isWarning
                         ? .easeInOut(duration: 0.5).repeatForever(autoreverses: true)
@@ -45,7 +45,7 @@ struct TimerView: View {
                     value: timerManager.isWarning
                 )
         }
-        .frame(width: 80, height: 80)
+        .frame(width: 55, height: 55)
     }
 
     private var progressColor: Color {

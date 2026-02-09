@@ -488,7 +488,7 @@ class SpeechRecognitionService: ObservableObject {
             return PronunciationResult(
                 isCorrect: false,
                 accuracy: similarity,
-                feedback: "Essayez encore."
+                feedback: nil
             )
         }
     }
@@ -580,5 +580,5 @@ class SpeechRecognitionService: ObservableObject {
 struct PronunciationResult {
     let isCorrect: Bool
     let accuracy: Double // 0.0 to 1.0
-    let feedback: String
+    let feedback: String? // Optionnel pour permettre nil
 }

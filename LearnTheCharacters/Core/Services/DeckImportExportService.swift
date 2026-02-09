@@ -77,10 +77,10 @@ class DeckImportExportService {
             throw ImportError.invalidURL
         }
 
-        // Créer une requête avec authentification si c'est une URL GitHub
+        // Créer une requête (publique car le repo est public)
         let request: URLRequest
         if urlString.contains("github.com") || urlString.contains("githubusercontent.com") {
-            request = GitHubConfiguration.authenticatedRequest(url: url)
+            request = GitHubConfiguration.publicRequest(url: url)
         } else {
             request = URLRequest(url: url)
         }
@@ -128,10 +128,10 @@ class DeckImportExportService {
             throw ImportError.invalidURL
         }
 
-        // Utiliser une requête authentifiée
+        // Utiliser une requête publique (le repo est public)
         print("⏱️ [\(timestamp())] Requête API: \(apiURL)")
         let requestStart = Date()
-        let request = GitHubConfiguration.authenticatedRequest(url: url)
+        let request = GitHubConfiguration.publicRequest(url: url)
         let (data, response) = try await URLSession.shared.data(for: request)
         print("⏱️ [\(timestamp())] Réponse API reçue en \(String(format: "%.2f", Date().timeIntervalSince(requestStart)))s")
 
@@ -176,10 +176,10 @@ class DeckImportExportService {
         for (index, file) in jsonFiles.enumerated() {
             if let downloadURL = URL(string: file.download_url) {
                 do {
-                    // Utiliser une requête authentifiée pour télécharger
+                    // Utiliser une requête publique pour télécharger
                     print("⏱️ [\(timestamp())] Téléchargement deck \(index + 1)/\(jsonFiles.count): \(file.name)")
                     let downloadStart = Date()
-                    let downloadRequest = GitHubConfiguration.authenticatedRequest(url: downloadURL)
+                    let downloadRequest = GitHubConfiguration.publicRequest(url: downloadURL)
                     let (deckData, _) = try await URLSession.shared.data(for: downloadRequest)
                     print("⏱️ [\(timestamp())] Téléchargé \(deckData.count) bytes en \(String(format: "%.2f", Date().timeIntervalSince(downloadStart)))s")
 
@@ -329,7 +329,8 @@ struct ExportableCharacter: Codable {
     let hskLevel: Int?
     let examples: [String]
     let mnemonics: String?
-    let listeningSentences: [String]
+    let listeningSentences: [ListeningSentence]
+    let strokeOrder: StrokeOrderData?
 
     init(from character: Character) {
         self.id = character.id
@@ -342,6 +343,7 @@ struct ExportableCharacter: Codable {
         self.examples = character.examples
         self.mnemonics = character.mnemonics
         self.listeningSentences = character.listeningSentences
+        self.strokeOrder = character.strokeOrder
     }
 
     func toCharacter() -> Character {
@@ -355,7 +357,8 @@ struct ExportableCharacter: Codable {
             hskLevel: self.hskLevel,
             examples: self.examples,
             mnemonics: self.mnemonics,
-            listeningSentences: self.listeningSentences
+            listeningSentences: self.listeningSentences,
+            strokeOrder: self.strokeOrder
         )
     }
 }

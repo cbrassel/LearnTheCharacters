@@ -8,6 +8,45 @@
 import Foundation
 import CoreGraphics
 
+/// Phrase d'écoute avec sa traduction
+struct ListeningSentence: Codable, Hashable {
+    let chinese: String
+    let translation: String
+}
+
+/// Données d'ordre des traits pour l'apprentissage de l'écriture
+struct StrokeOrderData: Codable, Hashable {
+    /// Tableau de chaînes SVG path, un par trait dans l'ordre
+    let strokes: [String]
+
+    /// Données de médiane pour chaque trait (optionnel)
+    let medians: [[CGPoint]]?
+
+    /// Source d'attribution (ex: "makemeahanzi")
+    let source: String
+
+    /// Dimensions du système de coordonnées (typiquement 1024x1024)
+    let viewBox: ViewBox
+
+    init(strokes: [String], medians: [[CGPoint]]? = nil, source: String = "makemeahanzi", viewBox: ViewBox = ViewBox(width: 1024, height: 1024)) {
+        self.strokes = strokes
+        self.medians = medians
+        self.source = source
+        self.viewBox = viewBox
+    }
+
+    /// Structure pour représenter les dimensions du viewBox
+    struct ViewBox: Codable, Hashable {
+        let width: Double
+        let height: Double
+
+        /// Convertit en CGSize pour utilisation SwiftUI
+        var size: CGSize {
+            CGSize(width: width, height: height)
+        }
+    }
+}
+
 struct Character: Codable, Identifiable, Hashable {
     let id: UUID
     let simplified: String      // 简体字
@@ -19,7 +58,8 @@ struct Character: Codable, Identifiable, Hashable {
     let hskLevel: Int?          // Niveau HSK (1-6)
     let examples: [String]      // Phrases exemples
     let mnemonics: String?      // Aide mémoire
-    let listeningSentences: [String] // 4-5 variations de phrases pour mode écoute
+    let listeningSentences: [ListeningSentence] // 4-5 variations de phrases pour mode écoute
+    let strokeOrder: StrokeOrderData?  // Données d'ordre des traits pour l'écriture
 
     init(
         id: UUID = UUID(),
@@ -32,7 +72,8 @@ struct Character: Codable, Identifiable, Hashable {
         hskLevel: Int? = nil,
         examples: [String] = [],
         mnemonics: String? = nil,
-        listeningSentences: [String] = []
+        listeningSentences: [ListeningSentence] = [],
+        strokeOrder: StrokeOrderData? = nil
     ) {
         self.id = id
         self.simplified = simplified
@@ -45,6 +86,7 @@ struct Character: Codable, Identifiable, Hashable {
         self.examples = examples
         self.mnemonics = mnemonics
         self.listeningSentences = listeningSentences
+        self.strokeOrder = strokeOrder
     }
 
     var audioFileURL: URL? {

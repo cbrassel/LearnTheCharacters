@@ -177,8 +177,24 @@ class DataPersistenceService: ObservableObject {
     }
 
     func deleteDeck(_ deck: Deck) {
+        // Trouver les caractères qui sont utilisés uniquement par ce deck
+        let otherDecks = decks.filter { $0.id != deck.id }
+        let otherDeckCharacterIDs = Set(otherDecks.flatMap { $0.characterIDs })
+
+        // Supprimer les caractères qui n'appartiennent qu'à ce deck
+        let charactersToDelete = deck.characterIDs.filter { !otherDeckCharacterIDs.contains($0) }
+
+        if !charactersToDelete.isEmpty {
+            print("🗑️ Suppression de \(charactersToDelete.count) caractères du cache (appartenant uniquement au deck '\(deck.name)')")
+            characters.removeAll { charactersToDelete.contains($0.id) }
+            saveCharacters()
+        }
+
+        // Supprimer le deck
         decks.removeAll { $0.id == deck.id }
         saveDecks()
+
+        print("✅ Deck '\(deck.name)' et son cache supprimés")
     }
 
     func getDeck(by id: UUID) -> Deck? {

@@ -50,7 +50,7 @@ struct CardGameView: View {
                 })
             } else {
                 VStack(spacing: 0) {
-                    // Header - Plus compact avec espace en haut
+                    // Header - 60px total
                     HStack {
                         Button(action: { dismiss() }) {
                             Image(systemName: "xmark.circle.fill")
@@ -75,30 +75,27 @@ struct CardGameView: View {
                         TimerView(timerManager: viewModel.timerManager)
                     }
                     .padding(.horizontal)
-                    .padding(.top, 20) // ✨ Augmenté de 10 → 20 pixels
+                    .padding(.top, 10)
                     .padding(.bottom, 8)
+                    .frame(height: 60)
 
-                    // Progress bar
-                    ProgressView(value: viewModel.progressPercentage)
-                        .tint(.blue)
-                        .padding(.horizontal)
+                    // Progress bar - 35px total
+                    VStack(spacing: 4) {
+                        ProgressView(value: viewModel.progressPercentage)
+                            .tint(.blue)
+                            .padding(.horizontal)
 
-                    Text("\(viewModel.currentIndex + 1) / \(viewModel.characters.count)")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                        .padding(.top, 4)
+                        Text("\(viewModel.currentIndex + 1) / \(viewModel.characters.count)")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                    .frame(height: 35)
+                    .padding(.bottom, -15) // Remonter le feedback de 10px
 
-                    // Espace fixe de 10 points
-                    Spacer()
-                        .frame(height: 10)
-
-                    // Zone réservée fixe pour le feedback (toujours la même hauteur)
+                    // Zone FIXE pour le feedback - 120px (directement sous progress bar)
                     ZStack {
-                        // Placeholder invisible pour maintenir la hauteur
                         Color.clear
-                            .frame(height: 120) // ✨ Augmenté de 100 → 120 pixels
 
-                        // Feedback de reconnaissance vocale - Position fixe au-dessus de la carte
                         if viewModel.showRecognitionFeedback, let result = viewModel.recognitionResult {
                             RecognitionFeedbackView(
                                 recognizedText: result,
@@ -108,31 +105,32 @@ struct CardGameView: View {
                             )
                             .transition(.move(edge: .top).combined(with: .opacity))
                             .animation(.spring(), value: viewModel.showRecognitionFeedback)
-                            .padding(.bottom, 15) // ✨ Ajout d'un padding en bas
                         }
                     }
-                    .frame(height: 120) // ✨ Hauteur fixe réservée augmentée
+                    .frame(height: 110)
 
-                    // Card
+                    // Spacer flexible pour centrer la carte verticalement
+                    Spacer()
+
+                    // Card - 280px (réduit de 20px pour compacter l'affichage)
                     if let character = viewModel.currentCharacter {
                         CharacterCardView(
                             character: character,
                             showAnswer: viewModel.showAnswer
                         )
-                        .frame(height: 400)
+                        .frame(height: 280)
                         .padding(.horizontal, 30)
                     }
 
                     Spacer()
-                        .frame(minHeight: 10, maxHeight: 20)
 
-                    // Action buttons - Hauteur fixe pour éviter le déplacement de la carte
-                    VStack(spacing: 15) {
+                    // Action buttons - Plus compacts
+                    VStack(spacing: 10) { // Réduit de 15 à 10
                         if !viewModel.showAnswer {
                             // Voice recognition button - Maintenir pour parler
-                            VStack(spacing: 8) {
+                            VStack(spacing: 4) { // Réduit de 8 à 4
                                 Text(viewModel.isRecordingVoice ? "🎤 Parlez maintenant..." : "Maintenez pour parler")
-                                    .font(.caption)
+                                    .font(.caption2) // Plus petit
                                     .foregroundColor(viewModel.isRecordingVoice ? .red : .secondary)
 
                                 RecordButtonView(isRecording: viewModel.isRecordingVoice)
@@ -161,79 +159,86 @@ struct CardGameView: View {
                                     })
                             }
 
-                            HStack(spacing: 15) {
+                            HStack(spacing: 12) { // Réduit de 15 à 12
                                 // Hint button
                                 Button(action: {
                                     viewModel.showHint()
                                 }) {
-                                    HStack {
+                                    HStack(spacing: 4) {
                                         Image(systemName: "lightbulb.fill")
+                                            .font(.body)
                                         Text("Indice")
+                                            .font(.callout) // Plus petit
                                     }
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
+                                    .padding(.vertical, 12) // Réduit de 16 à 12
                                     .background(Color.orange)
-                                    .cornerRadius(15)
+                                    .cornerRadius(12)
                                 }
 
                                 // Play pronunciation
                                 Button(action: {
                                     viewModel.playPronunciation()
                                 }) {
-                                    HStack {
+                                    HStack(spacing: 4) {
                                         Image(systemName: "speaker.wave.2.fill")
+                                            .font(.body)
                                         Text("Écouter")
+                                            .font(.callout) // Plus petit
                                     }
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
+                                    .padding(.vertical, 12) // Réduit de 16 à 12
                                     .background(Color.purple)
-                                    .cornerRadius(15)
+                                    .cornerRadius(12)
                                 }
                             }
                         } else {
                             // Spacer pour garder la même hauteur que les 2 rangées ci-dessus
                             Spacer()
-                                .frame(height: 80) // Hauteur approximative du bouton micro + caption
+                                .frame(height: 66) // Ajusté pour correspondre aux nouveaux espacements
 
-                            HStack(spacing: 15) {
+                            HStack(spacing: 12) { // Réduit de 15 à 12
                                 // Bouton Retour (masquer la réponse)
                                 Button(action: {
                                     viewModel.showAnswer = false
                                 }) {
-                                    HStack {
+                                    HStack(spacing: 4) {
                                         Image(systemName: "eye.slash")
+                                            .font(.body)
                                         Text("Retour")
+                                            .font(.callout)
                                     }
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
+                                    .padding(.vertical, 12)
                                     .background(Color.orange)
-                                    .cornerRadius(15)
+                                    .cornerRadius(12)
                                 }
 
                                 // Bouton Suivant
                                 Button(action: {
                                     viewModel.moveToNext()
                                 }) {
-                                    HStack {
+                                    HStack(spacing: 4) {
                                         Text("Suivant")
+                                            .font(.callout)
                                         Image(systemName: "arrow.right")
+                                            .font(.body)
                                     }
                                     .foregroundColor(.white)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
+                                    .padding(.vertical, 12)
                                     .background(Color.blue)
-                                    .cornerRadius(15)
+                                    .cornerRadius(12)
                                 }
                             }
                         }
                     }
-                    .frame(height: 170) // Hauteur fixe totale pour la zone des boutons
                     .padding(.horizontal, 30)
-
-                    Spacer()
+                    .padding(.top, 30) // Augmenté de 10 à 30px pour le bouton Prononcer et son animation
+                    .padding(.bottom, 16)
                 }
             }
         }
@@ -309,7 +314,7 @@ struct RecognitionFeedbackView: View {
     var feedbackMessage: String? = nil // ✨ NOUVEAU paramètre optionnel
 
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(spacing: 6) {
             // Icône de succès/erreur - Plus petite
             Image(systemName: isCorrect ? "checkmark.circle.fill" : "xmark.circle.fill")
                 .font(.title3)
@@ -321,7 +326,7 @@ struct RecognitionFeedbackView: View {
                     .font(.caption.bold())
                     .foregroundColor(.white)
 
-                HStack(spacing: 6) {
+                HStack(spacing: 4) {
                     Text("Vous:")
                         .font(.caption2)
                         .foregroundColor(.white.opacity(0.8))
@@ -332,7 +337,7 @@ struct RecognitionFeedbackView: View {
 
                 // Afficher le caractère attendu si erreur
                 if !isCorrect {
-                    HStack(spacing: 6) {
+                    HStack(spacing: 4) {
                         Text("Attendu:")
                             .font(.caption2)
                             .foregroundColor(.white.opacity(0.8))
@@ -349,7 +354,7 @@ struct RecognitionFeedbackView: View {
             Spacer()
         }
         .padding(.horizontal, 16)
-        .padding(.vertical, 12)
+        .padding(.vertical, 6)
         .background(
             RoundedRectangle(cornerRadius: 12)
                 .fill(

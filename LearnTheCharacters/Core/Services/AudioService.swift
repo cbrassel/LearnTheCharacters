@@ -15,6 +15,7 @@ class AudioService: NSObject, ObservableObject {
 
     private var audioPlayer: AVAudioPlayer?
     private var speechSynthesizer = AVSpeechSynthesizer()
+    private var preferredChineseVoice: AVSpeechSynthesisVoice?
 
     @Published var isPlaying = false
 
@@ -22,9 +23,52 @@ class AudioService: NSObject, ObservableObject {
         super.init()
         setupAudioSession()
 
+        // Trouver la meilleure voix chinoise disponible
+        selectBestChineseVoice()
+
         // Pré-charger le speechSynthesizer en lançant une synthèse silencieuse
         speechSynthesizer.delegate = self
         preloadSpeechSynthesizer()
+    }
+
+    private func selectBestChineseVoice() {
+        // Récupérer toutes les voix chinoises disponibles
+        let chineseVoices = AVSpeechSynthesisVoice.speechVoices().filter {
+            $0.language.hasPrefix("zh")
+        }
+
+        print("📱 Voix chinoises disponibles sur cet appareil:")
+        for voice in chineseVoices {
+            print("  - \(voice.name) [\(voice.language)] - Qualité: \(voice.quality.rawValue)")
+        }
+
+        // Priorité de sélection:
+        // 1. Voix Enhanced Quality pour zh-CN
+        // 2. Voix Premium Quality pour zh-CN
+        // 3. N'importe quelle voix zh-CN
+        // 4. N'importe quelle voix chinoise
+
+        if let enhancedVoice = chineseVoices.first(where: {
+            $0.language == "zh-CN" && $0.quality == .enhanced
+        }) {
+            preferredChineseVoice = enhancedVoice
+            print("✅ Voix sélectionnée: \(enhancedVoice.name) (Enhanced Quality)")
+        } else if let premiumVoice = chineseVoices.first(where: {
+            $0.language == "zh-CN" && $0.quality == .premium
+        }) {
+            preferredChineseVoice = premiumVoice
+            print("✅ Voix sélectionnée: \(premiumVoice.name) (Premium Quality)")
+        } else if let standardVoice = chineseVoices.first(where: {
+            $0.language == "zh-CN"
+        }) {
+            preferredChineseVoice = standardVoice
+            print("✅ Voix sélectionnée: \(standardVoice.name) (Standard)")
+        } else if let anyChineseVoice = chineseVoices.first {
+            preferredChineseVoice = anyChineseVoice
+            print("⚠️ Voix sélectionnée: \(anyChineseVoice.name) [\(anyChineseVoice.language)]")
+        } else {
+            print("❌ Aucune voix chinoise disponible - utilisation de la voix par défaut")
+        }
     }
 
     private func setupAudioSession() {
@@ -75,12 +119,12 @@ class AudioService: NSObject, ObservableObject {
         // Utilisation de la synthèse vocale chinoise
         let utterance = AVSpeechUtterance(string: character.simplified)
 
-        // Essayer d'obtenir une voix chinoise, sinon utiliser la voix par défaut
-        if let chineseVoice = AVSpeechSynthesisVoice(language: "zh-CN") {
-            utterance.voice = chineseVoice
-            print("🔊 Utilisation de la voix chinoise")
+        // Utiliser la voix présélectionnée
+        if let voice = preferredChineseVoice {
+            utterance.voice = voice
+            print("🔊 Prononciation: \(character.simplified) avec \(voice.name)")
         } else {
-            print("⚠️ Voix chinoise non disponible, utilisation de la voix par défaut")
+            print("⚠️ Aucune voix chinoise disponible, utilisation de la voix par défaut")
         }
 
         utterance.rate = 0.4 // Vitesse plus lente pour apprentissage
@@ -89,8 +133,8 @@ class AudioService: NSObject, ObservableObject {
         utterance.preUtteranceDelay = 0.1
         utterance.postUtteranceDelay = 0.1
 
-        isPlaying = true
-        speechSynthesizer.speak(utterance)
+        self.isPlaying = true
+        self.speechSynthesizer.speak(utterance)
 
         // Estimation durée
         let duration = Double(character.simplified.count) * 1.5
@@ -125,8 +169,8 @@ class AudioService: NSObject, ObservableObject {
         // Créer une synthèse silencieuse pour initialiser le moteur TTS
         let utterance = AVSpeechUtterance(string: " ")
         utterance.volume = 0.0
-        if let chineseVoice = AVSpeechSynthesisVoice(language: "zh-CN") {
-            utterance.voice = chineseVoice
+        if let voice = preferredChineseVoice {
+            utterance.voice = voice
         }
         speechSynthesizer.speak(utterance)
     }

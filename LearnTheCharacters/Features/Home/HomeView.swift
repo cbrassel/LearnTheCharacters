@@ -9,10 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject private var dataService = DataPersistenceService.shared
+    @StateObject private var voiceService = VoiceAvailabilityService.shared
     @State private var showMarketplace = false
     @State private var deckToDelete: Deck?
     @State private var showDeleteConfirmation = false
     @State private var selectedDeck: Deck? // Pour la navigation optimisée
+    @AppStorage("hasSeenVoiceGuide") private var hasSeenVoiceGuide = false
+    @State private var showVoiceGuide = false
 
     var body: some View {
         NavigationStack {
@@ -181,8 +184,38 @@ struct HomeView: View {
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showVoiceGuide = true
+                    }) {
+                        HStack(spacing: 4) {
+                            Image(systemName: "speaker.wave.3.fill")
+                                .font(.body)
+                            if !voiceService.hasChineseVoice {
+                                Image(systemName: "exclamationmark.circle.fill")
+                                    .font(.caption)
+                                    .foregroundColor(.red)
+                            }
+                        }
+                        .foregroundColor(voiceService.hasChineseVoice ? .blue : .orange)
+                    }
+                }
+            }
             .sheet(isPresented: $showMarketplace) {
                 DeckMarketplaceView()
+            }
+            .sheet(isPresented: $showVoiceGuide) {
+                VoiceSetupGuideView()
+            }
+            .onAppear {
+                // Vérifier si on doit montrer le guide des voix
+                if !hasSeenVoiceGuide && !voiceService.hasChineseVoice {
+                    // Petit délai pour laisser l'interface se charger
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                        showVoiceGuide = true
+                    }
+                }
             }
             .alert("Supprimer le deck?", isPresented: $showDeleteConfirmation) {
                 Button("Annuler", role: .cancel) {

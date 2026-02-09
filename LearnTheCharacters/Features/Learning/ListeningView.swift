@@ -80,7 +80,7 @@ struct ListeningView: View {
                             .padding(.horizontal, 40)
 
                         // Phrase d'écoute en chinois
-                        Text(sentence)
+                        Text(sentence.chinese)
                             .font(.title3)
                             .multilineTextAlignment(.center)
                             .foregroundColor(.primary)
@@ -105,15 +105,15 @@ struct ListeningView: View {
 
                                 Divider()
 
-                                // Traduction de la phrase (à implémenter dans les JSONs)
+                                // Traduction de la phrase
                                 VStack(spacing: 4) {
                                     Text("Phrase:")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
-                                    Text("Essayez de comprendre le sens général")
-                                        .font(.caption)
-                                        .italic()
-                                        .foregroundColor(.secondary)
+                                    Text(sentence.translation)
+                                        .font(.body)
+                                        .fontWeight(.medium)
+                                        .foregroundColor(.indigo)
                                         .multilineTextAlignment(.center)
                                 }
                             }
@@ -265,7 +265,7 @@ class ListeningViewModel: ObservableObject {
         return characters[currentIndex]
     }
 
-    var currentSentence: String? {
+    var currentSentence: ListeningSentence? {
         guard let character = currentCharacter,
               !character.listeningSentences.isEmpty else { return nil }
         guard currentSentenceIndex < character.listeningSentences.count else { return nil }
@@ -328,14 +328,14 @@ class ListeningViewModel: ObservableObject {
         }
 
         isPlaying = true
-        print("🔊 Lecture de la phrase: \(sentence)")
+        print("🔊 Lecture de la phrase: \(sentence.chinese)")
 
         // Utiliser le service audio pour lire la phrase en chinois (vitesse ralentie pour l'apprentissage)
-        audioService.speakText(sentence, language: "zh-CN", rate: 0.35)
+        audioService.speakText(sentence.chinese, language: "zh-CN", rate: 0.35)
 
         // Réinitialiser l'état après un délai estimé
         // (2 secondes + 0.5s par caractère comme approximation)
-        let estimatedDuration = 2.0 + Double(sentence.count) * 0.5
+        let estimatedDuration = 2.0 + Double(sentence.chinese.count) * 0.5
         DispatchQueue.main.asyncAfter(deadline: .now() + estimatedDuration) {
             self.isPlaying = false
         }

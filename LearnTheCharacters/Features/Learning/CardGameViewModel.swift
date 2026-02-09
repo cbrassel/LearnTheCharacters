@@ -223,7 +223,7 @@ class CardGameViewModel: ObservableObject, Identifiable, Hashable {
         showRecognitionFeedback = true
 
         print("🎯 Attendu: '\(character.simplified)' | Reconnu: '\(recognizedText)' | Précision: \(result.accuracy)")
-        print("💬 Feedback: '\(result.feedback)'")
+        print("💬 Feedback: '\(result.feedback ?? "nil")'")
 
         if result.isCorrect {
             audioService.playSuccessSound()

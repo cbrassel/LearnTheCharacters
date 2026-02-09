@@ -11,13 +11,19 @@ struct CharacterCardView: View {
     let character: Character
     let showAnswer: Bool
 
-    @State private var isFlipped = false
+    @State private var isFlipped: Bool
+
+    init(character: Character, showAnswer: Bool) {
+        self.character = character
+        self.showAnswer = showAnswer
+        _isFlipped = State(initialValue: showAnswer)
+    }
 
     var body: some View {
         ZStack {
             // Recto - Caractère chinois
             CardFace(isVisible: !isFlipped) {
-                VStack(spacing: 20) {
+                VStack(spacing: 10) {
                     Text(character.simplified)
                         .font(.system(size: 120, weight: .bold))
                         .foregroundColor(.primary)
@@ -32,7 +38,7 @@ struct CharacterCardView: View {
 
             // Verso - Réponse
             CardFace(isVisible: isFlipped) {
-                VStack(spacing: 15) {
+                VStack(spacing: 10) {
                     Text(character.simplified)
                         .font(.system(size: 80, weight: .bold))
 
@@ -47,9 +53,9 @@ struct CharacterCardView: View {
 
                     if !character.examples.isEmpty {
                         Divider()
-                            .padding(.vertical, 5)
+                            .padding(.vertical, 3)
 
-                        VStack(alignment: .leading, spacing: 8) {
+                        VStack(alignment: .leading, spacing: 6) {
                             Text("Exemples:")
                                 .font(.headline)
                                 .foregroundColor(.secondary)
@@ -66,7 +72,8 @@ struct CharacterCardView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                     }
                 }
-                .padding()
+                .padding(.horizontal, 20)
+                .padding(.vertical, 15)
             }
         }
         .onChange(of: showAnswer) { _, newValue in
@@ -96,7 +103,7 @@ struct CardFace<Content: View>: View {
                 .stroke(Color.blue.opacity(0.3), lineWidth: 2)
 
             content
-                .padding(30)
+                .padding(20)
         }
         .rotation3DEffect(
             .degrees(isVisible ? 0 : 180),
