@@ -32,6 +32,47 @@ struct VideoPlayerView: UIViewControllerRepresentable {
     }
 }
 
+/// Vue plein écran pour la vidéo
+struct FullscreenVideoPlayerView: UIViewControllerRepresentable {
+    let player: AVPlayer
+    @Binding var isPresented: Bool
+
+    func makeUIViewController(context: Context) -> AVPlayerViewController {
+        let controller = AVPlayerViewController()
+        controller.player = player
+        controller.showsPlaybackControls = true
+        controller.videoGravity = .resizeAspect
+        controller.allowsPictureInPicturePlayback = true
+        controller.delegate = context.coordinator
+        return controller
+    }
+
+    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
+        uiViewController.player = player
+    }
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+
+    class Coordinator: NSObject, AVPlayerViewControllerDelegate {
+        let parent: FullscreenVideoPlayerView
+
+        init(_ parent: FullscreenVideoPlayerView) {
+            self.parent = parent
+        }
+
+        func playerViewController(
+            _ playerViewController: AVPlayerViewController,
+            willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIViewControllerTransitionCoordinator
+        ) {
+            coordinator.animate(alongsideTransition: nil) { _ in
+                self.parent.isPresented = false
+            }
+        }
+    }
+}
+
 /// Vue audio avec artwork et waveform simulé
 struct AudioPlayerView: View {
     let deckName: String

@@ -12,6 +12,7 @@ import AVKit
 struct MediaReviewView: View {
     @StateObject private var viewModel: MediaReviewViewModel
     @Environment(\.dismiss) private var dismiss
+    @State private var showFullscreen = false
 
     init(deck: Deck) {
         _viewModel = StateObject(wrappedValue: MediaReviewViewModel(deck: deck))
@@ -149,10 +150,29 @@ struct MediaReviewView: View {
     @ViewBuilder
     private var playerView: some View {
         if viewModel.mediaType == .video, let player = viewModel.currentPlayer {
-            VideoPlayerView(player: player, showControls: false)
-                .aspectRatio(16/9, contentMode: .fit)
-                .cornerRadius(15)
-                .shadow(radius: 10)
+            ZStack(alignment: .topTrailing) {
+                VideoPlayerView(player: player, showControls: false)
+                    .aspectRatio(16/9, contentMode: .fit)
+                    .cornerRadius(15)
+                    .shadow(radius: 10)
+                    .onTapGesture {
+                        showFullscreen = true
+                    }
+
+                // Fullscreen button
+                Button(action: { showFullscreen = true }) {
+                    Image(systemName: "arrow.up.left.and.arrow.down.right")
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .padding(8)
+                        .background(Color.black.opacity(0.5))
+                        .clipShape(Circle())
+                }
+                .padding(12)
+            }
+            .fullScreenCover(isPresented: $showFullscreen) {
+                FullscreenVideoView(player: player, isPresented: $showFullscreen)
+            }
         } else {
             AudioPlayerView(
                 deckName: viewModel.deckName,
@@ -312,6 +332,37 @@ struct MediaReviewView: View {
                 .padding(.top, 8)
             }
         }
+    }
+}
+
+/// Vue plein écran pour la vidéo avec contrôles natifs
+struct FullscreenVideoView: View {
+    let player: AVPlayer
+    @Binding var isPresented: Bool
+
+    var body: some View {
+        ZStack {
+            Color.black.ignoresSafeArea()
+
+            VideoPlayer(player: player)
+                .ignoresSafeArea()
+
+            // Close button
+            VStack {
+                HStack {
+                    Spacer()
+                    Button(action: { isPresented = false }) {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.title)
+                            .foregroundColor(.white)
+                            .shadow(radius: 5)
+                    }
+                    .padding()
+                }
+                Spacer()
+            }
+        }
+        .statusBarHidden()
     }
 }
 
