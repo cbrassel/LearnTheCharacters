@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DifficultySelectionView: View {
     let deck: Deck
-    @State private var selectedDifficulty: GameSession.Difficulty = .beginner
+    @State private var selectedDifficulty: GameSession.Difficulty = .consultation
     @State private var navigateToGame = false
 
     init(deck: Deck) {
@@ -29,8 +29,8 @@ struct DifficultySelectionView: View {
                 // Deck info
                 VStack(spacing: 10) {
                     Text(deck.name)
-                        .font(.title.bold())
-                        .padding(.top, 10)
+                        .font(.title2.bold())
+                        .padding(.top, 20)
 
                     Text(deck.description)
                         .font(.body)
@@ -83,8 +83,13 @@ struct DifficultySelectionView: View {
                 .padding(.bottom, 30)
             }
         }
-        .navigationTitle("Sélectionner la difficulté")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Text("Sélectionner le mode")
+                    .font(.headline)
+            }
+        }
         .navigationDestination(isPresented: $navigateToGame) {
             if selectedDifficulty == .consultation {
                 ConsultationView(deck: deck)
