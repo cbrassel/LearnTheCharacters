@@ -79,7 +79,24 @@ class MediaReviewViewModel: ObservableObject {
     @MainActor
     private func checkMediaAvailability() async {
         // Vérifier si l'audio est disponible localement
-        isAudioAvailable = mediaService.isAudioDownloaded(for: deck.name)
+        var audioDownloaded = mediaService.isAudioDownloaded(for: deck.name)
+
+        // Si l'audio n'est pas téléchargé, vérifier s'il existe sur le serveur et le télécharger
+        if !audioDownloaded {
+            let audioExists = await mediaService.checkRemoteMediaExists(for: deck.name, type: .audio)
+            if audioExists {
+                print("📥 Téléchargement automatique de l'audio pour '\(deck.name)'...")
+                do {
+                    _ = try await mediaService.downloadAudio(for: deck.name)
+                    audioDownloaded = true
+                    print("✅ Audio téléchargé pour '\(deck.name)'")
+                } catch {
+                    print("❌ Erreur téléchargement audio: \(error)")
+                }
+            }
+        }
+
+        isAudioAvailable = audioDownloaded
 
         // Vérifier si la vidéo est disponible (locale ou distante)
         isVideoDownloaded = mediaService.isVideoDownloaded(for: deck.name)
