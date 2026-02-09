@@ -325,7 +325,7 @@ class MediaService: ObservableObject {
             try audioSession.setCategory(
                 .playback,
                 mode: .spokenAudio,
-                options: [.allowAirPlay, .allowBluetooth]
+                options: [.allowAirPlay, .allowBluetoothA2DP]
             )
             try audioSession.setActive(true)
             print("🔊 Audio session configurée pour lecture en arrière-plan")
