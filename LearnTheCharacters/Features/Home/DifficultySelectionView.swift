@@ -90,6 +90,10 @@ struct DifficultySelectionView: View {
                 ConsultationView(deck: deck)
             } else if selectedDifficulty == .listening {
                 ListeningView(deck: deck)
+            } else if selectedDifficulty == .writing {
+                WritingPracticeView(deck: deck)
+            } else if selectedDifficulty == .mediaReview {
+                MediaReviewView(deck: deck)
             } else {
                 CardGameView(deck: deck, difficulty: selectedDifficulty)
             }
@@ -108,6 +112,10 @@ struct DifficultyButton: View {
             return "Pas de chronomètre"
         case .listening:
             return "Écoute de phrases"
+        case .writing:
+            return "Ordre des traits"
+        case .mediaReview:
+            return "Audio et vidéo du deck"
         default:
             return "\(Int(difficulty.timeLimit))s par caractère"
         }

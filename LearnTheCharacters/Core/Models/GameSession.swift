@@ -40,17 +40,19 @@ struct GameSession: Identifiable {
     enum Difficulty: String, CaseIterable, Codable {
         case consultation = "consultation"
         case listening = "listening"
+        case writing = "writing"
+        case mediaReview = "mediaReview"
         case beginner = "beginner"
         case intermediate = "intermediate"
-        case advanced = "advanced"
 
         var displayName: String {
             switch self {
             case .consultation: return "Consultation"
             case .listening: return "Écoute"
+            case .writing: return "Écriture"
+            case .mediaReview: return "Révision Média"
             case .beginner: return "Débutant"
             case .intermediate: return "Intermédiaire"
-            case .advanced: return "Avancé"
             }
         }
 
@@ -58,9 +60,10 @@ struct GameSession: Identifiable {
             switch self {
             case .consultation: return 0 // Pas de limite de temps
             case .listening: return 0 // Pas de limite de temps
+            case .writing: return 0 // Pas de limite de temps
+            case .mediaReview: return 0 // Pas de limite de temps
             case .beginner: return 30.0
             case .intermediate: return 20.0
-            case .advanced: return 10.0
             }
         }
 
@@ -68,9 +71,10 @@ struct GameSession: Identifiable {
             switch self {
             case .consultation: return "📖"
             case .listening: return "👂"
+            case .writing: return "✍️"
+            case .mediaReview: return "🎬"
             case .beginner: return "🌱"
             case .intermediate: return "🌿"
-            case .advanced: return "🌳"
             }
         }
 
@@ -82,12 +86,14 @@ struct GameSession: Identifiable {
                 return (0, 0)          // Pas de validation en mode consultation
             case .listening:
                 return (0, 0)          // Pas de validation en mode écoute
+            case .writing:
+                return (0, 0)          // Pas de validation en mode écriture
+            case .mediaReview:
+                return (0, 0)          // Pas de validation en mode révision média
             case .beginner:
                 return (0.5, 0.4)      // Très tolérant - 50% de similarité suffit
             case .intermediate:
                 return (0.65, 0.5)     // Tolérant - 65% de similarité
-            case .advanced:
-                return (0.80, 0.65)    // Strict - 80% de similarité
             }
         }
     }
